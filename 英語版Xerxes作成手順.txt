@@ -1,0 +1,10 @@
+英語版Xerxesの作成手順
+
+１、プロジェクト－ファイルタブ
+	editor.rcを削除
+	editor_eng\editor_eng.rcを追加する
+
+２、プロジェクトー設定
+	Ｃ／Ｃ＋＋タブのプリプロセッサカテゴリで、
+	AFX_TARG_JPNをAFX_TARG_ENUに変更する
+

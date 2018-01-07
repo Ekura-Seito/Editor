@@ -1,0 +1,3405 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include <Dlgs.h>
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include <Dlgs.h>\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#endif\r\n"
+    "#include ""res\\Editor.rc2""  // Microsoft Visual C++ 以外のツールで編集されたリソース\r\n"
+    "#include ""l.jpn\\afxres.rc""          // 標準のコンポーネント\r\n"
+    "#include ""l.jpn\\afxprint.rc""        // 印刷/印刷プレビュー リソース\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_EDITORTYPE          ICON    DISCARDABLE     "res\\icon1.ico"
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\idr_main.ico"
+IDR_LAUGHICON           ICON    DISCARDABLE     "res\\laugh.ico"
+IDR_AUTH                ICON    DISCARDABLE     "res\\auth.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_WINDOW_NEW          BITMAP  DISCARDABLE     "res\\wnd_new.bmp"
+IDB_WINDOW_TILE_HORZ    BITMAP  DISCARDABLE     "res\\wnd_hrz.bmp"
+IDB_WINDOW_TILE_VERT    BITMAP  DISCARDABLE     "res\\wnd_vrt.bmp"
+IDB_WINDOW_CASCADE      BITMAP  DISCARDABLE     "res\\wnd_casc.bmp"
+IDB_WINDOW_CLOSE        BITMAP  DISCARDABLE     "res\\wnd_clos.bmp"
+IDB_WINDOW_SPLIT        BITMAP  DISCARDABLE     "res\\wnd_splt.bmp"
+IDB_WINDOW_ALLCLOSE     BITMAP  DISCARDABLE     "res\\wnd_acls.bmp"
+IDB_SETREADONLY         BITMAP  DISCARDABLE     "res\\setreado.bmp"
+IDB_UNSETREADONLY       BITMAP  DISCARDABLE     "res\\unreadon.bmp"
+IDB_WND_NEXT            BITMAP  DISCARDABLE     "res\\wnd_next.bmp"
+IDB_WND_PREV            BITMAP  DISCARDABLE     "res\\wnd_prev.bmp"
+IDB_LOGO                BITMAP  DISCARDABLE     "res\\logo.BMP"
+IDB_SPLASH              BITMAP  DISCARDABLE     "res\\splash.BMP"
+IDB_EDIT_INSTAB         BITMAP  DISCARDABLE     "res\\ins_tab.bmp"
+IDB_EDIT_DELTAB         BITMAP  DISCARDABLE     "res\\edit_ins.bmp"
+IDB_EDIT_INSCPPCOMMENT  BITMAP  DISCARDABLE     "res\\ins_cpp.bmp"
+IDB_EDIT_INSVBCOMMENT   BITMAP  DISCARDABLE     "res\\ins_vb.bmp"
+IDB_EDIT_INSASMCOMMENT  BITMAP  DISCARDABLE     "res\\ins_asm.bmp"
+IDB_EDIT_INSDAY         BITMAP  DISCARDABLE     "res\\ins_day.bmp"
+IDB_EDIT_INSTIME        BITMAP  DISCARDABLE     "res\\instime.bmp"
+IDB_VIEW_REDRAW         BITMAP  DISCARDABLE     "res\\edit_del.bmp"
+IDB_WINDOW_ARRANGE      BITMAP  DISCARDABLE     "res\\wnd_arng.bmp"
+IDB_SECURITY_ENCRIPT    BITMAP  DISCARDABLE     "res\\encrypt.bmp"
+IDB_SECURITY_DECRIPT    BITMAP  DISCARDABLE     "res\\decrypt.bmp"
+IDB_EDIT_CLIPVIEW       BITMAP  DISCARDABLE     "res\\clipview.bmp"
+IDB_JUMP_SETMARK        BITMAP  DISCARDABLE     "res\\edit_cli.bmp"
+IDB_JUMP_DELMARK        BITMAP  DISCARDABLE     "res\\jump_set.bmp"
+IDB_JUMP_NEXTMARK       BITMAP  DISCARDABLE     "res\\jump_nex.bmp"
+IDB_JUMP_PREVMARK       BITMAP  DISCARDABLE     "res\\jump_pre.bmp"
+IDB_EDIT_FILECOMPARE    BITMAP  DISCARDABLE     "res\\file_cmp.bmp"
+IDB_EDIT_DIRCOMPARE     BITMAP  DISCARDABLE     "res\\edit_fil.bmp"
+IDB_EDIT_FILETOUCH      BITMAP  DISCARDABLE     "res\\file_toc.bmp"
+IDB_EDIT_BROWSEURL      BITMAP  DISCARDABLE     "res\\brws_url.bmp"
+IDR_TOOLBAR_WND         BITMAP  DISCARDABLE     "res\\bar_wnd.bmp"
+IDR_TOOLBAR_TOOLS       BITMAP  DISCARDABLE     "res\\bar_tool.bmp"
+IDR_TOOLBAR_FIND        BITMAP  DISCARDABLE     "res\\bar_find.bmp"
+IDR_TOOLBAR_EDIT        BITMAP  DISCARDABLE     "res\\bar_edit.bmp"
+IDR_TOOLBAR_JMP         BITMAP  DISCARDABLE     "res\\bar_jump.bmp"
+IDB_MAILATTACH          BITMAP  DISCARDABLE     "res\\mailattach.bmp"
+IDB_SOUNDICONS          BITMAP  DISCARDABLE     "res\\smallico.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_CLOSE
+    BUTTON      ID_FILE_SAVE
+    BUTTON      ID_FILE_ALLSAVE
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_FILE_PRINT_PREVIEW
+    BUTTON      ID_FILE_PRINT_SETUP
+    SEPARATOR
+    BUTTON      ID_SETTINGS
+    SEPARATOR
+    BUTTON      ID_HELP_CONTENT
+    BUTTON      ID_HELP_CONTENT2
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_TOOLBAR_WND TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_WINDOW_NEW
+    BUTTON      ID_WINDOW_SPLIT
+    BUTTON      ID_WINDOW_ARRANGE
+    BUTTON      ID_WND_NEXT
+    BUTTON      ID_WND_PREV
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_WINDOW_TILE_VERT
+    BUTTON      ID_WINDOW_CLOSE
+    BUTTON      ID_WINDOW_ALLCLOSE
+END
+
+IDR_TOOLBAR_TOOLS TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_SENDMAIL
+    BUTTON      ID_EDIT_SJISDUMP
+    BUTTON      ID_EDIT_CODECONV
+    BUTTON      ID_EDIT_KAIGYOCONV
+    BUTTON      ID_EDIT_WORDCOUNT
+    BUTTON      ID_EDIT_FILESEARCH
+    BUTTON      ID_EDIT_FILETOUCH
+    BUTTON      ID_SECURITY_ENCRIPT
+    BUTTON      ID_SECURITY_DECRIPT
+    BUTTON      ID_TOOL_OPE_STARTENDRECORD
+END
+
+IDR_TOOLBAR_FIND TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_EDIT_FIND
+    BUTTON      ID_EDIT_FINDCONTINUE
+    BUTTON      ID_EDIT_FINDREVCONTINUE
+    BUTTON      ID_EDIT_REPLACE
+    BUTTON      ID_EDIT_GREP
+    BUTTON      ID_EDIT_FILECOMPARE
+    BUTTON      ID_EDIT_DIRCOMPARE
+END
+
+IDR_TOOLBAR_EDIT TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_EDIT_DEL
+    SEPARATOR
+    BUTTON      ID_EDIT_CLIPVIEW
+    BUTTON      ID_EDIT_BROWSEURL
+    BUTTON      ID_EDIT_EXECMAILER
+    BUTTON      ID_EDIT_SETREADONLY
+    BUTTON      ID_EDIT_UNSETREADONLY
+    BUTTON      ID_EDIT_INSDAY
+    BUTTON      ID_EDIT_INSTIME
+    BUTTON      ID_EDIT_INSTAB
+    BUTTON      ID_EDIT_DELTAB
+    BUTTON      ID_EDIT_INSCPPCOMMENT
+    BUTTON      ID_EDIT_INSVBCOMMENT
+    BUTTON      ID_EDIT_INSASMCOMMENT
+    BUTTON      ID_EDIT_INSQUOTE
+END
+
+IDR_TOOLBAR_JMP TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_EDIT_JUMP2TOP
+    BUTTON      ID_EDIT_JUMP2BOTTOM
+    BUTTON      ID_EDIT_JUMP2LINE
+    BUTTON      ID_JUMP_SETMARK
+    BUTTON      ID_JUMP_DELMARK
+    BUTTON      ID_JUMP_NEXTMARK
+    BUTTON      ID_JUMP_PREVMARK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "新規作成(&N)\tCtl+Shft+Back", ID_FILE_NEW
+        MENUITEM "開く(&O)",                    ID_FILE_OPEN
+        MENUITEM "前回終了時のファイルを開く(&T)", ID_FILE_OPENONEXIT
+        MENUITEM "WebサイトのHTMLファイルを開く(&W)", ID_HTTP_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "プリンタの設定(&R)",          ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最新のファイル",              ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "アプリケーションの終了(&X)",  ID_APP_EXIT
+    END
+    POPUP "編集(&E)"
+    BEGIN
+        MENUITEM "クリップボードの中を見る\tCtl+Shft+Back", ID_EDIT_CLIPVIEW
+    END
+    POPUP "検索(&K)"
+    BEGIN
+        MENUITEM "ＧＲＥＰ(&G)\tCtl+Shft+Back", ID_EDIT_GREP
+        MENUITEM SEPARATOR
+        MENUITEM "ファイル比較(&C)",            ID_EDIT_FILECOMPARE
+        POPUP "ファイル比較詳細オプション(&O)"
+        BEGIN
+            MENUITEM "空白文字を区別しない\tCtl+Shft+Back", 
+                                                    ID_EDIT_FCOMP_TABEQUAL2SPACE
+
+            MENUITEM "全角と半角を区別しない",      ID_EDIT_FCOMP_ZENEQUAL2HAN
+
+            MENUITEM "英字の大文字小文字を区別しない", 
+                                                    ID_EDIT_FCOMP_ALPHABETBIGANDSMALL
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "ディレクトリ比較(&D)",        ID_EDIT_DIRCOMPARE
+    END
+    POPUP "表示(&V)"
+    BEGIN
+        MENUITEM "標準ツールバー(&T)\tCtl+Shft+Back", ID_VIEW_TOOLBAR
+        MENUITEM "編集関連ツールバー",          ID_VIEW_TOOLBAR_EDIT
+        MENUITEM "検索関連ツールバー",          ID_VIEW_TOOLBAR_FIND
+        MENUITEM "ジャンプ関連ツールバー",      ID_VIEW_TOOLBAR_JMP
+        MENUITEM "ツール関連ツールバー",        ID_VIEW_TOOLBAR_TOOLS
+        MENUITEM "ウインドウ関連ツールバー",    ID_VIEW_TOOLBAR_WND
+        MENUITEM "ステータスバー(&S)",          ID_VIEW_STATUS_BAR
+    END
+    POPUP "ツール(&T)"
+    BEGIN
+        MENUITEM "ＰＯＰサーバメール一覧(&L)\tCtl+Shft+Back", 
+                                                ID_FILE_MAILLIST
+        MENUITEM SEPARATOR
+        MENUITEM "文字コード変換(&C)",          ID_EDIT_CODECONV
+        MENUITEM "改行コード変換(&K)",          ID_EDIT_KAIGYOCONV
+        MENUITEM "ワードカウント(&W)",          ID_EDIT_WORDCOUNT
+        MENUITEM "ファイル検索(&F)",            ID_EDIT_FILESEARCH
+        MENUITEM "ファイルへのタッチ(&T)",      ID_EDIT_FILETOUCH
+        MENUITEM SEPARATOR
+        MENUITEM "ファイル暗号化(&E)",          ID_SECURITY_ENCRIPT
+        MENUITEM "ファイル復号化(&D)",          ID_SECURITY_DECRIPT
+        MENUITEM SEPARATOR
+        MENUITEM "ＵＵＥｎｃｏｄｅエンコード",  ID_EDIT_UUENCODE
+        MENUITEM "Ｂａｓｅ６４エンコード",      ID_EDIT_BASE64ENCODE
+        MENUITEM "Ｑｕｏｔｅｄ－Ｐｒｉｎｔａｂｌｅエンコード", 
+                                                ID_EDIT_QUOTEDENCODE
+        MENUITEM SEPARATOR
+        MENUITEM "キー操作をファイルへ保存",    ID_TOOL_OPE_SAVE
+        MENUITEM "キー操作をファイルから読み込む", ID_TOOL_OPE_OPEN
+        MENUITEM "キー操作の内容を表示",        ID_TOOL_OPE_DISP
+    END
+    POPUP "設定(&S)"
+    BEGIN
+        MENUITEM "標準ツールバーのカスタマイズ\tCtl+Shft+Back", 
+                                                ID_CUSTOMIZE_TOOLBAR
+        MENUITEM "編集関連ツールバーのカスタマイズ", 
+                                                ID_CUSTOMIZE_TOOLBAREDIT
+        MENUITEM "検索関連ツールバーのカスタマイズ", 
+                                                ID_CUSTOMIZE_TOOLBARFIND
+        MENUITEM "ジャンプ関連ツールバーのカスタマイズ", 
+                                                ID_CUSTOMIZE_TOOLBARJMP
+        MENUITEM "ツール関連ツールバーのカスタマイズ", 
+                                                ID_CUSTOMIZE_TOOLBARTOOLS
+        MENUITEM "ウインドウ関連ツールバーのカスタマイズ", 
+                                                ID_CUSTOMIZE_TOOLBARWND
+    END
+    POPUP "ヘルプ(&H)"
+    BEGIN
+        MENUITEM "目次(&C)\tCtl+Shft+Back",     ID_HELP_CONTENT
+        MENUITEM "ＨＴＭＬヘルプ目次(&H)",      ID_HELP_CONTENT2
+        MENUITEM "バージョン情報(&A)",          ID_APP_ABOUT
+        MENUITEM "ライセンス登録(&L)",          ID_HELP_LICENSE
+    END
+END
+
+IDR_EDITORTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "新規作成(&N)\tCtl+Shft+Back", ID_FILE_NEW
+        MENUITEM "開く(&O)",                    ID_FILE_OPEN
+        MENUITEM "閉じる(&C)",                  ID_FILE_CLOSE
+        MENUITEM "上書き保存して閉じる(&E)",    ID_FILE_SAVECLOSE
+        MENUITEM "上書き保存(&S)",              ID_FILE_SAVE
+        MENUITEM "名前を付けて保存(&A)",        ID_FILE_SAVE_AS
+        MENUITEM "すべて保存(&L)",              ID_FILE_ALLSAVE
+        MENUITEM "前回終了時のファイルを開く(&T)", ID_FILE_OPENONEXIT
+        MENUITEM "WebサイトのHTMLファイルを開く(&W)", ID_HTTP_FILE_OPEN
+        MENUITEM "再読み込み",                  ID_FILE_REREAD
+        MENUITEM "プロパティ(&I)",              ID_FILE_PROPERTY
+        MENUITEM "同じ名前のファイルを開く",    ID_FILE_OPENSAMENAME
+        MENUITEM "関連づけられたソフトで開く",  ID_FILE_SHELLOPEN
+        MENUITEM SEPARATOR
+        MENUITEM "移動",                        ID_FILE_MOVE
+        MENUITEM "コピー",                      ID_FILE_COPY
+        MENUITEM "名前の変更",                  ID_FILE_RENAME
+        MENUITEM "削除",                        ID_FILE_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "印刷(&P)",                    ID_FILE_PRINT
+        MENUITEM "印刷プレビュー(&V)",          ID_FILE_PRINT_PREVIEW
+        MENUITEM "プリンタの設定(&R)",          ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最新のファイル",              ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "すべて保存し、終了(&Y)",      ID_ALLSAVE_EXIT
+        MENUITEM "アプリケーションの終了(&X)",  ID_APP_EXIT
+    END
+    POPUP "編集(&E)"
+    BEGIN
+        MENUITEM "元に戻す(&U)\tCtl+Shft+Back", ID_EDIT_UNDO
+        MENUITEM "繰り返し(&R)",                ID_EDIT_REDO
+        MENUITEM "Undo/Redoバッファクリア",     ID_EDIT_CLEARUNDOBUF
+        MENUITEM "すべて元に戻す",              ID_EDIT_ALLUNDO
+        MENUITEM "すべて繰り返し",              ID_EDIT_ALLREDO
+        MENUITEM SEPARATOR
+        MENUITEM "切り取り(&T)",                ID_EDIT_CUT
+        MENUITEM "コピー(&C)",                  ID_EDIT_COPY
+        MENUITEM "貼り付け(&P)",                ID_EDIT_PASTE
+        MENUITEM "削除(&D)",                    ID_EDIT_DEL
+        MENUITEM "すべて選択(&A)",              ID_EDIT_SELECTALL
+        MENUITEM "クリップボードの中を見る",    ID_EDIT_CLIPVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "ＵＲＬをブラウズ",            ID_EDIT_BROWSEURL
+        MENUITEM "メーラーを起動",              ID_EDIT_EXECMAILER
+        MENUITEM "書込み禁止にする",            ID_EDIT_SETREADONLY
+        MENUITEM "書込み禁止を解除する",        ID_EDIT_UNSETREADONLY
+        MENUITEM "日付を挿入",                  ID_EDIT_INSDAY
+        MENUITEM "時刻を挿入",                  ID_EDIT_INSTIME
+        MENUITEM SEPARATOR
+        POPUP "改行コード変換"
+        BEGIN
+            MENUITEM "DOS/Windows形式  CR+LF\tCtl+Shft+Back", ID_EDIT_CRLF
+            MENUITEM "UNIX形式  LF",                ID_EDIT_LF
+            MENUITEM "Macintosh形式  CR",           ID_EDIT_CR
+        END
+        POPUP "文字コード変換"
+        BEGIN
+            MENUITEM "ＥＵＣコード\tCtl+Shft+Back", ID_EDIT_CODE2EUC
+            MENUITEM "Ｓｈｉｆｔ－ＪＩＳコード",    ID_EDIT_CODE2SJIS
+            MENUITEM "ＪＩＳコード",                ID_EDIT_CODE2JIS
+        END
+        POPUP "選択領域内の変換"
+        BEGIN
+            MENUITEM "タブ－＞半角スペース\tCtl+Shft+Back", 
+                                                    ID_EDIT_TAB2SPACE
+            MENUITEM "半角スペース－＞タブ",        ID_EDIT_SPACE2TAB
+            MENUITEM "全角スペース－＞半角スペース", ID_EDIT_SPACE_ZEN2HAN
+            MENUITEM "半角スペース－＞全角スペース", ID_EDIT_SPACE_HAN2ZEN
+            MENUITEM "半角カタカナ－＞全角カタカナ", 
+                                                    ID_EDIT_KATAKANA_HAN2ZEN
+            MENUITEM "全角カタカナ－＞半角カタカナ", 
+                                                    ID_EDIT_KATAKANA_ZEN2HAN
+            MENUITEM "半角英数字－＞全角英数字",    ID_EDIT_ALNUM_HAN2ZEN
+            MENUITEM "全角英数字－＞半角英数字",    ID_EDIT_ALNUM_ZEN2HAN
+            MENUITEM "英字－＞大文字",              ID_EDIT_AL2UPPER
+            MENUITEM "英字－＞小文字",              ID_EDIT_AL2LOWER
+            MENUITEM "先頭のスペース、タブを全て削除", ID_EDIT_DELTOPSPACES
+            MENUITEM "タブをひとつ挿入\tTAB",       ID_EDIT_INSTAB
+            MENUITEM "タブをひとつ削除\tShift+TAB", ID_EDIT_DELTAB
+            MENUITEM "Ｃ／Ｃ＋＋行コメント( // )を挿入", 
+                                                    ID_EDIT_INSCPPCOMMENT
+            MENUITEM "Ｃ／Ｃ＋＋行コメント( // )を削除", 
+                                                    ID_EDIT_DELCPPCOMMENT
+            MENUITEM "ＶＢ行コメント( ' )を挿入",   ID_EDIT_INSVBCOMMENT
+            MENUITEM "ＶＢ行コメント( ' )を削除",   ID_EDIT_DELVBCOMMENT
+            MENUITEM "アセンブラ行コメント( ; )を挿入", 
+                                                    ID_EDIT_INSASMCOMMENT
+            MENUITEM "アセンブラ行コメント( ; )を削除", 
+                                                    ID_EDIT_DELASMCOMMENT
+            MENUITEM "引用符号( > )を挿入",         ID_EDIT_INSQUOTE
+            MENUITEM "引用符号( > )を削除",         ID_EDIT_DELQUOTE
+        END
+    END
+    POPUP "検索(&K)"
+    BEGIN
+        MENUITEM "文字列の検索(&F)\tCtl+Shft+Back", ID_EDIT_FIND
+        MENUITEM "文末方向へ検索続行",          ID_EDIT_FINDCONTINUE
+        MENUITEM "文頭方向へ検索続行",          ID_EDIT_FINDREVCONTINUE
+        MENUITEM "インクリメンタルサーチ開始(&I)", ID_EDIT_INCRIMENTALSEARCH
+        MENUITEM SEPARATOR
+        MENUITEM "文字列の置換(&R)",            ID_EDIT_REPLACE
+        MENUITEM "ＧＲＥＰ(&G)",                ID_EDIT_GREP
+        MENUITEM SEPARATOR
+        MENUITEM "ファイル比較(&C)",            ID_EDIT_FILECOMPARE
+        POPUP "ファイル比較詳細オプション(&O)"
+        BEGIN
+            MENUITEM "空白文字を区別しない\tCtl+Shft+Back", 
+                                                    ID_EDIT_FCOMP_TABEQUAL2SPACE
+
+            MENUITEM "全角と半角を区別しない",      ID_EDIT_FCOMP_ZENEQUAL2HAN
+
+            MENUITEM "英字の大文字小文字を区別しない", 
+                                                    ID_EDIT_FCOMP_ALPHABETBIGANDSMALL
+
+        END
+        MENUITEM "次の相違個所へジャンプ(&N)",  ID_EDIT_NEXTDIFF
+        MENUITEM "前の相違個所へジャンプ(&P)",  ID_EDIT_PREVDIFF
+        MENUITEM "ファイル再比較",              ID_EDIT_FILERECOMPARE
+        MENUITEM SEPARATOR
+        MENUITEM "ディレクトリ比較(&D)",        ID_EDIT_DIRCOMPARE
+        MENUITEM "相違ファイルをさらに詳細に比較", ID_EDIT_DIRCMP_SYOSAI
+    END
+    POPUP "ジャンプ(&J)"
+    BEGIN
+        MENUITEM "先頭行へジャンプ(&T)\tCtl+Shft+Back", ID_EDIT_JUMP2TOP
+        MENUITEM "最終行へジャンプ(&B)",        ID_EDIT_JUMP2BOTTOM
+        MENUITEM "指定行へジャンプ(&G)",        ID_EDIT_JUMP2LINE
+        MENUITEM SEPARATOR
+        MENUITEM "対応する括弧へジャンプ",      ID_PARENTHESIS
+        MENUITEM "タグジャンプ",                ID_EDIT_TAGJUMP
+        MENUITEM SEPARATOR
+        MENUITEM "現在行をマーク(&M)",          ID_JUMP_SETMARK
+        MENUITEM "現在行のマーク解除(&U)",      ID_JUMP_DELMARK
+        MENUITEM "すべてのマーク解除(&A)",      ID_JUMP_ALLDELMARK
+        MENUITEM "次のマーク位置へジャンプ(&N)", ID_JUMP_NEXTMARK
+        MENUITEM "前のマーク位置へジャンプ(&P)", ID_JUMP_PREVMARK
+        MENUITEM "マーク位置一覧表示(&L)",      ID_JUMP_MARKLIST
+    END
+    POPUP "表示(&V)"
+    BEGIN
+        MENUITEM "標準ツールバー(&T)\tCtl+Shft+Back", ID_VIEW_TOOLBAR
+        MENUITEM "編集関連ツールバー",          ID_VIEW_TOOLBAR_EDIT
+        MENUITEM "検索関連ツールバー",          ID_VIEW_TOOLBAR_FIND
+        MENUITEM "ジャンプ関連ツールバー",      ID_VIEW_TOOLBAR_JMP
+        MENUITEM "ツール関連ツールバー",        ID_VIEW_TOOLBAR_TOOLS
+        MENUITEM "ウインドウ関連ツールバー",    ID_VIEW_TOOLBAR_WND
+        MENUITEM "ステータスバー(&S)",          ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "リフレッシュ",                ID_VIEW_REDRAW
+        MENUITEM SEPARATOR
+        MENUITEM "行番号を表示(&L)",            ID_VIEW_LINENO
+        MENUITEM "ルーラを表示(&R)",            ID_VIEW_RULER
+        MENUITEM "改行マークを表示(&C)",        ID_VIEW_CRLF
+        MENUITEM "タブマークを表示",            ID_VIEW_TAB
+        MENUITEM "全角スペースを表示",          ID_VIEW_ZENKAKUSPACE
+        MENUITEM "アンダーラインを表示(&U)",    ID_VIEW_UNDERLINE
+        MENUITEM "ＥＯＦマークを表示(&E)",      ID_VIEW_EOF
+        MENUITEM SEPARATOR
+        POPUP "キャレット形状"
+        BEGIN
+            MENUITEM "キャレット形状：縦棒\tCtl+Shft+Back", 
+                                                    ID_VIEW_CARET_IBEAM
+            MENUITEM "キャレット形状：箱型",        ID_VIEW_CARET_SQUARE
+        END
+        POPUP "タブサイズ"
+        BEGIN
+            MENUITEM "２タブ\tCtl+Shft+Back",       ID_VIEW_TAB_2
+            MENUITEM "４タブ",                      ID_VIEW_TAB_4
+            MENUITEM "８タブ",                      ID_VIEW_TAB_8
+        END
+    END
+    POPUP "ツール(&T)"
+    BEGIN
+        MENUITEM "メール送信(&M)\tCtl+Shft+Back", ID_FILE_SENDMAIL
+        MENUITEM "ＰＯＰ３サーバメール一覧(&L)", ID_FILE_MAILLIST
+        MENUITEM SEPARATOR
+        MENUITEM "ＡＳＣＩＩコード表示ダンプ(&A)", ID_EDIT_ASCIIDUMP
+        MENUITEM "Ｓｈｉｆｔ-ＪＩＳコード表示ダンプ(&S)", ID_EDIT_SJISDUMP
+        MENUITEM "文字コード変換(&C)",          ID_EDIT_CODECONV
+        MENUITEM "改行コード変換(&K)",          ID_EDIT_KAIGYOCONV
+        MENUITEM "ワードカウント(&W)",          ID_EDIT_WORDCOUNT
+        MENUITEM "ファイル検索(&F)",            ID_EDIT_FILESEARCH
+        MENUITEM "ファイルへのタッチ(&T)",      ID_EDIT_FILETOUCH
+        MENUITEM "Ｃ／Ｃ＋＋言語ソース整形",    ID_EDIT_SOURCEARRANGE
+        MENUITEM SEPARATOR
+        MENUITEM "ファイル暗号化(&E)",          ID_SECURITY_ENCRIPT
+        MENUITEM "ファイル復号化(&D)",          ID_SECURITY_DECRIPT
+        MENUITEM SEPARATOR
+        MENUITEM "ＵＵＥｎｃｏｄｅエンコード",  ID_EDIT_UUENCODE
+        MENUITEM "Ｂａｓｅ６４エンコード",      ID_EDIT_BASE64ENCODE
+        MENUITEM "Ｑｕｏｔｅｄ－Ｐｒｉｎｔａｂｌｅエンコード", 
+                                                ID_EDIT_QUOTEDENCODE
+        MENUITEM SEPARATOR
+        MENUITEM "ＵＵＤｅｃｏｄｅデコード(&U)", ID_EDIT_UUDECODE
+        MENUITEM "Ｂａｓｅ６４デコード(&B)",    ID_EDIT_BASE64DECODE
+        MENUITEM "Ｑｕｏｔｅｄ－Ｐｒｉｎｔａｂｌｅデコード(&Q)", 
+                                                ID_EDIT_QUOTEDDECODE
+        MENUITEM SEPARATOR
+        MENUITEM "キー操作の記録開始/終了",     ID_TOOL_OPE_STARTENDRECORD
+        MENUITEM "キー操作の実行",              ID_TOOL_OPE_DO
+        POPUP "キー操作のステップ実行"
+        BEGIN
+            MENUITEM "次のキー操作\tCtl+Shft+Back", ID_TOOL_OPE_STEPDO_NEXT
+            MENUITEM "キー操作のステップ実行を終了", ID_TOOL_OPE_STEPDO_END
+        END
+        MENUITEM "キー操作をファイルへ保存",    ID_TOOL_OPE_SAVE
+        MENUITEM "キー操作をファイルから読み込む", ID_TOOL_OPE_OPEN
+        MENUITEM "キー操作の内容を表示",        ID_TOOL_OPE_DISP
+    END
+    POPUP "設定(&S)"
+    BEGIN
+        MENUITEM "設定(&S)",                    ID_SETTINGS
+        MENUITEM "標準ツールバーのカスタマイズ\tCtl+Shft+Back", 
+                                                ID_CUSTOMIZE_TOOLBAR
+        MENUITEM "編集関連ツールバーのカスタマイズ", 
+                                                ID_CUSTOMIZE_TOOLBAREDIT
+        MENUITEM "検索関連ツールバーのカスタマイズ", 
+                                                ID_CUSTOMIZE_TOOLBARFIND
+        MENUITEM "ジャンプ関連ツールバーのカスタマイズ", 
+                                                ID_CUSTOMIZE_TOOLBARJMP
+        MENUITEM "ツール関連ツールバーのカスタマイズ", 
+                                                ID_CUSTOMIZE_TOOLBARTOOLS
+        MENUITEM "ウインドウ関連ツールバーのカスタマイズ", 
+                                                ID_CUSTOMIZE_TOOLBARWND
+    END
+    POPUP "ウインドウ(&W)"
+    BEGIN
+        MENUITEM "新しいウインドウを開く(&N)\tCtl+Shft+Back", ID_WINDOW_NEW
+        MENUITEM "分割(&P)",                    ID_WINDOW_SPLIT
+        MENUITEM "アイコンの整列(&A)",          ID_WINDOW_ARRANGE
+        MENUITEM "最小化",                      ID_WINDOW_MINIMIZE
+        MENUITEM "最大化",                      ID_WINDOW_MAXIMIZE
+        MENUITEM "もとのサイズに戻す(&R)",      ID_WINDOW_RESTORE
+        MENUITEM SEPARATOR
+        MENUITEM "次のウインドウ(&X)",          ID_WND_NEXT
+        MENUITEM "前のウインドウ(&V)",          ID_WND_PREV
+        MENUITEM "次のペイン(&J)",              ID_NEXT_PANE
+        MENUITEM "前のペイン(&K)",              ID_PREV_PANE
+        MENUITEM SEPARATOR
+        MENUITEM "重ねて表示(&C)",              ID_WINDOW_CASCADE
+        MENUITEM "上下に並べて表示(&H)",        ID_WINDOW_TILE_HORZ
+        MENUITEM "左右に並べて表示(&T)",        ID_WINDOW_TILE_VERT
+        MENUITEM "閉じる(&O)",                  ID_WINDOW_CLOSE
+        MENUITEM "すべて閉じる(&L)",            ID_WINDOW_ALLCLOSE
+    END
+    POPUP "ヘルプ(&H)"
+    BEGIN
+        MENUITEM "目次(&C)\tCtl+Shft+Back",     ID_HELP_CONTENT
+        MENUITEM "ＨＴＭＬヘルプ目次(&H)",      ID_HELP_CONTENT2
+        MENUITEM "バージョン情報(&A)",          ID_APP_ABOUT
+        MENUITEM "ライセンス登録(&L)",          ID_HELP_LICENSE
+    END
+END
+
+CG_IDR_POPUP_EDITOR_VIEW MENU DISCARDABLE 
+BEGIN
+    POPUP "_ポップアップ_"
+    BEGIN
+        MENUITEM "元に戻す(&U)\tCtl+Shft+Back", ID_EDIT_UNDO
+        MENUITEM "繰り返し(&R)",                ID_EDIT_REDO
+        MENUITEM "Undo/Redoバッファクリア",     ID_EDIT_CLEARUNDOBUF
+        MENUITEM "すべて元に戻す",              ID_EDIT_ALLUNDO
+        MENUITEM "すべて繰り返し",              ID_EDIT_ALLREDO
+        MENUITEM SEPARATOR
+        MENUITEM "切り取り(&T)",                ID_EDIT_CUT
+        MENUITEM "コピー(&C)",                  ID_EDIT_COPY
+        MENUITEM "貼り付け(&P)",                ID_EDIT_PASTE
+        MENUITEM "削除(&D)",                    ID_EDIT_DEL
+        MENUITEM "すべて選択(&A)",              ID_EDIT_SELECTALL
+        MENUITEM "クリップボードの中を見る",    ID_EDIT_CLIPVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "ＵＲＬをブラウズ",            ID_EDIT_BROWSEURL
+        MENUITEM "メーラーを起動",              ID_EDIT_EXECMAILER
+        MENUITEM "書込み禁止にする",            ID_EDIT_SETREADONLY
+        MENUITEM "書込み禁止を解除する",        ID_EDIT_UNSETREADONLY
+        MENUITEM "日付を挿入",                  ID_EDIT_INSDAY
+        MENUITEM "時刻を挿入",                  ID_EDIT_INSTIME
+        MENUITEM SEPARATOR
+        POPUP "改行コード変換"
+        BEGIN
+            MENUITEM "DOS/Windows形式  CRLF\tCtl+Shft+Back", ID_EDIT_CRLF
+            MENUITEM "UNIX形式  LF",                ID_EDIT_LF
+            MENUITEM "Macintosh形式  CR",           ID_EDIT_CR
+        END
+        POPUP "文字コード変換"
+        BEGIN
+            MENUITEM "ＥＵＣコード\tCtl+Shft+Back", ID_EDIT_CODE2EUC
+            MENUITEM "Ｓｈｉｆｔ－ＪＩＳコード",    ID_EDIT_CODE2SJIS
+            MENUITEM "ＪＩＳコード",                ID_EDIT_CODE2JIS
+        END
+        POPUP "選択領域内の変換"
+        BEGIN
+            MENUITEM "タブ－＞半角スペース\tCtl+Shft+Back", 
+                                                    ID_EDIT_TAB2SPACE
+            MENUITEM "半角スペース－＞タブ",        ID_EDIT_SPACE2TAB
+            MENUITEM "全角スペース－＞半角スペース", ID_EDIT_SPACE_ZEN2HAN
+            MENUITEM "半角スペース－＞全角スペース", ID_EDIT_SPACE_HAN2ZEN
+            MENUITEM "半角カタカナ－＞全角カタカナ", 
+                                                    ID_EDIT_KATAKANA_HAN2ZEN
+            MENUITEM "全角カタカナ－＞半角カタカナ", 
+                                                    ID_EDIT_KATAKANA_ZEN2HAN
+            MENUITEM "半角英数字－＞全角英数字",    ID_EDIT_ALNUM_HAN2ZEN
+            MENUITEM "全角英数字－＞半角英数字",    ID_EDIT_ALNUM_ZEN2HAN
+            MENUITEM "英字－＞大文字",              ID_EDIT_AL2UPPER
+            MENUITEM "英字－＞小文字",              ID_EDIT_AL2LOWER
+            MENUITEM "先頭のスペース、タブを全て削除", ID_EDIT_DELTOPSPACES
+            MENUITEM "タブをひとつ挿入",            ID_EDIT_INSTAB
+            MENUITEM "タブをひとつ削除",            ID_EDIT_DELTAB
+            MENUITEM "Ｃ／Ｃ＋＋行コメント( // )を挿入", 
+                                                    ID_EDIT_INSCPPCOMMENT
+            MENUITEM "Ｃ／Ｃ＋＋行コメント( // )を削除", 
+                                                    ID_EDIT_DELCPPCOMMENT
+            MENUITEM "ＶＢ行コメント( ' )を挿入",   ID_EDIT_INSVBCOMMENT
+            MENUITEM "ＶＢ行コメント( ' )を削除",   ID_EDIT_DELVBCOMMENT
+            MENUITEM "アセンブラ行コメント( ; )を挿入", 
+                                                    ID_EDIT_INSASMCOMMENT
+            MENUITEM "アセンブラ行コメント( ; )を削除", 
+                                                    ID_EDIT_DELASMCOMMENT
+            MENUITEM "引用符号( > )を挿入",         ID_EDIT_INSQUOTE
+            MENUITEM "引用符号( > )を削除",         ID_EDIT_DELQUOTE
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 247, 79
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "バージョン情報"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "ＯＫ",IDOK,203,4,38,14,WS_GROUP
+    ICON            IDR_MAINFRAME,IDC_APPICON,5,5,20,20,SS_SUNKEN | 
+                    WS_BORDER,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LTEXT           "Ｘ ｅ ｒ ｘ ｅ ｓ  Beta版 (2005/02/27)",IDC_SOFTNAME,31,
+                    1,169,14,SS_NOPREFIX
+    LTEXT           "Copyright (C) 1998-2005  江倉 勢人",IDC_HYPERLINK,31,18,
+                    154,8
+    LTEXT           "所属",IDC_KAISYA,34,48,168,9
+    LTEXT           "ユーザ",IDC_USER,34,59,168,9
+    LTEXT           "Contains security software derived from the RSA Data Security, Inc. MD5 Message-Digest Algorithm.",
+                    IDC_CREDIT,31,28,179,17
+    GROUPBOX        "",IDC_STATIC,29,40,181,31
+END
+
+IDD_PROPPAGE1 DIALOG DISCARDABLE  0, 0, 275, 183
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "  一般  "
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "起動時にスプラッシュスクリーンを表示する（次回起動から有効）",
+                    IDC_CHECK_SHOWSPLASH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,8,214,10
+    LTEXT           "スプラッシュスクリーン表示時間",IDC_STATIC,13,21,100,8
+    LTEXT           "（１～１０）",IDC_STATIC,113,21,32,8
+    EDITTEXT        IDC_EDIT_SPLASHTIME,146,18,36,16,ES_AUTOHSCROLL
+    LTEXT           "秒間",IDC_STATIC,186,21,16,8
+    CONTROL         "複数起動を防止する（常に１つだけ起動）",
+                    IDC_CHECK_NODOUBLEEXECUTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,35,142,10
+    CONTROL         "メインフレームウインドウの位置と大きさを記憶する",
+                    IDC_CHECK_SAVEWINDOWPLACE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,45,171,10
+    CONTROL         "起動時に新規子ウインドウを開く（次回起動から有効）",
+                    IDC_CHECK_OPENNEWFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,55,182,10
+    CONTROL         "子ウインドウ作成時に最大化する",IDC_CHECK_MAXCLDWND,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,64,119,10
+    CONTROL         "オープンしたファイルのディレクトリへ移動する",
+                    IDC_CHECK_CHDIRTOOPENFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,74,155,10
+    CONTROL         "タイトルバーにファイル名をフルパス表示する（次回オープンファイルから有効）",
+                    IDC_CHECK_FULLTITLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,83,254,10
+    CONTROL         "ファイル終端マーク（EOF）を表示する",
+                    IDC_CHECK_DISPEOFMARK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,93,129,10
+    CONTROL         "起動時にパスワードチェックをする",IDC_CHECK_EXECPASSWD,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,103,120,10
+    DEFPUSHBUTTON   "パスワード設定/変更",IDC_SETPASSWDBTN,138,101,72,14
+    CONTROL         "エクスプローラ上で右クリックしてファイルを開けるようにする",
+                    IDC_CHECK_ENABLESHELLOPEN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,117,199,10
+    CONTROL         "デスクトップにXerxesへのショートカットを作成する",
+                    IDC_CHECK_MAKESHORTCUTDSKTOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,127,169,10
+    LTEXT           "最新のファイルに表示するファイル数",IDC_STATIC,7,141,
+                    114,8
+    EDITTEXT        IDC_EDIT_MAXMRU,126,138,36,16,ES_AUTOHSCROLL
+    LTEXT           "（４～１６  次回起動から有効）",IDC_STATIC,8,151,94,8
+    CONTROL         "ウインドウ作成時に自動でかな漢字変換状態にする",
+                    IDC_CHECK_IMMAUTOOPEN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,161,177,10
+END
+
+IDD_PROPPAGE2 DIALOG DISCARDABLE  0, 0, 275, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "  表示  "
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    GROUPBOX        "ファイル拡張子別のフォント設定",IDC_STATIC,7,7,254,85
+    LTEXT           "ファイル拡張子",IDC_STATIC,11,20,47,8
+    COMBOBOX        IDC_COMBO_FILEEXT,71,18,79,68,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "表示用フォント",IDC_STATIC,11,35,52,8
+    LTEXT           "フォント名称",IDC_STATIC,30,48,36,8
+    COMBOBOX        IDC_COMBO_DISPFONTNAME,70,45,80,72,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "サイズ",IDC_STATIC,154,48,22,8
+    COMBOBOX        IDC_COMBO_DISPFONTSIZE,178,45,80,72,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "印刷用フォント",IDC_STATIC,11,62,52,8
+    LTEXT           "フォント名称",IDC_STATIC,30,76,36,8
+    COMBOBOX        IDC_COMBO_PRINTFONTNAME,70,73,80,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "サイズ",IDC_STATIC,155,75,22,8
+    COMBOBOX        IDC_COMBO_PRINTFONTSIZE,179,73,80,72,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "ステータスバーフォント(&S)",IDC_BUTTON_STSBARFONT,11,
+                    102,84,14
+    GROUPBOX        "タブサイズ",IDC_STATIC,99,97,54,46,WS_GROUP
+    CONTROL         "２タブ(&2)",IDC_RADIO_2TAB,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,108,109,40,10
+    CONTROL         "４タブ(&4)",IDC_RADIO_4TAB,"Button",BS_AUTORADIOBUTTON,
+                    108,119,40,10
+    CONTROL         "８タブ(&8)",IDC_RADIO_8TAB,"Button",BS_AUTORADIOBUTTON,
+                    108,130,40,10
+END
+
+IDD_PROPPAGE3 DIALOG DISCARDABLE  0, 0, 309, 226
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "  カラー  "
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    GROUPBOX        "ファイル拡張子別のカラー設定",IDC_STATIC,7,9,211,206
+    COMBOBOX        IDC_COMBO_FILEEXT,15,22,68,68,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "文字色",IDC_BUTTON_TXTCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,15,38,53,14
+    CONTROL         "背景色",IDC_BUTTON_BKCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,15,54,53,14
+    CONTROL         "反転文字色",IDC_BUTTON_INVTXTCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,15,70,53,14
+    CONTROL         "反転背景色",IDC_BUTTON_INVBKCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,15,86,53,14
+    CONTROL         "キーワードＮｏ１",IDC_BUTTON_KEYWORD1CLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,15,102,53,14
+    CONTROL         "キーワードＮｏ２",IDC_BUTTON_KEYWORD2CLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,15,118,53,14
+    CONTROL         "キーワードＮｏ３",IDC_BUTTON_KEYWORD3CLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,15,134,53,14
+    CONTROL         "キーワードＮｏ４",IDC_BUTTON_KEYWORD4CLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,15,150,53,14
+    CONTROL         "マーク行",IDC_BUTTON_MARKLINE,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,15,166,53,14
+    CONTROL         "有効( &/ )",IDC_CHECK_CPPCOMMENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,94,24,44,10
+    CONTROL         "C/C++行コメント(／／)",IDC_BUTTON_COMMENTCLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,138,21,76,14
+    CONTROL         "有効( &' )",IDC_CHECK_VBCOMMENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,94,40,42,10
+    CONTROL         "VB行コメント(’)",IDC_BUTTON_COMMENTCLR2,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,138,37,76,14
+    CONTROL         "有効( &; )",IDC_CHECK_ASMCOMMENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,94,56,42,10
+    CONTROL         "アセンブラ行コメント(；)",IDC_BUTTON_COMMENTCLR3,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,138,53,76,14
+    CONTROL         "表示(&L)",IDC_CHECK_DISPLINENO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,94,87,39,10
+    CONTROL         "行番号",IDC_BUTTON_LINENO,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,138,85,50,14
+    CONTROL         "背景",IDC_BUTTON_LINENOBACK,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,196,85,20,14
+    CONTROL         "表示(&R)",IDC_CHECK_DISPRULER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,94,103,40,10
+    CONTROL         "ルーラ",IDC_BUTTON_RULER,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,138,101,50,14
+    CONTROL         "背景",IDC_BUTTON_RULERBACK,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,196,101,20,14
+    CONTROL         "表示(&C)",IDC_CHECK_DISPCRLF,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,94,119,41,10
+    CONTROL         "改行マーク",IDC_BUTTON_CRLFCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,138,117,50,14
+    CONTROL         "表示(&T)",IDC_CHECK_DISPTAB,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,94,135,40,10
+    CONTROL         "タブマーク",IDC_BUTTON_TABCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,138,133,50,14
+    CONTROL         "表示(&S)",IDC_CHECK_DISPSPACE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,94,151,40,10
+    CONTROL         "全角スペース",IDC_BUTTON_SPACECLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,138,149,50,14
+    CONTROL         "表示(&D)",IDC_CHECK_DISPUNDERLINE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,94,167,40,10
+    CONTROL         "アンダーライン",IDC_BUTTON_UNDERLINE,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,138,165,50,14
+    CONTROL         "表示(&U)",IDC_CHECK_DISPURL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,94,184,40,10
+    CONTROL         "ＵＲＬ",IDC_BUTTON_URLCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,138,181,50,14
+    CONTROL         "表示(&E)",IDC_CHECK_DISPEMAIL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,94,199,39,10
+    CONTROL         "ｅ－ｍａｉｌ",IDC_BUTTON_EMAILCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,138,197,50,14
+    CONTROL         "ＭＤＩの背景",IDC_BUTTON_MDIBKGND,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,222,21,76,14
+    CONTROL         "ファイル比較、削除行",IDC_BUTTON_DIFFDELLINECLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,222,37,76,14
+    CONTROL         "ファイル比較、追加行",IDC_BUTTON_DIFFADDLINECLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,222,53,76,14
+    CONTROL         "ﾃﾞｨﾚｸﾄﾘ比較相違ﾌｧｲﾙ",IDC_BUTTON_DIRCMPDIFFFILECLR,
+                    "Button",BS_OWNERDRAW | WS_TABSTOP,222,69,76,14
+    CONTROL         "有効( &> )",IDC_CHECK_QUOTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,94,71,44,10
+    CONTROL         "引用符号コメント(＞)",IDC_BUTTON_COMMENTCLR4,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,138,69,76,14
+END
+
+IDD_DIALOG_JUMP DIALOG DISCARDABLE  0, 0, 171, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "指定行番号へのジャンプ"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    EDITTEXT        IDC_EDIT_LINENO,90,16,64,16,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "ジャンプ(&J)",IDOK,27,40,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,86,40,50,14
+    LTEXT           "(00000 ～ 00000)",IDC_LINENO,17,26,60,8
+    LTEXT           "ジャンプ先行番号",IDC_STATIC,19,15,54,8
+END
+
+IDD_GREP DIALOG DISCARDABLE  0, 0, 266, 95
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ファイルから検索"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "検索する文字列(&T)",IDC_STATIC,10,11,60,8
+    COMBOBOX        IDC_COMBO_GREPSTR,79,7,128,62,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "ファイルの種類",IDC_STATIC,11,27,47,8
+    EDITTEXT        IDC_EDIT_FILEKIND,78,23,129,15,ES_AUTOHSCROLL
+    LTEXT           "フォルダ(&O)",IDC_STATIC,12,42,36,8
+    EDITTEXT        IDC_EDIT_FOLDER,78,40,129,15,ES_AUTOHSCROLL
+    CONTROL         "サブフォルダも探す(&S)",IDC_CHECK_SUBFOLDER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,59,82,10
+    CONTROL         "大文字と小文字を区別する(&C)",IDC_CHECK_MATCHCASE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,103,59,110,10
+    CONTROL         "正規表現を使う(&R)",IDC_CHECK_REGEX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,73,73,10
+    CONTROL         "単語単位で探す(&W)",IDC_CHECK_MATCHWHOLEWORD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,103,73,73,10
+    DEFPUSHBUTTON   "検索(&K)",IDOK,211,7,52,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,211,24,52,14
+    PUSHBUTTON      "フォルダ選択(&F)",IDC_BROWSE,211,41,52,14
+END
+
+IDD_GREPSTATUS DIALOG DISCARDABLE  0, 0, 207, 103
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "ＧＲＥＰ実行状況"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "キャンセル",IDCANCEL,78,82,50,14
+    LTEXT           "フォルダ",IDC_STATIC,11,40,26,8
+    LTEXT           "検索中ファイル",IDC_STATIC,11,54,50,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,40,133,8
+    LTEXT           "FILE",IDC_FILE,67,54,133,8
+    LTEXT           "ファイル種別",IDC_STATIC,11,26,42,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,26,133,8
+    LTEXT           "検索文字列",IDC_STATIC,11,12,39,8
+    LTEXT           "GREPSTR",IDC_GREPSTR,67,12,133,8
+    LTEXT           "該当件数",IDC_STATIC,11,67,36,8
+    LTEXT           "MATCHCOUNT",IDC_MATCHCOUNT,66,67,133,8
+END
+
+IDD_CODECONV DIALOG DISCARDABLE  0, 0, 281, 106
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "文字コード変換"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "文字コード変換区分(&K)",IDC_STATIC,10,11,72,8
+    COMBOBOX        IDC_COMBO_CONVKIND,88,7,129,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ファイルの種類(&T)",IDC_STATIC,11,27,56,8
+    EDITTEXT        IDC_EDIT_FILEKIND,88,24,129,14,ES_AUTOHSCROLL
+    LTEXT           "フォルダ(&O)",IDC_STATIC,11,42,36,8
+    EDITTEXT        IDC_EDIT_FOLDER,88,40,129,13,ES_AUTOHSCROLL
+    CONTROL         "サブフォルダも探す(&S)",IDC_CHECK_SUBFOLDER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,59,82,10
+    CONTROL         "変換結果を別ファイルへ出力する(&B)",
+                    IDC_CHECK_OUTOTHERFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,72,122,10
+    LTEXT           "入力ファイルの文字コードの判別(&I)",IDC_STATIC,13,86,
+                    108,8
+    COMBOBOX        IDC_COMBO_INCODE,128,84,84,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "変換実行(&C)",IDOK,222,7,52,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,222,23,52,14
+    PUSHBUTTON      "フォルダ選択(&F)",IDC_BROWSE,222,39,52,14
+END
+
+IDD_CONVSTATUS DIALOG DISCARDABLE  0, 0, 207, 103
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "文字コード変換実行状況"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "キャンセル",IDCANCEL,78,82,50,14
+    LTEXT           "フォルダ",IDC_STATIC,11,40,26,8
+    LTEXT           "変換中ファイル",IDC_STATIC,11,54,48,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,40,133,8
+    LTEXT           "FILE",IDC_FILE,67,54,133,8
+    LTEXT           "ファイル種別",IDC_STATIC,11,26,42,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,26,133,8
+    LTEXT           "変換種別",IDC_STATIC,11,12,39,8
+    LTEXT           "CONVKIND",IDC_CONVKIND,67,12,133,8
+    LTEXT           "変換ファイル数",IDC_STATIC,11,67,47,8
+    LTEXT           "FILECOUNT",IDC_FILECOUNT,66,67,133,8
+END
+
+IDD_PROPPAGE4 DIALOG DISCARDABLE  0, 0, 165, 142
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "  ファイル保存  "
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    GROUPBOX        "保存時の改行コード",IDC_STATIC,9,8,142,46,WS_GROUP
+    CONTROL         "DOS/Windows形式  CR+LF(&D)",IDC_RADIO_CRLF,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,19,19,110,10
+    CONTROL         "UNIX形式  LF(&U)",IDC_RADIO_LF,"Button",
+                    BS_AUTORADIOBUTTON,19,29,74,10
+    CONTROL         "Macintosh形式  CR(&M)",IDC_RADIO_CR,"Button",
+                    BS_AUTORADIOBUTTON,19,40,89,10
+    GROUPBOX        "オートセーブ",IDC_STATIC,9,57,143,45,WS_GROUP
+    CONTROL         "オートセーブを行う(&S)",IDC_CHECK_AUTOSAVE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,68,79,10
+    LTEXT           "セーブ間隔（１～６０）",IDC_STATIC,21,82,67,8
+    EDITTEXT        IDC_EDIT_SAVEINTERVAL,91,79,36,16,ES_AUTOHSCROLL
+    LTEXT           "分",IDC_STATIC,131,83,8,8
+    CONTROL         "保存時に行末の空白を削除する(&C)",
+                    IDC_CHECK_DELENDSPACES,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,20,106,126,10
+    CONTROL         "保存時に空白をタブへ変換する(&T)",IDC_CHECK_SPACE2TAB,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,119,118,10
+END
+
+IDD_PROPPAGE5 DIALOG DISCARDABLE  0, 0, 259, 187
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "  印刷  "
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    GROUPBOX        "印刷の向き",IDC_STATIC,10,6,50,47
+    CONTROL         "縦(&V)",IDC_RADIO_PRINTORIENTATION_TATE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,18,19,32,10
+    CONTROL         "横(&H)",IDC_RADIO_PRINTORIENTATION_YOKO,"Button",
+                    BS_AUTORADIOBUTTON,18,35,32,10
+    GROUPBOX        "余白（1/1000インチ）",IDC_STATIC,68,6,124,48
+    LTEXT           "左(&L)",IDC_STATIC,77,21,16,8
+    EDITTEXT        IDC_EDIT_YOHAKU_HIDARI,99,18,28,13,ES_AUTOHSCROLL
+    LTEXT           "上(&T)",IDC_STATIC,77,35,16,8
+    EDITTEXT        IDC_EDIT_YOHAKU_UE,99,33,28,13,ES_AUTOHSCROLL
+    LTEXT           "右(&R)",IDC_STATIC,132,20,17,8
+    EDITTEXT        IDC_EDIT_YOHAKU_MIGI,154,17,28,13,ES_AUTOHSCROLL
+    LTEXT           "下(&B)",IDC_STATIC,133,35,17,8
+    EDITTEXT        IDC_EDIT_YOHAKU_SITA,154,32,28,13,ES_AUTOHSCROLL
+    CONTROL         "行番号印刷(&N)",IDC_CHECK_LINENO,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,60,59,10
+    CONTROL         "２段組み印刷(&2)",IDC_CHECK_2DANGUMI,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,71,60,63,10
+    DEFPUSHBUTTON   "レイアウトのヘルプを表示",IDC_BUTTON_LAYOUTHELP,164,63,
+                    84,14
+    GROUPBOX        "ヘッダのレイアウト",IDC_STATIC,10,78,238,45
+    EDITTEXT        IDC_EDIT_HEADERFORMAT,19,90,223,16,ES_AUTOHSCROLL
+    CONTROL         "左よせ",IDC_RADIO_HEADER_LEFT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,21,109,35,10
+    CONTROL         "中央",IDC_RADIO_HEADER_CENTER,"Button",
+                    BS_AUTORADIOBUTTON,58,109,30,10
+    CONTROL         "右よせ",IDC_RADIO_HEADER_RIGHT,"Button",
+                    BS_AUTORADIOBUTTON,92,109,35,10
+    GROUPBOX        "フッタのレイアウト",IDC_STATIC,10,127,238,46
+    EDITTEXT        IDC_EDIT_FOOTERFORMAT,19,139,223,16,ES_AUTOHSCROLL
+    CONTROL         "左よせ",IDC_RADIO_FOOTER_LEFT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,21,158,35,10
+    CONTROL         "中央",IDC_RADIO_FOOTER_CENTER,"Button",
+                    BS_AUTORADIOBUTTON,58,158,30,10
+    CONTROL         "右よせ",IDC_RADIO_FOOTER_RIGHT,"Button",
+                    BS_AUTORADIOBUTTON,92,158,35,10
+END
+
+IDD_FILEPROPERTY DIALOG DISCARDABLE  0, 0, 238, 142
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "ファイルプロパティ"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "ＯＫ",IDOK,93,121,50,14
+    LTEXT           "ファイル名",IDC_STATIC,9,20,32,8
+    LTEXT           "FILENAME",IDC_FILENAME,83,20,148,8
+    LTEXT           "ファイル作成日時",IDC_STATIC,9,30,55,8
+    LTEXT           "CTIME",IDC_CTIME,83,30,148,8
+    LTEXT           "ファイル更新日時",IDC_STATIC,9,40,55,8
+    LTEXT           "MTIME",IDC_MTIME,83,40,148,8
+    LTEXT           "ファイルアクセス日時",IDC_STATIC,9,50,66,8
+    LTEXT           "ATIME",IDC_ATIME,83,50,148,8
+    LTEXT           "ファイルサイズ",IDC_STATIC,9,61,46,8
+    LTEXT           "SIZE",IDC_LOGSIZE,83,61,148,8
+    LTEXT           "属性",IDC_STATIC,9,71,16,8
+    LTEXT           "ATTRIBUTE",IDC_ATTR,83,71,148,8
+    LTEXT           "改行コード",IDC_STATIC,9,80,34,8
+    LTEXT           "KAIGYO",IDC_KAIGYO,83,80,148,8
+    LTEXT           "文字コード",IDC_STATIC,9,90,34,8
+    LTEXT           "CODE",IDC_CODE,83,90,148,8
+    LTEXT           "行数",IDC_STATIC,9,99,16,8
+    LTEXT           "LINECNT",IDC_LINECNT,83,99,148,8
+    LTEXT           "タブサイズ",IDC_STATIC,9,108,34,8
+    LTEXT           "TABSIZE",IDC_TABSIZE,83,108,148,8
+    LTEXT           "タイトル",IDC_STATIC,9,10,24,8
+    LTEXT           "TITLE",IDC_TITLE,83,10,148,8
+END
+
+IDD_WORDCOUNT DIALOG DISCARDABLE  0, 0, 270, 69
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ワードカウント"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "ファイルの種類(&T)",ID_STATIC,11,11,56,8
+    EDITTEXT        IDC_EDIT_FILEKIND,80,8,129,14,ES_AUTOHSCROLL
+    LTEXT           "フォルダ(&O)",ID_STATIC,11,26,36,8
+    EDITTEXT        IDC_EDIT_FOLDER,80,24,129,13,ES_AUTOHSCROLL
+    CONTROL         "サブフォルダも探す(&S)",IDC_CHECK_SUBFOLDER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,42,82,10
+    DEFPUSHBUTTON   "カウント(&C)",IDOK,212,7,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,212,24,50,14
+    PUSHBUTTON      "フォルダ選択(&F)",IDC_BROWSE,212,41,50,14
+END
+
+IDD_FILESEARCH DIALOG DISCARDABLE  0, 0, 274, 69
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ファイル検索"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "ファイルの種類(&T)",ID_STATIC,11,11,56,8
+    EDITTEXT        IDC_EDIT_FILEKIND,80,8,129,14,ES_AUTOHSCROLL
+    LTEXT           "フォルダ(&O)",ID_STATIC,11,26,36,8
+    EDITTEXT        IDC_EDIT_FOLDER,80,24,129,13,ES_AUTOHSCROLL
+    CONTROL         "サブフォルダも探す(&S)",IDC_CHECK_SUBFOLDER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,42,82,10
+    DEFPUSHBUTTON   "検索実行(&K)",IDOK,215,7,52,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,215,24,52,14
+    PUSHBUTTON      "フォルダ選択(&F)",IDC_BROWSE,215,41,52,14
+END
+
+IDD_FILESEARCHSTATUS DIALOG DISCARDABLE  0, 0, 207, 90
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "ファイル検索実行状況"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "キャンセル",IDCANCEL,78,69,50,14
+    LTEXT           "フォルダ",ID_STATIC,11,26,26,8
+    LTEXT           "検索中ファイル",ID_STATIC,11,40,50,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,26,133,8
+    LTEXT           "FILE",IDC_FILE,67,40,133,8
+    LTEXT           "ファイル種別",ID_STATIC,11,12,42,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,12,133,8
+    LTEXT           "該当件数",ID_STATIC,11,53,36,8
+    LTEXT           "MATCHCOUNT",IDC_MATCHCOUNT,66,53,133,8
+END
+
+IDD_PROPPAGE6 DIALOG DISCARDABLE  0, 0, 271, 195
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "  キャレット  "
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    GROUPBOX        "キャレット形状",IDC_STATIC,9,7,123,36,WS_GROUP
+    CONTROL         "キャレット形状：縦棒(&I)",IDC_RADIO_CARET_IBEAM,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,16,17,81,10
+    CONTROL         "キャレット形状：箱型(&B)",IDC_RADIO_CARET_SQUARE,"Button",
+                    BS_AUTORADIOBUTTON,16,28,84,10
+    GROUPBOX        "キャレット点滅間隔",IDC_STATIC,9,47,123,34
+    EDITTEXT        IDC_EDIT_BLINKTIME,16,58,38,16,ES_AUTOHSCROLL
+    LTEXT           "（ｍｓ）間隔",IDC_STATIC,60,63,32,8
+    GROUPBOX        "画面スクロール時の動作",IDC_STATIC,9,84,123,42,WS_GROUP
+    CONTROL         "キャレットの行、列位置を変更(&M)",IDC_RADIO_CARETMOVE,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,16,96,112,10
+    CONTROL         "キャレットの行、列位置を保持(&S)",IDC_RADIO_CARETSTAY,
+                    "Button",BS_AUTORADIOBUTTON,16,108,111,10
+    GROUPBOX        "キャレット上下移動時の動作",IDC_STATIC,9,130,123,42,
+                    WS_GROUP
+    CONTROL         "ワープロ風に列位置を復元(&W)",IDC_RADIO_WORDTYPE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,15,142,104,10
+    CONTROL         "メモ帳風に列位置を初期化(&N)",IDC_RADIO_NOTEPADTYPE,
+                    "Button",BS_AUTORADIOBUTTON,15,154,103,10
+    GROUPBOX        "キャレット上下左右移動時の加速",IDC_STATIC,138,7,123,73,
+                    WS_GROUP
+    CONTROL         "加速なし  １倍速(&1)",IDC_RADIO_ACCEL_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,144,19,72,10
+    CONTROL         "２倍速で加速(&2)",IDC_RADIO_ACCEL_2,"Button",
+                    BS_AUTORADIOBUTTON,144,30,62,10
+    CONTROL         "３倍速で加速(&3)",IDC_RADIO_ACCEL_3,"Button",
+                    BS_AUTORADIOBUTTON,144,42,62,10
+    CONTROL         "４倍速で加速(&4)",IDC_RADIO_ACCEL_4,"Button",
+                    BS_AUTORADIOBUTTON,144,54,62,10
+    CONTROL         "５倍速で加速(&5)",IDC_RADIO_ACCEL_5,"Button",
+                    BS_AUTORADIOBUTTON,144,66,62,10
+    GROUPBOX        "貼り付け後のキャレット位置",IDC_STATIC,138,84,123,41,
+                    WS_GROUP
+    CONTROL         "貼り付け範囲の先頭に(&T)",IDC_RADIO_PASTETOP,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,144,96,90,10
+    CONTROL         "貼り付け範囲の最後へ(&L)",IDC_RADIO_PASTEEND,"Button",
+                    BS_AUTORADIOBUTTON,144,107,91,10
+END
+
+IDD_LICENSE DIALOG DISCARDABLE  0, 0, 223, 181
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ライセンス情報（まだシェアウエアにはしないよ！！）"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    GROUPBOX        "ユーザ情報",IDC_STATIC,7,13,209,68
+    LTEXT           "所属名称とユーザ名を入力してください。",IDC_STATIC,14,
+                    25,127,8
+    LTEXT           "所属名",IDC_STATIC,16,41,22,8
+    EDITTEXT        IDC_EDIT_KAISYA,52,36,157,17,ES_AUTOHSCROLL
+    LTEXT           "ユーザ名",IDC_STATIC,17,60,28,8
+    EDITTEXT        IDC_EDIT_USER,52,56,157,17,ES_AUTOHSCROLL
+    GROUPBOX        "ライセンス登録",IDC_STATIC,7,92,209,54
+    LTEXT           "ソフト提供者から受け取ったライセンスキーを入力してください。",
+                    IDC_STATIC,13,104,194,8
+    LTEXT           "ライセンスキー",IDC_STATIC,16,121,33,18
+    EDITTEXT        IDC_EDIT_LICENSEKEY,52,120,157,17,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    DEFPUSHBUTTON   "ＯＫ",IDOK,53,160,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,119,160,50,14
+END
+
+IDD_PROPPAGE7 DIALOG DISCARDABLE  0, 0, 278, 130
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "  ＭＤＩ  "
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "ＭＤＩ背景にロゴを表示(&L)",IDC_CHECK_LOGODISP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,9,89,10
+    CONTROL         "デフォルトのXerxesロゴを表示(&1)",IDC_RADIO_XERXES,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,19,20,115,11
+    CONTROL         "好きなＢＭＰファイルを指定して表示(&2)",
+                    IDC_RADIO_FAVARITE,"Button",BS_AUTORADIOBUTTON,19,31,135,
+                    10
+    LTEXT           "パス",IDC_STATIC,30,47,14,8
+    EDITTEXT        IDC_EDIT_BMPFILEPATH,49,44,184,15,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "参照(&R)",IDC_REF,237,44,28,14
+    CONTROL         "ロゴをタイル表示する(&3)",IDC_RADIO_TILE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,19,64,86,10
+    CONTROL         "ロゴ表示位置を指定する(&4)",IDC_RADIO_POSSITEI,"Button",
+                    BS_AUTORADIOBUTTON,19,75,95,10
+    LTEXT           "ロゴ表示位置 Ｘ (0～100)",IDC_STATIC,33,90,81,8
+    EDITTEXT        IDC_EDIT_LOGOPOSX,118,86,36,15,ES_AUTOHSCROLL
+    LTEXT           "ロゴ表示位置 Ｙ (0～100)",IDC_STATIC,33,107,81,8
+    EDITTEXT        IDC_EDIT_LOGOPOSY,118,103,36,15,ES_AUTOHSCROLL
+END
+
+IDD_WCNTSTATUS DIALOG DISCARDABLE  0, 0, 207, 76
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "ワードカウント実行状況"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "キャンセル",IDCANCEL,78,55,50,14
+    LTEXT           "フォルダ",ID_STATIC,11,26,26,8
+    LTEXT           "カウントファイル",ID_STATIC,11,40,50,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,26,133,8
+    LTEXT           "FILE",IDC_FILE,67,40,133,8
+    LTEXT           "ファイル種別",ID_STATIC,11,12,42,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,12,133,8
+END
+
+IDD_CLIPBOARDVIEW DIALOG DISCARDABLE  0, 0, 254, 170
+STYLE WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "クリップボードの中身"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "ＯＫ",IDOK,101,149,50,14
+    EDITTEXT        IDC_EDIT_CLIP_CONTENTS,7,7,240,136,ES_MULTILINE | 
+                    ES_READONLY | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_KEYOPE_DISP DIALOG DISCARDABLE  0, 0, 306, 267
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "記録されているキー操作の一覧表示"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "コメント",IDC_STATIC,17,17,25,8
+    EDITTEXT        IDC_EDIT_OPERATIONNAME,72,11,221,19,ES_AUTOHSCROLL
+    LTEXT           "保存ファイル名",IDC_STATIC,16,39,45,8
+    LTEXT           "保存ファイル名",IDC_KEYOPE_FNAME,73,39,217,8
+    CONTROL         "List1",IDC_KEYOPE_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_OWNERDRAWFIXED | WS_BORDER | WS_TABSTOP,7,58,292,176
+    DEFPUSHBUTTON   "ＯＫ",IDOK,128,246,50,14
+END
+
+IDD_PROPPAGE8 DIALOG DISCARDABLE  0, 0, 270, 175
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "  ステータスバー  "
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "現在の表示項目",IDC_STATIC,7,8,53,8
+    LISTBOX         IDC_LIST_CURRENTITEM,7,20,105,64,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "追加項目",IDC_STATIC,158,8,31,8
+    LISTBOX         IDC_LIST_ADDITEM,156,20,105,64,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "<--追加(&A)",IDC_BUTTON_ADD,114,22,41,14
+    DEFPUSHBUTTON   "-->削除(&D)",IDC_BUTTON_DEL,114,45,41,14
+    GROUPBOX        "表示スタイル",IDC_STATIC,9,92,196,70
+    LTEXT           "日付表示スタイル",IDC_STATIC,17,108,56,8
+    COMBOBOX        IDC_COMBO_DAYSTYLE,82,105,113,76,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "時刻表示スタイル",IDC_STATIC,17,126,56,8
+    COMBOBOX        IDC_COMBO_HOURSTYLE,82,124,113,76,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "行列表示スタイル",IDC_STATIC,17,145,56,8
+    COMBOBOX        IDC_COMBO_LINESTYLE,82,143,113,76,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_MARKLINELIST DIALOG DISCARDABLE  0, 0, 230, 200
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "マーク位置一覧"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "マーク行をダブルクリックするか、「ジャンプ」ボタン押下すると、",
+                    IDC_STATIC,7,7,194,8
+    LTEXT           "そのマーク行へジャンプします。",IDC_STATIC,7,19,99,8
+    LISTBOX         IDC_LIST_MARKLINE,7,33,216,140,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "ジャンプ(&J)",IDC_JUMPBTN,56,179,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,122,179,50,14
+END
+
+IDD_ENCRIPT DIALOG DISCARDABLE  0, 0, 266, 99
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ファイル暗号化"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "暗号化キー(&K)",IDC_STATIC,10,14,46,8
+    EDITTEXT        IDC_EDIT_KEY,74,10,129,14,ES_LOWERCASE | ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "ファイルの種類(&T)",IDC_STATIC,11,29,56,8
+    EDITTEXT        IDC_EDIT_FILEKIND,74,26,129,14,ES_AUTOHSCROLL
+    LTEXT           "フォルダ(&O)",IDC_STATIC,11,44,36,8
+    EDITTEXT        IDC_EDIT_FOLDER,74,42,129,13,ES_AUTOHSCROLL
+    CONTROL         "サブフォルダも探す(&S)",IDC_CHECK_SUBFOLDER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,61,82,10
+    CONTROL         "暗号結果を別ファイルへ出力する(&B)",
+                    IDC_CHECK_OUTOTHERFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,74,122,10
+    DEFPUSHBUTTON   "暗号化実行(&C)",IDOK,206,9,52,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,206,25,52,14
+    PUSHBUTTON      "ヘルプ(&H)",IDC_MYHELP,206,41,52,14
+    PUSHBUTTON      "フォルダ選択(&F)",IDC_BROWSE,206,57,52,14
+END
+
+IDD_ENCRIPTSTATUS DIALOG DISCARDABLE  0, 0, 207, 90
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "ファイル暗号化実行状況"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "キャンセル",IDCANCEL,78,69,50,14
+    LTEXT           "フォルダ",ID_STATIC,11,25,26,8
+    LTEXT           "暗号化中ファイル",ID_STATIC,11,39,55,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,25,133,8
+    LTEXT           "FILE",IDC_FILE,67,39,133,8
+    LTEXT           "ファイル種別",ID_STATIC,11,11,42,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,11,133,8
+    LTEXT           "暗号化ファイル数",ID_STATIC,11,52,55,8
+    LTEXT           "FILECOUNT",IDC_FILECOUNT,66,52,133,8
+END
+
+IDD_DECRIPT DIALOG DISCARDABLE  0, 0, 266, 97
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ファイル復号化"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "復号化キー(&K)",IDC_STATIC,10,12,46,8
+    EDITTEXT        IDC_EDIT_KEY,74,9,129,14,ES_LOWERCASE | ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "ファイルの種類(&T)",IDC_STATIC,11,28,56,8
+    EDITTEXT        IDC_EDIT_FILEKIND,74,25,129,14,ES_AUTOHSCROLL
+    LTEXT           "フォルダ(&O)",IDC_STATIC,11,43,36,8
+    EDITTEXT        IDC_EDIT_FOLDER,74,41,129,13,ES_AUTOHSCROLL
+    CONTROL         "サブフォルダも探す(&S)",IDC_CHECK_SUBFOLDER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,60,82,10
+    CONTROL         "復号結果を別ファイルへ出力する(&B)",
+                    IDC_CHECK_OUTOTHERFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,73,122,10
+    DEFPUSHBUTTON   "復号化実行(&C)",IDOK,207,9,52,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,207,25,52,14
+    PUSHBUTTON      "ヘルプ(&H)",IDC_MYHELP,207,41,52,14
+    PUSHBUTTON      "フォルダ選択(&F)",IDC_BROWSE,207,57,52,14
+END
+
+IDD_DECRIPTSTATUS DIALOG DISCARDABLE  0, 0, 207, 90
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "ファイル復号化実行状況"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "キャンセル",IDCANCEL,78,69,50,14
+    LTEXT           "フォルダ",ID_STATIC,11,25,26,8
+    LTEXT           "復号化中ファイル",ID_STATIC,11,39,55,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,25,133,8
+    LTEXT           "FILE",IDC_FILE,67,39,133,8
+    LTEXT           "ファイル種別",ID_STATIC,11,11,42,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,11,133,8
+    LTEXT           "復号化ファイル数",ID_STATIC,11,52,55,8
+    LTEXT           "FILECOUNT",IDC_FILECOUNT,66,52,133,8
+END
+
+IDD_EXECPASSWD DIALOG DISCARDABLE  0, 0, 191, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "起動パスワードの設定／変更"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "起動パスワード(&P)",IDC_STATIC,9,17,54,8
+    EDITTEXT        IDC_EDIT_EXECPASSWD,65,13,115,17,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "ＯＫ",IDOK,35,40,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,101,40,50,14
+END
+
+IDD_CHECKEXECPASSWD DIALOG DISCARDABLE  0, 0, 193, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "起動パスワードのチェック"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "起動パスワード(&P)",IDC_STATIC,9,17,54,8
+    EDITTEXT        IDC_EDIT_EXECPASSWD,67,13,115,17,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "ＯＫ",IDOK,35,40,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,101,40,50,14
+END
+
+IDD_FILECOMPARERESULT DIALOG DISCARDABLE  0, 0, 243, 118
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "ファイル比較結果"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "ＯＫ",IDOK,96,97,50,14
+    LTEXT           "第二ファイル名",ID_STATIC,11,25,47,8
+    LTEXT           "比較結果",ID_STATIC,11,64,31,8
+    LTEXT           "第一ファイル名",ID_STATIC,11,12,47,8
+    LTEXT           "FILE1_NAME",IDC_FILE1_NAME,68,12,168,8
+    LTEXT           "FILE2_NAME",IDC_FILE2_NAME,68,25,168,8
+    LTEXT           "比較結果",IDC_COMPARE_STATUS,68,64,168,8
+    LTEXT           "削除された行数",ID_STATIC,11,38,51,8
+    LTEXT           "削除行数",IDC_DELLINE_CNT,68,38,168,8
+    LTEXT           "追加された行数",ID_STATIC,11,51,51,8
+    LTEXT           "追加行数",IDC_ADDLINE_CNT,68,51,168,8
+    LTEXT           "所要時間",ID_STATIC,11,77,31,8
+    LTEXT           "所要時間",IDC_TIME,68,77,168,8
+END
+
+IDD_FILECOMPARE DIALOG DISCARDABLE  0, 0, 243, 77
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "ファイル比較状況"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "キャンセル",IDCANCEL,96,56,50,14
+    LTEXT           "第二ファイル名",ID_STATIC,11,25,47,8
+    LTEXT           "第一ファイル名",ID_STATIC,11,12,47,8
+    LTEXT           "FILE1_NAME",IDC_FILE1,68,12,168,8
+    LTEXT           "FILE2_NAME",IDC_FILE2,68,25,168,8
+    LTEXT           "比較状況",ID_STATIC,11,38,31,8
+    LTEXT           "比較状況",IDC_STATUS,68,38,168,8
+END
+
+IDD_DIRCOMPARE DIALOG DISCARDABLE  0, 0, 363, 71
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ディレクトリ比較"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "第一ディレクトリ(&1)",ID_STATIC,11,14,58,8
+    COMBOBOX        IDC_COMBO_FOLDER1,69,10,228,54,CBS_DROPDOWN | 
+                    CBS_LOWERCASE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "フォルダ選択(&F)",IDC_BROWSE1,304,9,52,14
+    LTEXT           "第二ディレクトリ(&2)",ID_STATIC,11,33,58,8
+    COMBOBOX        IDC_COMBO_FOLDER2,69,30,228,49,CBS_DROPDOWN | 
+                    CBS_LOWERCASE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "フォルダ選択(&G)",IDC_BROWSE2,304,29,52,14
+    DEFPUSHBUTTON   "比較実行(&D)",IDOK,123,50,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,189,50,50,14
+END
+
+IDD_DIRCOMPARESTATUS DIALOG DISCARDABLE  0, 0, 243, 77
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "ディレクトリ比較状況"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "キャンセル",IDCANCEL,96,56,50,14
+    LTEXT           "第二ディレクトリ",ID_STATIC,11,25,50,8
+    LTEXT           "第一ディレクトリ",ID_STATIC,11,12,50,8
+    LTEXT           "DIR1",IDC_DIR1,68,12,168,8
+    LTEXT           "DIR2",IDC_DIR2,68,25,168,8
+    LTEXT           "状況",ID_STATIC,11,38,16,8
+    LTEXT           "状況",IDC_STATUS,68,38,168,8
+END
+
+IDD_DIRCOMPARERESULT DIALOG DISCARDABLE  0, 0, 243, 153
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "ディレクトリ比較結果"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "ＯＫ",IDOK,96,132,50,14
+    LTEXT           "第二ディレクトリ",ID_STATIC,11,25,50,8
+    LTEXT           "比較結果",ID_STATIC,11,101,31,8
+    LTEXT           "第一ディレクトリ",ID_STATIC,11,12,50,8
+    LTEXT           "DIR1_NAME",IDC_DIR1_NAME,68,12,168,8
+    LTEXT           "DIR2_NAME",IDC_DIR2_NAME,68,25,168,8
+    LTEXT           "比較結果",IDC_COMPARE_STATUS,68,101,168,26
+    LTEXT           "削除ファイル数",ID_STATIC,11,51,47,8
+    LTEXT           "DELFILE_CNT",IDC_DELFILE_CNT,68,51,168,8
+    LTEXT           "追加ファイル数",ID_STATIC,11,64,47,8
+    LTEXT           "ADDFILE_CNT",IDC_ADDFILE_CNT,68,64,168,8
+    LTEXT           "所要時間",ID_STATIC,11,89,31,8
+    LTEXT           "所要時間",IDC_TIME,68,89,168,8
+    LTEXT           "相違ファイル数",ID_STATIC,11,77,47,8
+    LTEXT           "DIFFILE_CNT",IDC_DIFFILE_CNT,68,77,168,8
+    LTEXT           "比較ファイル総数",ID_STATIC,11,38,55,8
+    LTEXT           "COMPAREFILE_CNT",IDC_COMPAREFILE_CNT,68,38,168,8
+END
+
+IDD_FILECOPY DIALOG DISCARDABLE  0, 0, 302, 81
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ファイルコピー"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "コピー元ファイル",ID_STATIC,11,9,50,8
+    LTEXT           "FILE",IDC_FILE,75,8,180,10
+    LTEXT           "コピー先フォルダ(&O)",ID_STATIC,11,27,63,8
+    EDITTEXT        IDC_EDIT_FOLDER,75,22,161,18,ES_AUTOHSCROLL
+    PUSHBUTTON      "フォルダ選択(&F)",IDC_BROWSE,241,24,52,14
+    CONTROL         "コピー先に同一名ファイルがあった場合「コピー～」を頭につける(&R)",
+                    IDC_CHECK_RENAMEONCOLLISION,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,44,221,10
+    DEFPUSHBUTTON   "コピー(&C)",IDOK,90,60,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,156,60,50,14
+END
+
+IDD_FILERENAME DIALOG DISCARDABLE  0, 0, 246, 69
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ファイルの名前変更"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "元の名前",ID_STATIC,11,9,28,8
+    LTEXT           "FROMFILENAME",IDC_FROMFILE,72,8,167,10
+    LTEXT           "変更後の名前(&O)",ID_STATIC,11,27,60,8
+    EDITTEXT        IDC_EDIT_TOFILE,71,22,161,18,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "名前変更(&R)",IDOK,65,48,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,131,48,50,14
+END
+
+IDD_FILEMOVE DIALOG DISCARDABLE  0, 0, 298, 69
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ファイル移動"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "移動元ファイル",ID_STATIC,11,9,50,8
+    LTEXT           "FILE",IDC_FILE,72,8,180,10
+    LTEXT           "移動先フォルダ(&O)",ID_STATIC,11,27,60,8
+    EDITTEXT        IDC_EDIT_FOLDER,71,22,161,18,ES_AUTOHSCROLL
+    PUSHBUTTON      "フォルダ選択(&F)",IDC_BROWSE,236,24,52,14
+    DEFPUSHBUTTON   "移動(&M)",IDOK,90,48,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,156,48,50,14
+END
+
+IDD_FILETOUCH DIALOG DISCARDABLE  0, 0, 262, 81
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ファイルタッチ"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "更新日付(&D)",ID_STATIC,12,11,40,8
+    EDITTEXT        IDC_EDIT_DATE,68,8,62,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TIME,132,8,64,14,ES_AUTOHSCROLL
+    LTEXT           "ファイルの種類(&T)",ID_STATIC,11,28,56,8
+    EDITTEXT        IDC_EDIT_FILEKIND,68,25,129,14,ES_AUTOHSCROLL
+    LTEXT           "フォルダ(&O)",ID_STATIC,11,43,36,8
+    EDITTEXT        IDC_EDIT_FOLDER,68,41,129,13,ES_AUTOHSCROLL
+    CONTROL         "サブフォルダも探す(&S)",IDC_CHECK_SUBFOLDER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,59,82,10
+    DEFPUSHBUTTON   "ファイルタッチ(&H)",IDOK,201,7,52,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,201,24,52,14
+    PUSHBUTTON      "フォルダ選択(&F)",IDC_BROWSE,201,41,52,14
+END
+
+IDD_FIND DIALOG DISCARDABLE  0, 0, 270, 73
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "検索"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "検索する文字列(&T)",IDC_STATIC,9,11,60,8
+    COMBOBOX        IDC_COMBO_FINDSTRING,75,7,133,68,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "単語単位で探す(&W)",IDC_CHECK_WHOLEWORD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,31,73,10
+    CONTROL         "大文字と小文字を区別する(&C)",IDC_CHECK_MATCHCASE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,42,110,10
+    CONTROL         "正規表現を使う(&R)",IDC_CHECK_REGEX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,53,73,10
+    GROUPBOX        "検索する方向",IDC_STATIC,127,29,83,28,WS_GROUP
+    CONTROL         "上へ(&U)",IDC_RADIO_UP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,133,39,34,13
+    CONTROL         "下へ(&D)",IDC_RADIO_DOWN,"Button",BS_AUTORADIOBUTTON,
+                    171,39,34,13
+    DEFPUSHBUTTON   "次を検索(&F)",IDC_FIND,213,7,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,213,24,50,14
+END
+
+IDD_REPLACE DIALOG DISCARDABLE  0, 0, 286, 84
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "置換"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "検索する文字列(&T)",IDC_STATIC,9,10,60,8
+    COMBOBOX        IDC_COMBO_FINDSTRING,75,7,133,68,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "置換後の文字列(&P)",IDC_STATIC,9,28,62,8
+    COMBOBOX        IDC_COMBO_REPLACESTRING,75,25,133,68,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "単語単位で探す(&W)",IDC_CHECK_WHOLEWORD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,45,73,10
+    CONTROL         "大文字と小文字を区別する(&C)",IDC_CHECK_MATCHCASE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,56,110,10
+    CONTROL         "正規表現を使う(&R)",IDC_CHECK_REGEX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,67,73,10
+    DEFPUSHBUTTON   "次を検索(&F)",IDC_FIND,217,7,62,14
+    PUSHBUTTON      "置換して次に(&N)",IDC_REPLACENEXT,217,25,62,14
+    PUSHBUTTON      "すべて置換(&A)",IDC_REPLACEALL,217,43,62,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,217,63,62,14
+END
+
+IDD_PROPPAGE9 DIALOG DISCARDABLE  0, 0, 305, 221
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "  メール  "
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "アカウント",IDC_STATIC,10,10,31,8
+    COMBOBOX        IDC_COMBO_ACCOUNT,47,8,111,63,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "アカウント情報",IDC_STATIC,7,23,291,63
+    LTEXT           "メールアドレス",IDC_STATIC,13,36,46,8
+    EDITTEXT        IDC_EDIT_MAILADDRESS,60,33,127,15,ES_AUTOHSCROLL
+    LTEXT           "SMTPサーバ",IDC_STATIC,13,52,42,8
+    EDITTEXT        IDC_EDIT_SMTPSERVER,60,49,126,15,ES_AUTOHSCROLL
+    LTEXT           "POP3サーバ",IDC_STATIC,13,69,41,8
+    EDITTEXT        IDC_EDIT_POPSERVER,60,65,126,15,ES_AUTOHSCROLL
+    LTEXT           "POP3ユーザ名",IDC_STATIC,191,30,48,8
+    EDITTEXT        IDC_EDIT_POPUSERNAME,190,39,79,15,ES_AUTOHSCROLL
+    LTEXT           "POP3パスワード",IDC_STATIC,192,56,52,8
+    EDITTEXT        IDC_EDIT_POPPASSWD,191,66,79,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    GROUPBOX        "接続",IDC_STATIC,7,89,166,82
+    CONTROL         "モデムを使用してダイアルアップ接続する(&M)",
+                    IDC_CHECK_DIALUP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    14,98,154,10
+    LTEXT           "接続名",IDC_STATIC,14,112,23,8
+    COMBOBOX        IDC_COMBO_DIALUPENTRY,48,110,111,41,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ユーザ名",IDC_STATIC,15,129,30,8
+    EDITTEXT        IDC_EDIT_RASUSERNAME,48,124,110,15,ES_AUTOHSCROLL
+    LTEXT           "ﾊﾟｽﾜｰﾄﾞ",IDC_STATIC,15,144,26,8
+    EDITTEXT        IDC_EDIT_RASPASSWD,48,140,110,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    CONTROL         "メール送信が終了したら自動的に切断する(&E)",
+                    IDC_CHECK_AUTODISCONNECT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,16,157,157,10
+    GROUPBOX        "添付ファイルエンコード方法",IDC_STATIC,178,89,120,42
+    CONTROL         "ＭＩＭＥ：Ｂａｓｅ６４(&B)",IDC_RADIO_ENCODE_BASE64,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,186,99,78,10
+    CONTROL         "ＭＩＭＥ：Quoted-Printable(&Q)",IDC_RADIO_ENCODE_QUOTED,
+                    "Button",BS_AUTORADIOBUTTON,186,109,107,10
+    CONTROL         "uuencode(&U)",IDC_RADIO_ENCODE_UUENCODE,"Button",
+                    BS_AUTORADIOBUTTON,186,119,57,10
+    CONTROL         "件名自動設定(&S)",IDC_CHECK_SUBJECTAUTOSET,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,186,136,70,10
+    CONTROL         "メッセージＩＤヘッダ作成(&I)",IDC_CHECK_SENDMSGID,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,186,146,96,10
+    CONTROL         "ＤＡＴＥヘッダ作成(&D)",IDC_CHECK_SENDDATE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,186,156,80,10
+    LTEXT           "署名",IDC_STATIC,10,175,16,8
+    EDITTEXT        IDC_EDIT_SIGNATURE,31,174,142,39,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN
+    GROUPBOX        "ユーザ認証方式",IDC_STATIC,179,171,120,42
+    CONTROL         "USER/PASSによる標準(&N)",IDC_RADIO_AUTH_STANDARD,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,189,184,99,7
+    CONTROL         "APOPコマンド使用(&P)",IDC_RADIO_AUTH_APOP,"Button",
+                    BS_AUTORADIOBUTTON,189,195,99,7
+END
+
+IDD_MAILSEND DIALOG DISCARDABLE  0, 0, 210, 271
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "メール送信"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "宛先",IDC_STATIC,8,13,16,8
+    COMBOBOX        IDC_COMBO_TO,40,10,163,63,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "件名",IDC_STATIC,8,30,16,8
+    EDITTEXT        IDC_EDIT_SUBJECT,40,27,162,15,ES_AUTOHSCROLL
+    LTEXT           "Ｃｃ",IDC_STATIC,8,48,15,8
+    EDITTEXT        IDC_EDIT_CC,40,45,162,15,ES_AUTOHSCROLL
+    LTEXT           "Ｂｃｃ",IDC_STATIC,8,66,15,8
+    EDITTEXT        IDC_EDIT_BCC,40,63,162,15,ES_AUTOHSCROLL
+    LTEXT           "ReplyTo",IDC_STATIC,8,84,25,8
+    EDITTEXT        IDC_EDIT_REPLYTO,40,81,162,15,ES_AUTOHSCROLL
+    LTEXT           "Ref",IDC_STATIC,8,102,12,8
+    EDITTEXT        IDC_EDIT_REFERENCE,40,100,162,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "ファイル添付(&A)",IDC_FILEATTACH,9,137,53,14
+    PUSHBUTTON      "添付解除(&D)",IDC_FILEDETACH,67,137,53,14
+    CONTROL         "List2",IDC_LIST_ATTACHFILE,"SysListView32",
+                    LVS_AUTOARRANGE | WS_BORDER | WS_TABSTOP,7,154,196,91
+    DEFPUSHBUTTON   "送信(&S)",IDOK,46,250,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,112,250,50,14
+    CONTROL         "開封確認メッセージを要求する(&R)",IDC_CHECK_DISPOSITION,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,120,120,10
+END
+
+IDD_MAILSENDSTATUS DIALOG DISCARDABLE  0, 0, 243, 95
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "メール送信状況"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "キャンセル",IDCANCEL,96,72,50,14
+    LTEXT           "送信状況",IDC_STATIC,11,36,31,8
+    LTEXT           "",IDC_STATUS,65,36,168,31
+    LTEXT           "ＳＭＴＰサーバ",IDC_STATIC,11,22,45,8
+    LTEXT           "",IDC_MSENDSERVER,65,22,168,9
+    LTEXT           "アカウント",IDC_STATIC,11,10,31,8
+    LTEXT           "",IDC_MSENDACCOUNT,65,10,168,9
+END
+
+IDD_MAILLISTSTATUS DIALOG DISCARDABLE  0, 0, 243, 95
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "メールリスト状況"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "アカウント",ID_STATIC,11,10,31,8
+    LTEXT           "",IDC_LISTACCOUNT,65,10,168,9
+    LTEXT           "ＰＯＰ３サーバ",ID_STATIC,11,22,44,8
+    LTEXT           "",IDC_LISTSERVER,65,22,168,9
+    LTEXT           "リスト状況",ID_STATIC,11,36,33,8
+    LTEXT           "",IDC_STATUS,65,36,168,31
+    DEFPUSHBUTTON   "キャンセル",IDCANCEL,96,72,50,14
+END
+
+IDD_MAILLIST DIALOG DISCARDABLE  0, 0, 370, 221
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ＰＯＰ３サーバ上メール一覧"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "ＰＯＰ３サーバ  ：",IDC_STATIC,7,9,46,8
+    LTEXT           "POP3 Server",IDC_POPSERVER,56,7,268,11
+    LTEXT           "ＰＯＰ３ユーザ  ：",IDC_STATIC,7,25,46,8
+    LTEXT           "POP3 User",IDC_POPUSER,56,23,268,11
+    LTEXT           "メール総数    ：  ",IDC_MAILCOUNT,7,39,126,8
+    CONTROL         "List2",IDC_LIST_MAIL,"SysListView32",LVS_REPORT | 
+                    LVS_OWNERDRAWFIXED | WS_BORDER | WS_TABSTOP,7,58,356,131
+    PUSHBUTTON      "メール受信(&R)",IDC_RECVBTN,7,200,50,14
+    PUSHBUTTON      "メール削除(&D)",IDC_DELBTN,58,200,50,14
+    DEFPUSHBUTTON   "ＯＫ",IDOK,313,200,50,14
+    PUSHBUTTON      "表示更新(&H)",IDC_REFRESHBTN,109,200,50,14
+END
+
+IDD_KAIGYOCONV DIALOG DISCARDABLE  0, 0, 282, 94
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "改行コード変換"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "改行コード変換区分(&K)",IDC_STATIC,10,11,72,8
+    COMBOBOX        IDC_COMBO_CONVKIND,84,7,129,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ファイルの種類(&T)",IDC_STATIC,11,27,56,8
+    EDITTEXT        IDC_EDIT_FILEKIND,84,24,129,14,ES_AUTOHSCROLL
+    LTEXT           "フォルダ(&O)",IDC_STATIC,11,42,36,8
+    EDITTEXT        IDC_EDIT_FOLDER,84,40,129,13,ES_AUTOHSCROLL
+    CONTROL         "サブフォルダも探す(&S)",IDC_CHECK_SUBFOLDER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,59,82,10
+    CONTROL         "変換結果を別ファイルへ出力する(&B)",
+                    IDC_CHECK_OUTOTHERFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,72,122,10
+    DEFPUSHBUTTON   "変換実行(&C)",IDOK,219,7,52,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,219,24,52,14
+    PUSHBUTTON      "フォルダ選択(&F)",IDC_BROWSE,219,41,52,14
+END
+
+IDD_KAIGYOCONVSTATUS DIALOG DISCARDABLE  0, 0, 207, 103
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "改行コード変換実行状況"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "キャンセル",IDCANCEL,78,82,50,14
+    LTEXT           "フォルダ",IDC_STATIC,11,40,26,8
+    LTEXT           "変換中ファイル",IDC_STATIC,11,54,48,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,40,133,8
+    LTEXT           "FILE",IDC_FILE,67,54,133,8
+    LTEXT           "ファイル種別",IDC_STATIC,11,26,42,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,26,133,8
+    LTEXT           "変換種別",IDC_STATIC,11,12,39,8
+    LTEXT           "CONVKIND",IDC_CONVKIND,67,12,133,8
+    LTEXT           "変換ファイル数",IDC_STATIC,11,67,47,8
+    LTEXT           "FILECOUNT",IDC_FILECOUNT,66,67,133,8
+END
+
+IDD_PROPPAGE10 DIALOG DISCARDABLE  0, 0, 299, 219
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "  キー割り当て  "
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "キー(&K)",IDC_STATIC,7,7,23,8
+    LISTBOX         IDC_LIST_KEY,7,17,78,147,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Ctrl(&C)",IDC_CHECK_CTRL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,171,36,10
+    CONTROL         "Shift(&S)",IDC_CHECK_SHIFT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,49,171,36,10
+    CONTROL         "Alt(&L)",IDC_CHECK_ALT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,186,33,10
+    LTEXT           "機能(&F)",IDC_STATIC,92,7,23,8
+    COMBOBOX        IDC_COMBO_FUNC,92,17,124,73,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_CMD,92,35,124,128,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "コマンドＩＤ",IDC_STATIC,93,171,33,8
+    LTEXT           "コマンドＩＤ",IDC_CMDID,130,171,111,10
+    LTEXT           "説明",IDC_STATIC,93,188,16,8
+    LTEXT           "説明",IDC_SETUMEI,130,188,158,18
+    DEFPUSHBUTTON   "割り当て(&W)",IDC_BUTTON_ASSIGN,220,17,66,14
+    DEFPUSHBUTTON   "解除(&U)",IDC_BUTTON_KAIJYO,220,36,66,14
+    DEFPUSHBUTTON   "一覧表示(&D)",IDC_BUTTON_LIST,220,55,66,14
+    DEFPUSHBUTTON   "リセット(&R)",IDC_BUTTON_RESET,220,74,66,14
+    DEFPUSHBUTTON   "ファイル書き出し(&O)",IDC_BUTTON_WRITE,220,93,66,14
+    DEFPUSHBUTTON   "ファイル読み込み(&I)",IDC_BUTTON_READ,220,112,66,14
+    DEFPUSHBUTTON   "ヘルプ(&H)",IDC_BUTTON_HELP,220,131,66,14
+END
+
+IDD_KEYBINDLIST DIALOG DISCARDABLE  0, 0, 298, 173
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "現在のキー割り当て一覧"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "ＯＫ",IDOK,123,152,50,14
+    CONTROL         "List1",IDC_LIST_KEYBIND,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_OWNERDRAWFIXED | WS_BORDER | 
+                    WS_TABSTOP,7,7,284,139
+END
+
+IDD_CUSTOM_FILEOPEN DIALOG DISCARDABLE  0, 0, 255, 164
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "",1119,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,0,0,255,
+                    64
+    LTEXT           "Path",IDC_PATH,5,65,247,9
+    EDITTEXT        IDC_EDIT_PREVIEW,5,89,245,69,ES_MULTILINE | ES_READONLY | 
+                    ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Time",IDC_TIME,5,77,247,9
+END
+
+IDD_PROPPAGE11 DIALOG DISCARDABLE  0, 0, 259, 219
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "サウンド"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "音を鳴らす場面(&V)",IDC_STATIC,8,8,56,8
+    CONTROL         "Tree1",IDC_TREE_SOUNDS,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,7,19,245,124
+    GROUPBOX        "サウンド",IDC_STATIC,7,150,171,59
+    LTEXT           "サウンド名(&N)",IDC_STATIC,13,162,40,8
+    COMBOBOX        IDC_COMBO_WAVEFILES,13,172,157,89,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "テスト(&T)",IDC_BUTTON_TEST,13,189,61,16
+END
+
+IDD_HTMLOPEN DIALOG DISCARDABLE  0, 0, 282, 110
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Web上の指定されたHTMLファイルのソースを開く"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "開くHTMLファイル(&A)  （例：http://www.yahoo.co.jp/index.html）",
+                    IDC_STATIC,7,8,199,8
+    COMBOBOX        IDC_COMBO_REQUESTPATH,13,19,257,61,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "プロキシサーバを使用する(&X)",IDC_CHECK_USEPROXY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,36,107,10
+    DEFPUSHBUTTON   "OK",IDOK,83,89,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,149,89,50,14
+    LTEXT           "アドレス(&D)  （例：foo.bar.co.jp 又は 123.456.789.0）",
+                    IDC_STATIC,24,51,162,8
+    EDITTEXT        IDC_EDIT_PROXYIPADDRESS,24,64,224,14,ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE12 DIALOG DISCARDABLE  0, 0, 254, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "　ＨＴＭＬファイルオープン"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "プロキシサーバを使用する(&X)",IDC_CHECK_USEPROXY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,8,107,10
+    LTEXT           "アドレス(&D)  （例：foo.bar.co.jp 又は 123.456.789.0）",
+                    ID_STATIC,17,23,162,8
+    EDITTEXT        IDC_EDIT_PROXYIPADDRESS,17,36,224,14,ES_AUTOHSCROLL
+    GROUPBOX        "接続",ID_STATIC,11,58,172,82
+    CONTROL         "モデムを使用してダイアルアップ接続する(&M)",
+                    IDC_CHECK_DIALUP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    18,67,154,10
+    LTEXT           "接続名",ID_STATIC,18,81,23,8
+    COMBOBOX        IDC_COMBO_DIALUPENTRY,52,79,111,41,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ユーザ名",ID_STATIC,19,98,30,8
+    EDITTEXT        IDC_EDIT_RASUSERNAME,52,93,110,15,ES_AUTOHSCROLL
+    LTEXT           "ﾊﾟｽﾜｰﾄﾞ",ID_STATIC,19,113,26,8
+    EDITTEXT        IDC_EDIT_RASPASSWD,52,109,110,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    CONTROL         "終了したら自動的に切断する(&E)",
+                    IDC_CHECK_AUTODISCONNECT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,20,126,115,10
+END
+
+IDD_HTMLOPENSTATUS DIALOG DISCARDABLE  0, 0, 235, 102
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "ＨＴＭＬオープン状況"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "状況",ID_STATIC,11,10,16,8
+    LTEXT           "status",IDC_STATUS,44,10,179,33
+    LTEXT           "バイト数",ID_STATIC,12,48,26,8
+    LTEXT           "00000 / 00000 ( 000 % )",IDC_BYTE,44,48,179,9
+    CONTROL         "Progress1",IDC_PROGRESS_BYTE,"msctls_progress32",
+                    WS_BORDER,27,63,180,10
+    DEFPUSHBUTTON   "キャンセル",IDCANCEL,92,78,50,14
+END
+
+IDD_HTMLOPENRESULT DIALOG DISCARDABLE  0, 0, 238, 145
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "ＨＴＭＬオープン結果"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "結果",ID_STATIC,11,9,16,8
+    LTEXT           "",IDC_STATUS,33,9,194,8
+    LTEXT           "ＨＴＴＰサーバレスポンス",ID_STATIC,12,23,76,8
+    EDITTEXT        IDC_EDIT_HEADER,11,34,216,86,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL | WS_HSCROLL
+    DEFPUSHBUTTON   "ＯＫ",IDOK,93,124,50,14
+END
+
+IDD_BASICAUTH DIALOG DISCARDABLE  0, 0, 258, 140
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ネットワークパスワードの入力"
+FONT 10, "ＭＳ Ｐゴシック"
+BEGIN
+    ICON            IDR_AUTH,IDC_STATIC,14,13,20,20
+    LTEXT           "ﾕｰｻﾞｰ名とﾊﾟｽﾜｰﾄﾞを入力してください。",IDC_STATIC,43,13,
+                    115,8
+    LTEXT           "ｻｲﾄ：",IDC_STATIC,43,32,16,8
+    LTEXT           "ejdev2.img.olympus.co.jp",IDC_AUTH_SITE,105,31,140,10
+    LTEXT           "領域",IDC_STATIC,43,47,18,8
+    LTEXT           "EJIS_Member",IDC_AUTH_REALM,106,46,139,10
+    LTEXT           "ﾕｰｻﾞｰ名(&U)",IDC_STATIC,44,65,37,8
+    EDITTEXT        IDC_EDIT_AUTH_USER,104,63,142,15,ES_AUTOHSCROLL
+    LTEXT           "ﾊﾟｽﾜｰﾄﾞ(&P)",IDC_STATIC,44,84,37,8
+    EDITTEXT        IDC_EDIT_AUTH_PASSWD,104,81,143,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    CONTROL         "このﾊﾟｽﾜｰﾄﾞを保存する(&S)",IDC_CHECK_SAVETHISPASSWD,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,101,94,10
+    DEFPUSHBUTTON   "OK",IDOK,137,119,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,200,119,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "テキストエディタ　Ｘｅｒｘｅｓ\0"
+            VALUE "FileVersion", "Beta Version Build 2005/02/27\0"
+            VALUE "InternalName", "Xerxes\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998-2005  江倉勢人\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Xerxes.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Xerxes\0"
+            VALUE "ProductVersion", "Beta Version Build 2005/02/27\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 244
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 76
+    END
+
+    IDD_PROPPAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_PROPPAGE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_PROPPAGE3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 9
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_DIALOG_JUMP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_GREP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_GREPSTATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_CODECONV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+
+    IDD_CONVSTATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_PROPPAGE4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 158
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_PROPPAGE5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_FILEPROPERTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_WORDCOUNT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_FILESEARCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 267
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_FILESEARCHSTATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_PROPPAGE6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 264
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+
+    IDD_LICENSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_PROPPAGE7, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_WCNTSTATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 69
+    END
+
+    IDD_CLIPBOARDVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 163
+    END
+
+    IDD_KEYOPE_DISP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 299
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 260
+    END
+
+    IDD_PROPPAGE8, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_MARKLINELIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_ENCRIPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_ENCRIPTSTATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DECRIPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+
+    IDD_DECRIPTSTATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_EXECPASSWD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 184
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_CHECKEXECPASSWD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 186
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_FILECOMPARERESULT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_FILECOMPARE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_DIRCOMPARE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 356
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIRCOMPARESTATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_DIRCOMPARERESULT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_FILECOPY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_FILERENAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 239
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_FILEMOVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_FILETOUCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 255
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_FIND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_REPLACE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 279
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_PROPPAGE9, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 298
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 213
+    END
+
+    IDD_MAILSEND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+    END
+
+    IDD_MAILSENDSTATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_MAILLISTSTATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_MAILLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 363
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_KAIGYOCONV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_KAIGYOCONVSTATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_PROPPAGE10, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+    END
+
+    IDD_KEYBINDLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_CUSTOM_FILEOPEN, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 161
+    END
+
+    IDD_PROPPAGE11, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 211
+    END
+
+    IDD_HTMLOPEN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_PROPPAGE12, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_HTMLOPENSTATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_HTMLOPENRESULT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_BASICAUTH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HAND                CURSOR  DISCARDABLE     "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    ID_FILE_MAILLIST        "ＰＯＰ３サーバに受信済みのメール一覧を表示\nメール一覧"
+    ID_EDIT_KAIGYOCONV      "複数ファイルの改行コードを一括してCR+LF、LF、CRへ変換します。\n改行コード変換"
+    ID_CHANGE_INSMODE       "挿入／上書きモードを切り替えます"
+    ID_HELP_CONTENT2        "ＨＴＭＬヘルプの目次を表示\nＨＴＭＬヘルプの目次"
+    ID_CUSTOMIZE_TOOLBAR    "標準ツールバーのボタン並びをカスタマイズします"
+    ID_CUSTOMIZE_TOOLBAREDIT 
+                            "編集関連ツールバーのボタン並びをカスタマイズします"
+    ID_CUSTOMIZE_TOOLBARFIND 
+                            "検索関連ツールバーのボタン並びをカスタマイズします"
+    ID_CUSTOMIZE_TOOLBARJMP "ジャンプ関連ツールバーのボタン並びをカスタマイズします"
+    ID_CUSTOMIZE_TOOLBARTOOLS 
+                            "ツール関連ツールバーのボタン並びをカスタマイズします"
+    ID_CUSTOMIZE_TOOLBARWND "ウインドウ関連ツールバーのボタン並びをカスタマイズします"
+    ID_EDIT_ALLUNDO         "今までに行った動作をすべて元に戻す\nすべて元に戻す"
+    ID_EDIT_ALLREDO         "今までに行った動作をすべて繰り返し\nすべて繰り返し"
+    ID_HTTP_FILE_OPEN       "Webサイトから指定HTMLファイルをダウンロードしてソースを開く"
+    ID_EDIT_FCOMP_TABEQUAL2SPACE "ファイル比較時に、空白文字を区別しない"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_FOPEN_ERR           "ファイルが開けません"
+    IDS_CANTACCESS_FILE     "ファイルにアクセスできません"
+    IDS_FILEACCESS_ERROR    "ファイルアクセスエラー"
+    IDS_INFOPEN_ERR         "入力ファイルオープンエラー"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_OUTFOPEN_ERR        "出力ファイルオープンエラー"
+    IDS_FILEKIND            "複数のファイルの種類を指定する場合は、セミコロン( ; )で区切って下さい"
+    IDS_BROWSE              "フォルダ選択ダイアログを表示"
+    IDS_INPUT_FOLDER        "フォルダを入力してください"
+    IDS_INPUT_FILEKIND      "ファイルの種類を入力してください"
+    IDS_FOPEN_AS_READONLY   "読み取り専用ファイルとして開く(&R)"
+    IDS_INPUT_FINDSTRING    "検索する文字列を入力してください"
+    IDS_FINDEND             "検索終了しました"
+    IDS_FINDENDMSG          "「%s」の\r\n検索が終了しました"
+    IDS_REPLACEEND          "置換終了しました"
+    IDS_REPLACEENDMSG       "「%s」の\r\n置換が終了しました"
+    IDS_FINDFILE_NOTFOUND   "検索結果ファイル\r\n %s\r\nが見つかりません"
+    IDS_GREPEND             "ＧＲＥＰ終了しました\r\nマウスでダブルクリックするとその位置へジャンプします"
+    IDS_GREPCANCEL          "ＧＲＥＰを中止しました"
+    IDS_NOGREPFOLDER        "ＧＲＥＰ実行フォルダがありません"
+    IDS_GREPFILE_NOTFOUND   "ＧＲＥＰ結果ファイル\r\n %s\r\nが見つかりません"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_GERP_TITLE          "「%s」のＧＲＥＰ結果"
+    IDS_GREP_MATCHCOUNT     " 該当件数 : %ld"
+    IDS_ASCIIDUMP_TITLE     "「%s」のＡＳＣＩＩコード表示ダンプ結果"
+    IDS_SJISDUMP_TITLE      "「%s」のＳｈｉｆｔ－ＪＩＳコード表示ダンプ結果"
+    IDS_CONVEND             "文字コード変換終了しました"
+    IDS_CONVERR             "文字コード変換失敗"
+    IDS_CONVCANCEL          "文字コード変換を中止しました"
+    IDS_NOCONVFOLDER        "文字コード変換実行フォルダがありません"
+    IDS_CONVZERO            "文字コード変換対象ファイルはゼロでした"
+    IDS_CONVKIND_ERR        "文字コード変換区分エラー"
+    IDS_CANTGET_CONVTMPFNAME 
+                            "文字コード変換用の一時ファイル名を取得できません"
+    IDS_CANTMAKE_CONVTMPFILE "文字コード変換用の一時ファイルを作成できません"
+    IDS_CONV_TITLE          "「%s」の文字コード変換結果"
+    IDS_CONV_TITLE2         "文字コード変換結果"
+    IDS_CONV_FILECOUNT      " 変換対象ファイル数 : %ld"
+    IDS_CONV_MEMO           "注記：ファイル名は３０文字で区切りました。"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_INCODEKIND_ERR      "入力ファイルの文字コード判別区分エラー"
+    IDS_CODECONV_TO_EUC     "－＞ ＥＵＣ"
+    IDS_CODECONV_TO_SJIS    "－＞ Ｓｈｉｆｔ－ＪＩＳ"
+    IDS_CODECONV_TO_JIS     "－＞ ＪＩＳ"
+    IDS_INCODE_AUTO         "自動的に判別する"
+    IDS_INCODE_EUC          "EUCコードとみなす"
+    IDS_INCODE_SJIS         "Shift-JISコードとみなす"
+    IDS_INCODE_JIS          "JISコードとみなす"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_CONV_FOLDER_TITLE   "フォルダ : %s"
+    IDS_CONV_LIST_TITLE     "  入力ファイル名                 出力ファイル名  ステータス"
+    IDS_CONV_MSG_BINARY     "バイナリファイルでしたので変換しませんでした"
+    IDS_CONV_MSG_ASCII      "ＡＳＣＩＩファイルでしたので変換しませんでした"
+    IDS_CONV_MSG_UNKNOWN    "文字コードが不明でしたので変換しませんでした"
+    IDS_CONV_MSG_SJISEXIST  "すでにシフトＪＩＳコードがありますので変換しませんでした"
+    IDS_CONV_MSG_JISEXIST   "すでにＪＩＳコードがありますので変換しませんでした"
+    IDS_CONV_MSG_EUCEXIST   "すでにＥＵＣコードがありますので変換しませんでした"
+    IDS_CONV_SJIS2EUC       "シフトＪＩＳ－＞ＥＵＣ変換正常終了"
+    IDS_CONV_SJIS2JIS       "シフトＪＩＳ－＞ＪＩＳ変換正常終了"
+    IDS_CONV_EUC2SJIS       "ＥＵＣ－＞シフトＪＩＳ変換正常終了"
+    IDS_CONV_EUC2JIS        "ＥＵＣ－＞ＪＩＳ変換正常終了"
+    IDS_CONV_JIS2SJIS       "ＪＩＳ－＞シフトＪＩＳ変換正常終了"
+    IDS_CONV_JIS2EUC        "ＪＩＳ－＞ＥＵＣ変換正常終了"
+    IDS_CONV_OUT_RENAMEERR  " : 同一ファイル出力のためのファイル名変更に失敗しました。出力ファイルが残っています"
+    IDS_CONV_IN_RENAMEERR   " : 同一ファイル出力のための入力ファイル削除に失敗しました。入力ファイルが残っています"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_KAIGYOCONVEND       "改行コード変換終了しました"
+    IDS_KAIGYOCONVCANCEL    "改行コード変換を中止しました"
+    IDS_NOKAIGYOCONVFOLDER  "改行コード変換実行フォルダがありません"
+    IDS_KAIGYOCONVZERO      "改行コード変換対象ファイルはゼロでした"
+    IDS_KAIGYOCONVKIND_ERR  "改行コード変換区分エラー"
+    IDS_CANTGET_KAIGYOCONVTMPFNAME 
+                            "改行コード変換用の一時ファイル名を取得できません"
+    IDS_CANTMAKE_KAIGYOCONVTMPFILE 
+                            "改行コード変換用の一時ファイルを作成できません"
+    IDS_KAIGYOCONV_TITLE    "「%s」の改行コード変換結果"
+    IDS_KAIGYOCONV_TITLE2   "改行コード変換結果"
+    IDS_KAIGYOCONV_FILECOUNT " 変換対象ファイル数 : %ld"
+    IDS_KAIGYOCONV_MEMO     "注記：ファイル名は３０文字で区切りました。"
+    IDS_KAIGYOCONV_FOLDER_TITLE "フォルダ : %s"
+    IDS_KAIGYOCONV_LIST_TITLE 
+                            "  入力ファイル名                 出力ファイル名  ステータス"
+    IDS_KAIGYOCONV_MSG_BINARY "バイナリファイルでしたので変換しませんでした"
+    IDS_KAIGYOCONV_MSG_UNKNOWN "文字コードが不明でしたので変換しませんでした"
+    IDS_KAIGYOCONV_MSG_CRLFEXIST "すでにＣＲ＋ＬＦですので変換しませんでした"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_KAIGYOCONV_MSG_LFEXIST "すでにＬＦですので変換しませんでした"
+    IDS_KAIGYOCONV_MSG_CREXIST "すでにＣＲですので変換しませんでした"
+    IDS_KAIGYOCONV_CRLF2LF  "改行コード  ＣＲ＋ＬＦ－＞ＬＦ変換正常終了"
+    IDS_KAIGYOCONV_CRLF2CR  "改行コード  ＣＲ＋ＬＦ－＞ＣＲ変換正常終了"
+    IDS_KAIGYOCONV_LF2CRLF  "改行コード  ＬＦ－＞ＣＲ＋ＬＦ変換正常終了"
+    IDS_KAIGYOCONV_LF2CR    "改行コード  ＬＦ－＞ＣＲ変換正常終了"
+    IDS_KAIGYOCONV_CR2CRLF  "改行コード  ＣＲ－＞ＣＲ＋ＬＦ変換正常終了"
+    IDS_KAIGYOCONV_CR2LF    "改行コード  ＣＲ－＞ＬＦ変換正常終了"
+    IDS_KAIGYOCONV_OUT_RENAMEERR 
+                            " : 同一ファイル出力のためのファイル名変更に失敗しました。出力ファイルが残っています"
+    IDS_KAIGYOCONV_IN_RENAMEERR 
+                            " : 同一ファイル出力のための入力ファイル削除に失敗しました。入力ファイルが残っています"
+    IDS_NOWCOUNTFOLDER      "ワードカウント実行フォルダがありません"
+    IDS_WCOUNTEND           "ワードカウント終了しました"
+    IDS_WCOUNTCANCEL        "ワードカウント中止しました"
+    IDS_WCOUNTZERO          "ワードカウント対象ファイルはゼロでした"
+    IDS_WCOUNT_TITLE        "ワードカウント実行結果"
+    IDS_WCOUNT_FILECOUNT    " 対象ファイル数 : %ld"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_WCOUNT_MEMO         "注記：ファイル名は３５文字で区切りました。"
+    IDS_WCOUNT_MEMO2        "      ワード数は半角の空白文字で区切られた単語数を数えたものです。"
+    IDS_WCOUNT_MEMO3        "      空白行数は空白文字のみの行数を数えたものです。"
+    IDS_WCOUNT_MEMO4        "      コメント行数は // や /* のＣ・Ｃ＋＋のコメントで始まる行数を数えたものです。"
+    IDS_WCOUNT_FOLDER_TITLE "フォルダ : %s"
+    IDS_WCOUNT_LIST_TITLE   "  ファイル名                            バイト数   ワード数     総行数   空白行数   コメント行数"
+    IDS_NOFSEARCHFOLDER     "ファイル検索実行フォルダがありません"
+    IDS_FSEARCHEND          "ファイル検索終了しました\r\nマウスでダブルクリックするとそのファイルをオープンします"
+    IDS_FSEARCHCANCEL       "ファイル検索中止しました"
+    IDS_FSEARCH_TITLE       "「%s」のファイル検索結果"
+    IDS_FSEARCH_FILECOUNT   " 該当件数 : %ld"
+    IDS_NOENCRIPTFOLDER     "ファイル暗号化実行フォルダがありません"
+    IDS_ENCRIPTEND          "ファイル暗号化終了しました"
+    IDS_ENCRIPTZERO         "ファイル暗号化対象ファイルはゼロでした"
+    IDS_ENCRIPTCANCEL       "ファイル暗号化を中止しました"
+    IDS_INPUT_ENCRIPTKEY    "暗号化キーを入力してください"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_LESS16_ENCRIPTKEY   "暗号化キーは１６文字以内にして下さい"
+    IDS_ODD_ENCRIPTKEY      "暗号化キー長は偶数にして下さい"
+    IDS_ASCIONLY_ENCRIPTKEY "暗号化キーは半角文字のみにしてください"
+    IDS_ASCIONLY_ENCRIPTKEY2 
+                            "暗号化キーは、０～９とＡ～Ｆのみの文字にしてください"
+    IDS_CANTGET_ENCRIPTTMPFNAME "暗号化用の一時ファイル名を取得できません"
+    IDS_CANTMAKE_ENCRIPTTMPFILE 
+                            "ファイル暗号化用の一時ファイルを作成できません"
+    IDS_ENCRYPTKEY          "0-9までの数字とA-Fまでのアルファベットを任意に組み合わせて16字以内で入力してください"
+    IDS_ENCRYPT_TITLE       "ＤＥＳによるファイル暗号化結果"
+    IDS_ENCRYPT_FILECOUNT   " 暗号化対象ファイル数 : %ld"
+    IDS_ENCRYPT_MEMO        "注記：ファイル名は３０文字で区切りました。"
+    IDS_ENCRYPT_FOLDER_TITLE "フォルダ : %s"
+    IDS_ENCRYPT_LIST_TITLE  "  入力ファイル名                 出力ファイル名  ステータス"
+    IDS_ENCRYPT_RESULTMSG   "ファイル暗号化正常終了"
+    IDS_ENCRYPT_PARAMERR    "暗号化パラメータエラー"
+    IDS_ENCRYPT_FACCESSERR  "暗号化対象ファイルアクセスエラー"
+    IDS_ENCRYPT_OUT_RENAMEERR 
+                            " : 同一ファイル出力のためのファイル名変更に失敗しました。出力ファイルが残っています"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_ENCRYPT_IN_RENAMEERR 
+                            " : 同一ファイル出力のための入力ファイル削除に失敗しました。入力ファイルが残っています"
+    IDS_NODECRIPTFOLDER     "ファイル復号化実行フォルダがありません"
+    IDS_DECRIPTEND          "ファイル復号化終了しました"
+    IDS_DECRIPTZERO         "ファイル復号化対象ファイルはゼロでした"
+    IDS_DECRIPTCANCEL       "ファイル復号化中止しました"
+    IDS_INPUT_DECRIPTKEY    "復号化キーを入力してください"
+    IDS_LESS16_DECRIPTKEY   "復号化キーは１６文字以内にして下さい"
+    IDS_ODD_DECRIPTKEY      "復号化キー長は偶数にして下さい"
+    IDS_ASCIONLY_DECRIPTKEY "復号化キーは半角文字のみにしてください"
+    IDS_ASCIONLY_DECRIPTKEY2 
+                            "復号化キーは、０～９とＡ～Ｆのみの文字にしてください"
+    IDS_CANTGET_DECRIPTTMPFNAME "復号化用の一時ファイル名を取得できません"
+    IDS_CANTMAKE_DECRIPTTMPFILE 
+                            "ファイル復号化用の一時ファイルを作成できません"
+    IDS_DECRYPTKEY          "0-9までの数字とA-Fまでのアルファベットを任意に組み合わせて16字以内で入力してください"
+    IDS_DECRYPT_TITLE       "ＤＥＳによるファイル復号化結果"
+    IDS_DECRYPT_FILECOUNT   " 復号化対象ファイル数 : %ld"
+    IDS_DECRYPT_MEMO        "注記：ファイル名は３０文字で区切りました。"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_DECRYPT_FOLDER_TITLE "フォルダ : %s"
+    IDS_DECRYPT_LIST_TITLE  "  入力ファイル名                 出力ファイル名  ステータス"
+    IDS_DECRYPT_RESULTMSG   "ファイル復号化正常終了"
+    IDS_DECRYPT_PARAMERR    "復号化パラメータエラー"
+    IDS_DECRYPT_FACCESSERR  "復号化対象ファイルアクセスエラー"
+    IDS_DECRYPT_FCOLLUPT    "ファイルが壊れている、あるいはキーが不正"
+    IDS_DECRYPT_OUT_RENAMEERR 
+                            " : 同一ファイル出力のためのファイル名変更に失敗しました。出力ファイルが残っています"
+    IDS_DECRYPT_IN_RENAMEERR 
+                            " : 同一ファイル出力のための入力ファイル削除に失敗しました。入力ファイルが残っています"
+    IDS_FILECOMPARE_SEL1FILE "比較対象の第一ファイルを指定してください"
+    IDS_FILECOMPARE_SEL2FILE "比較対象の第二ファイルを指定してください"
+    IDS_FILECOMPARE_READ1FILE "第一ファイル読み込み中"
+    IDS_FILECOMPARE_READ2FILE "第二ファイル読み込み中"
+    IDS_FILECOMPARE_COMPFILE "ファイル比較中"
+    IDS_FILECOMPARE_OUTRESULT "比較結果出力中"
+    IDS_NO1STDIR_CMP        "比較第一ディレクトリがありません"
+    IDS_NO2NDDIR_CMP        "比較第二ディレクトリがありません"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_NOMORE_NEXTDIFF     "次の相違個所はもうありません"
+    IDS_NOMORE_PREVDIFF     "前の相違個所はもうありません"
+    IDS_1STZERO_FILECMP     "第一ファイルの行数がゼロのため比較できません"
+    IDS_2NDZERO_FILECMP     "第二ファイルの行数がゼロのため比較できません"
+    IDS_TIME                "%6ld (秒)"
+    IDS_FILECOMPARE_BINARY  "%s はバイナリファイルなので比較できません"
+    IDS_FILECOMPARE_TITLE   "%s と %s のファイル比較結果"
+    IDS_FILECOMPARECANCEL   "キャンセル終了"
+    IDS_FILECOMPARENG       "異常終了"
+    IDS_FILECOMPARE_END     "正常終了 不一致個所はありません"
+    IDS_FILECOMPARE_END2    "正常終了"
+    IDS_INPUT1STDIR         "第一ディレクトリを入力してください"
+    IDS_INPUT2NDDIR         "第二ディレクトリを入力してください"
+    IDS_INPUTDIFFDIR        "違うディレクトリを指定してください"
+    IDS_1STZERO_DIRCMP      "第一ディレクトリ中のファイル数がゼロのため比較できません"
+    IDS_2NDZERO_DIRCMP      "第二ディレクトリ中のファイル数がゼロのため比較できません"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_DIRCOMPARE_MAKE1DIR "第一ディレクトリのファイル一覧作成中"
+    IDS_DIRCOMPARE_MAKE2DIR "第ニディレクトリのファイル一覧作成中"
+    IDS_DIRCOMPARE_NOWCOMPARE "ディレクトリ比較中"
+    IDS_DIRCOMPARE_OUTRESULT "比較結果出力中"
+    IDS_DIRCOMPARE_RESULTMSG1 "  %-30s : %s にのみ存在"
+    IDS_DIRCOMPARE_RESULTMSG2 "  %-30s : 差異あり（%s の方が新しい）"
+    IDS_DIRCOMPARE_RESULTMSG3 "  %-30s : 差異あり（日付は同じ）"
+    IDS_DIRCOMPARE_TITLE    "%s と %s のディレクトリ比較結果"
+    IDS_DIRCOMPARE_LIST_TITLE "  ファイル名                     ステータス"
+    IDS_DIRCOMPARE_1STDIR   "比較第一ディレクトリ：%s"
+    IDS_DIRCOMPARE_2NDDIR   "比較第二ディレクトリ：%s"
+    IDS_DIRCOMPARE_TITLE2   "ディレクトリ比較結果"
+    IDS_DIRCOMPARECANCEL    "キャンセル終了"
+    IDS_DIRCOMPARENG        "異常終了"
+    IDS_DIRCOMAPRE_END      "正常終了\r\n相違行をダブルクリックすると詳細比較します"
+    IDS_PRINTLAYOUTHELP     "レイアウト\r\n\r\n&f:フルパス名\r\n&n:ファイル名\r\n&d:日付\r\n&t:時刻\r\n&p:ページ番号\r\n&P:総ページ数"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_LOGOBMPLOAD_NG      "指定されたロゴビットマップをロードできませんでした"
+    IDS_SPLASHTIME_ERR      "スプラッシュスクリーン表示時間は\r\n１～１０の値を入力してください"
+    IDS_AUTOSAVETIME_ERR    "オートセーブ間隔は\r\n１～６０の値を入力してください"
+    IDS_LOGOX_ERR           "ロゴ位置Ｘに０～１００の値を入力してください"
+    IDS_LOGOY_ERR           "ロゴ位置Ｙに０～１００の値を入力してください"
+    IDS_SET_PASSWD          "起動パスワードを設定してください"
+    IDS_INPUT_PASSWD        "起動パスワードを入力してください"
+    IDS_INPUT_ORGANIZATION  "所属名を入力してください"
+    IDS_INPUT_USERNAME      "ユーザ名を入力してください"
+    IDS_NOFILE_INTHISDIR    "ディレクトリ\r\n%s\r\nには、同名のファイルは他にありません"
+    IDS_CONFIRM_REREAD1     "%s\r\n\r\nこのファイルは外部のエディタで変更されています。\r\n再ロードを行うと変更が失われますがよろしいですか？"
+    IDS_CONFIRM_REREAD2     "%s\r\n\r\nこのファイルは外部のエディタで変更されています。再ロードしますか？"
+    IDS_NOTALLDISP_CLIP     "クリップボード中のデータは６４ＫＢ以上なので全ては表示できません"
+    IDS_ERRCHANGEFILEATTR   "ファイル属性の変更ができませんでした"
+    IDS_HTMLHELP_OPEN_ERR   "ＨＴＭＬヘルプファイルが開けませんでした\r\nＨＴＭＬヘルプを表示するにはInternet Explorer Ver4以上が\r\nお使いのパソコンにインストールされていることが必要です。"
+    IDS_BROUSERKICK_ERR     "ＷＥＢブラウザの起動に失敗しました"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_NOTABOVEURL         "キャレットがＵＲＬ上にありません"
+    IDS_MAILERKICK_ERR      "メーラーの起動に失敗しました"
+    IDS_NOTABOVEEMAIL       "キャレットがｅ－ｍａｉｌ上にありません"
+    IDS_SOFTKICK_ERR        "関連づけられたソフトの起動に失敗しました。"
+    IDS_LICENSE_OK          "ライセンスキー正常です。ユーザー登録が完了しました"
+    IDS_LICENSE_NG          "ライセンスキー異常です。正しいライセンスキーを入れてください"
+    IDS_INITIALNOTE         "Xerxes Beta 版をご試用いただきありがとうございます"
+    IDS_EXPIRED             "３０日の試用期限が切れました"
+    IDS_TOOL_OPE_STARTENDRECORD "キー操作の記録開始/終了"
+    IDS_TOOL_OPE_ENDRECORD  "キー操作の記録終了     "
+    IDS_TOOL_OPE_STARTRECORD "キー操作の記録開始     "
+    IDS_KEYOPE_PARSEERR     "キー操作解析に失敗しました。\r\nファイルが壊れている可能性があります"
+    IDS_KEYOPE_STARTRECORD  "キー操作の記録を開始します。\r\n記録中はマウス操作ができませんのでご注意下さい"
+    IDS_KEYOPE_STEPDOEND    "記録されているキー操作のステップ実行が終了しました"
+    IDS_KEYOPE_STEPDOEND2   "記録されているキー操作のステップ実行を終了しました"
+    IDS_KEYOPE_FOPENERR     "キー操作ファイル読み込み失敗"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_NOT_KEYOPEFILE      "このファイルはキー操作ファイルではありません"
+    IDS_KEYOPE_OPENEND      "キー操作ファイル読み込み終了"
+    IDS_KEYOPE_UNSAVED      "現在記録されているキー操作はファイルへ保存されていません\r\nこのままキー操作記録を開始すると上書きされます。\r\nキー操作記録を開始してよろしいですか？"
+    IDS_KEYOPE_RECORDEND    "キー操作の記録を終了しました。\r\n記録されたキー操作数は %d 個でした。"
+    IDS_NOMARKLINE_NEXT     "ここより下には、マーク済みの行がもうありません"
+    IDS_NOTSEL_MARKLINE     "ジャンプ先のマーク行が選択されていません"
+    IDS_OUTOFJUMPRANGE      "入力された行番号がジャンプ可能範囲外です"
+    IDS_PAREN_NOTFOUND      "対応する括弧はありません"
+    IDS_UUENCODE_INFILE_TITLE "ＵＵＥＮＣＯＤＥエンコード対象ファイルを指定"
+    IDS_UUENCODE_RESULT_TITLE " のＵＵＥＮＣＯＤＥエンコード結果"
+    IDS_NO_UUDECODEHEADER   "ＵＵＤＥＣＯＤＥのｂｅｇｉｎ行ヘッダが範囲選択された\r\n領域の先頭にありません。ｂｅｇｉｎ行から範囲選択してください"
+    IDS_END_UUDECODE        "ＵＵＤＥＣＯＤＥ終了"
+    IDS_NO_UUDECODEFOOTER   "ＵＵＤＥＣＯＤＥのｅｎｄ行まで範囲選択されていません\r\nｂｅｇｉｎ行からｅｎｄ行まで範囲選択してください"
+    IDS_ILLEGAL_LINE_UUDECODE 
+                            "ＵＵＤＥＣＯＤＥ処理中に不正な行を発見しました。\r\n範囲選択内のＵＵＥＮＣＯＤＥされたデータが壊れている可能性があります"
+    IDS_UUDECODE_OUTFILE_TITLE 
+                            "ＵＵＤＥＣＯＤＥデコード結果の保存先ファイルを指定"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_NG_ENCODE           "１行が７６文字以上なのは誤った符号化です"
+    IDS_BASE64_INFILE_TITLE "Ｂａｓｅ６４エンコード対象ファイルを指定"
+    IDS_BASE64_RESULT_TITLE " のＢａｓｅ６４エンコード結果"
+    IDS_END_BASE64DECODE    "ＢＡＳＥ６４デコード終了"
+    IDS_ILLEGAL_LINE_BASE64DECODE 
+                            "ＢＡＳＥ６４デコード処理中に不正な行を発見しました。\r\n範囲選択内のＢＡＳＥ６４エンコードされたデータが壊れている可能性があります"
+    IDS_BASE64_OUTFILE_TITLE "Ｂａｓｅ６４デコード結果の保存先ファイルを指定"
+    IDS_QUOTED_INFILE_TITLE "Quoted-Printableエンコード対象ファイルを指定"
+    IDS_QUOTED_RESULT_TITLE " のＱｕｏｔｅｄ－Ｐｒｉｎｔａｂｌｅエンコード結果"
+    IDS_END_QUOTEDDECODE    "Ｑｕｏｔｅｄ－Ｐｒｉｎｔａｂｌｅデコード終了"
+    IDS_ILLEGAL_LINE_QUOTEDDECODE 
+                            "Quoted-Printableデコード処理中に不正な行を発見しました。\r\n範囲選択内のQuoted-Printableエンコードされたデータが壊れている可能性があります"
+    IDS_QUOTE_OUTFILE_TITLE "Quoted-Printableデコード結果の保存先ファイルを指定"
+    IDS_PASSWORD_NG         "パスワードが違います"
+    IDS_SHELLDLL_NOTFOUND   "Xerxes 用DLL - x_shelext.dllが見つかりません"
+    IDS_CANTACCESS_FOLDER   "指定されたコピー先フォルダはアクセスできません"
+    IDS_CANTACCESS_FOLDERMV "指定された移動先フォルダはアクセスできません"
+    IDS_INPUT_EXISTFOLDER   "存在するフォルダを指定してください"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_INPUT_AFTERNAME     "変更後の名前を入力してください"
+    IDS_INPUT_DIFFNAME      "変更後の名前と元の名前は別にしてください"
+    IDS_INVALIDCHAR_AFTERNAME "変更後の名前に不正な文字がふくまれています"
+    IDS_FTOUCHEND           "ファイルタッチ終了"
+    IDS_FTOUCHCANCEL        "ファイルタッチキャンセルしました"
+    IDS_FILETOUCH_INVALIDDATE "入力された日時は不当のため指定できません"
+    IDS_SMTP_CONNECTERR     "メールサーバーへの接続ができませんでした"
+    IDS_SMTP_LOCALHOSTNAMEERR "ローカルホスト名取得エラー"
+    IDS_SMTP_LOCALIPERR     "ローカルホストのＩＰアドレス取得エラー"
+    IDS_SMTP_SENDERR        "メールサーバーへの送信エラー"
+    IDS_SMTP_NOMAILSERVICE  "メールサーバー上ではメールサービスが稼動していません"
+    IDS_SMTP_SENDEND        "メール送信終了"
+    IDS_SMTP_NOFROM         "送信者のメールアドレスが未設定です。「設定－設定」メニューにて設定して下さい"
+    IDS_SMTP_NOSERVER       "ＳＭＴＰサーバーが未設定です。「設定－設定」メニューにて設定して下さい"
+    IDS_SMTP_NOTO           "宛先のメールアドレスを設定してください"
+    IDS_SMTP_COMMASEPARATE  "複数のアドレスの場合はコンマ(,)で区切って下さい"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_SMTP_DLLNOTFOUND    "ソケット通信ＤＬＬ(sock_dll.dll)がみつかりません"
+    IDS_SMTP_ATTACHFILEOPENERR "添付ファイル %s が開けません"
+    IDS_SMTP_RESCODE_211    "SMTP: システムステータスまたはシステムヘルプ応答"
+    IDS_SMTP_RESCODE_214    "SMTP: ヘルプメッセージ、コマンドの使用方法について"
+    IDS_SMTP_RESCODE_220    "SMTP: パラメータに指定されるドメイン名のサーバの準備完了"
+    IDS_SMTP_RESCODE_221    "SMTP: コネクションのクローズ"
+    IDS_SMTP_RESCODE_250    "SMTP: リクエストされたコマンドを正常に終了した"
+    IDS_SMTP_RESCODE_251    "SMTP: メールの宛先として指定されたユーザはローカルに存在しません。\r\n応答に指定した宛先へ転送します\r\n%s"
+    IDS_SMTP_RESCODE_252    "SMTP: VRFYコマンドでのユーザの確認はできません。"
+    IDS_SMTP_RESCODE_354    "SMTP: メールのデータの入力を開始してください"
+    IDS_SMTP_RESCODE_421    "SMTP: このホストのメールサービスは動作していません"
+    IDS_SMTP_RESCODE_450    "SMTP: リクエストされたコマンドは実行されませんでした。\r\nメールボックスのビジィが原因です"
+    IDS_SMTP_RESCODE_451    "SMTP: ローカルエラーのために指定のコマンドは実行できませんでした"
+    IDS_SMTP_RESCODE_500    "SMTP: コマンドの文法エラーです"
+    IDS_SMTP_RESCODE_501    "SMTP: 指定のコマンドのパラメータエラーです"
+    IDS_SMTP_RESCODE_502    "SMTP: 指定のコマンドはサポートしていません"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_SMTP_RESCODE_503    "SMTP: コマンドの実行順序に問題があります"
+    IDS_SMTP_RESCODE_504    "SMTP: 指定のコマンドのパラメータはサポートしていません"
+    IDS_SMTP_RESCODE_550    "SMTP: 宛先のメールボックスがないなどの理由で指定のコマンドは実行されませんでした\r\n%s"
+    IDS_SMTP_RESCODE_551    "SMTP: 指定された宛先のユーザはこのホストに存在しません。\r\n別のパスへ転送してください\r\n%s"
+    IDS_SMTP_RESCODE_552    "SMTP: ファイルシステムの問題で指定のコマンドは実行できませんでした"
+    IDS_SMTP_RESCODE_553    "SMTP: 宛先のメールボックス名に問題があるため指定のコマンドは実行できませんでした"
+    IDS_SMTP_RESCODE_554    "SMTP: メール転送処理に失敗しました"
+    IDS_RAS_NOUSERNAME      "ＲＡＳユーザ名を入力してください"
+    IDS_RAS_NOPASSWD        "ＲＡＳパスワードを入力してください"
+    IDS_RAS_CONNECTERR      "ＲＡＳ接続失敗"
+    IDS_RASCONNECT          "ダイアルアップ接続中"
+    IDS_RASDISCONNECT       "ダイアルアップ切断中"
+    IDS_RASCONNECTERR       "ＲＡＳ接続エラー：%s"
+    IDS_RASCONNECTEND       "ダイアルアップ接続完了"
+    IDS_RASISCONNECT        "ダイアルアップ接続完了待ち中(%d)\r\n%s"
+    IDS_POP_NOSERVER        "ＰＯＰ３サーバーが未設定です。「設定－設定」メニューにて設定して下さい"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_POP_NOUSER          "ＰＯＰ３ユーザ名が未設定です。「設定－設定」メニューにて設定して下さい"
+    IDS_POP_NOPASSWD        "ＰＯＰ３パスワードが未設定です。「設定－設定」メニューにて設定して下さい"
+    IDS_POP_LISTZERO        "ＰＯＰ３サーバに到達しているメール数はゼロでした"
+    IDS_POP_DLLNOTFOUND     "ソケット通信ＤＬＬ(sock_dll.dll)がみつかりません"
+    IDS_POP_CONNECTERR      "メールサーバーへの接続ができませんでした"
+    IDS_POP_SENDERR         "メールサーバーへの送信エラー"
+    IDS_POP_TOPERR          "メールサーバーへの送信エラー"
+    IDS_POP_LISTERR         "メールサーバーへの送信エラー"
+    IDS_POP_RETRERR         "メールサーバーへの送信エラー"
+    IDS_POP_DELERR          "メールサーバーへの送信エラー"
+    IDS_POP_SELECTLIST      "対象メールをリストから選択して下さい"
+    IDS_POP_TIMEOUT         "応答受信データ待ちタイムアウト"
+    IDS_POP_DISCONNECTED    "ＰＯＰ３サーバへの通信が切断された"
+    IDS_KEYBIND_RESET       "キー割り当てを初期状態にリセットします"
+    IDS_KEYBIND_WRITEEND    "キー割り当て書き出し終了"
+    IDS_KEYBIND_READEND     "キー割り当て読み込み終了"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_NOT_KEYBINDFILE     "このファイルはキーバインドファイルではありません"
+    IDS_KEYBIND_INFILE_TITLE 
+                            "読み込み対象のキー割り当てファイルを指定してください"
+    IDS_KEYBIND_OUTFILE_TITLE "書き込み先のファイル名を指定してください"
+    IDS_KEYBIND_ASSIGN      "「%s」に「%s－%s」を割り当てます"
+    IDS_KEYBIND_NOTASSIGNED "「%s」に割り当てられている機能はありません"
+    IDS_KEYBIND_DEASSIGN    "「%s」に割り当てられている機能を解除します"
+    IDS_START_INCRIMENTALSEARCH 
+                            "インクリメンタルサーチ開始します。検索対象文字列をキー入力してください\r\n終了するにはＥＳＣキー押下するか「検索－インクリメンタルサーチ終了」メニューを選択して下さい"
+    IDS_END_INCRIMENTALSEARCH "インクリメンタルサーチ終了しました"
+    IDS_INCREMENTALSEARCH_NOW "インクリメンタルサーチ実行中"
+    IDS_INCREMENTALSEARCH   "インクリメンタルサーチ"
+    IDS_INCREMENTALSEARCH_E "インクリメンタルサーチ終了(I)"
+    IDS_INCREMENTALSEARCH_S "インクリメンタルサーチ開始(I)"
+    IDS_INCREMENTALSEARCH_END 
+                            "「%s」の検索が終了しました。\r\nインクリメンタルサーチを終了します。"
+    IDS_FILTER_ALLFILE      "すべてのファイル (*.*)|*.*|"
+    IDS_FILTER_BATFILE      "バッチファイル (*.bat)|*.bat|"
+    IDS_FILTER_INIFILE      "設定ファイル (*.ini)|*.ini|"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_FILTER_MAKFILE      "メイクファイル (*.mak;*.mk)|*.mak;*.mk|"
+    IDS_FONTNAME_ABOUTDLG   "ＭＳ Ｐゴシック"
+    IDS_FONTNAME_DISP       "ＭＳ 明朝"
+    IDS_FONTNAME_DISP2      "ＭＳ ゴシック"
+    IDS_FONTNAME_PRINT      "ＭＳ 明朝"
+    IDS_FONTNAME_PRINT2     "ＭＳ ゴシック"
+    IDS_SHORTCUTNAME_TOXERXES "Xerxesへのショートカット"
+    IDS_FILEEXCEPTION_NONE  "エラーなし"
+    IDS_FILEEXCEPTION_GENGERIC "未定義エラー"
+    IDS_FILEEXCEPTION_NOTFOUND "ファイルが見つからない"
+    IDS_FILEEXCEPTION_BADPATH "不正パス"
+    IDS_FILEEXCEPTION_TOOMANY "オープン ファイル数超過"
+    IDS_FILEEXCEPTION_ACCESSDENY "ファイル アクセス禁止"
+    IDS_FILEEXCEPTION_INVALIDFILE "不正ファイル ハンドル使用"
+    IDS_FILEEXCEPTION_REMOVECURRDIR "作業中のカレント ディレクトリの削除不可"
+    IDS_FILEEXCEPTION_DIRFULL "ディレクトリ フル"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_FILEEXCEPTION_BADSEEK "ファイル ポインタ設定エラー"
+    IDS_FILEEXCEPTION_HARDIO "ハードウェア エラー"
+    IDS_FILEEXCEPTION_SHAREVIOLATION 
+                            "SHARE.EXE 未ロードまたは共有領域ロック済み"
+    IDS_FILEEXCEPTION_LOCKVIOLATION "ロック済み領域のロック要求"
+    IDS_FILEEXCEPTION_DISKFULL "ディスク フル"
+    IDS_FILEEXCEPTION_ENDOFFILE "ファイルの終わりに到達"
+    IDS_MAILLIST_GET        "メールリスト取得中"
+    IDS_MAILRECVERR         "メール(No.%d)受信エラー"
+    IDS_MAILRECVEND         "%d通のメール受信完了"
+    IDS_MAILCOUNT           "メール総数  ：  %d"
+    IDS_MAILSERVER_CONNECT  "メールサーバーへ接続中"
+    IDS_MAIL_SEND           "メール送信中"
+    IDS_MAIL_SENDEND        "メール送信終了"
+    IDS_SELECTATTACHFILE    "添付ファイルを指定してください"
+    IDS_LINENO_FORMAT       "行番号| "
+    IDS_DAYSTYLE_NONE       "日付表示スタイルがありません\r\n「設定－設定」メニュー「ステータスバー」タブ中で設定してください"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_SOUND_MESSAGE_INFO  "メッセージ（情報）"
+    IDS_SOUND_MESSAGE_STOP  "メッセージ（警告）"
+    IDS_SOUND_MESSAGE_QUESTION "メッセージ（問い合わせ）"
+    IDS_SOUND_MESSAGE_EXCLAIM "メッセージ（注意）"
+    IDS_SOUND_WINDOW        "ウインドウ"
+    IDS_SOUND_WINDOW_MINIMIZE "ウインドウ（最小化）"
+    IDS_SOUND_WINDOW_MAXIMIZE "ウインドウ（最大化）"
+    IDS_SOUND_WINDOW_RESTORE "ウインドウ（もとのサイズに戻す）"
+    IDS_SOUND_WINDOW_NEXT   "ウインドウ（次のウインドウ）"
+    IDS_SOUND_WINDOW_PREV   "ウインドウ（前のウインドウ）"
+    IDS_SOUND_WINDOW_CLOSE  "ウインドウ（閉じる）"
+    IDS_SOUND_WINDOW_ALLCLOSE "ウインドウ（すべて閉じる）"
+    IDS_SOUND_FILE          "ファイル"
+    IDS_SOUND_FILE_NEW      "ファイル（新規作成）"
+    IDS_SOUND_NONE          "(なし)"
+    IDS_FONTNAME_DISP3      "FixedSys"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_FONTNAME_PRINT3     "FixedSys"
+    IDS_FONTNAME_DISP4      "Terminal"
+    IDS_FONTNAME_PRINT4     "Terminal"
+    IDS_DIRCOMPARE_RESULTMSG4 "  %-30s : 同じ"
+    IDS_WCOUNT_LIST_SUM     "総合計                                 %9ld  %9ld  %9ld  %9ld  %9ld"
+    IDS_NOMARKLINE_PREV     "ここより上には、マーク済みの行がもうありません"
+    IDS_APOP_CONNECTERR     "メールサーバへの接続ができませんでした。\r\nサーバはＡＰＯＰ認証方式をサポートしていないもようです。"
+    IDS_PROPSHT_CAPTION     "プロパティ設定"
+    IDS_PROPSHT_CAPTION1    "プロパティ設定"
+    CG_IDS_PHYSICAL_MEM     "%lu KB"
+    CG_IDS_DISK_SPACE       "%lu KB (ドライブ %c:)"
+    CG_IDS_DISK_SPACE_UNAVAIL "不明"
+    IDS_MAILACCOUNT_0       "第一アカウント"
+    IDS_MAILACCOUNT_1       "第ニアカウント"
+    IDS_MAILACCOUNT_2       "第三アカウント"
+    IDS_MAILACCOUNT_3       "第四アカウント"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_DAYSTYLE_YYYY_MM_DD "%Y年%m月%d日 (%a)"
+    IDS_DAYSTYLE_YYYY_MM_DD2 "YYYY年MM月DD日"
+    IDS_DAYSTYLE_YY_MM_DD   "'%y年%m月%d日 (%a)"
+    IDS_DAYSTYLE_YY_MM_DD2  "'YY年MM月DD日"
+    IDS_DAYSTYLE_MM_DD      "%m月%d日 (%a)"
+    IDS_DAYSTYLE_MM_DD2     "MM月DD日"
+    IDS_HOURSTYLE_NONE      "時刻表示スタイルがありません\r\n「設定－設定」メニュー「ステータスバー」タブ中で設定してください"
+    IDS_HOURSTYLE_HH_MM     "%H時%M分"
+    IDS_HOURSTYLE_HH_MM2    "HH時MM分"
+    IDS_HOURSTYLE_AMPM_HH_MM "%p %I時%M分"
+    IDS_HOURSTYLE_AMPM_HH_MM2 "AM/PM HH時MM分"
+    IDS_LINESTYLE_LINE_OFFS_ALL "%d 行、%d 列、全 %d 行"
+    IDS_LINESTYLE_LINE_OFFS_ALL2 "NN行、NN列、全NN行"
+    IDS_LINESTYLE_LINE_OFFS "%d 行、%d 列"
+    IDS_LINESTYLE_LINE_OFFS2 "NN行、NN列"
+    IDS_LINESTYLE_LINE_ALL  "%d 行、全 %d 行"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_LINESTYLE_LINE_ALL2 "NN行、全NN行"
+    IDS_LINESTYLE_ALL       "全 %d 行"
+    IDS_LINESTYLE_ALL2      "全NN行"
+    IDS_LINESTYLE_LINE      "%d 行"
+    IDS_LINESTYLE_LINE2     "NN行"
+    IDS_LINESTYLE_OFFS      "%d 列"
+    IDS_LINESTYLE_OFFS2     "NN列"
+    IDS_INSMODE_INSERT      "挿入"
+    IDS_INSMODE_OVERWRITE   "上書"
+    IDS_READONLYMODE_READONLY "書込み禁止"
+    IDS_READONLYMODE_WRITEOK "書込みＯＫ"
+    IDS_INDICATOR_GYORETU   "行、列、全行数表示"
+    IDS_INDICATOR_BYTE      "キャレット位置バイト数表示"
+    IDS_INDICATOR_INS       "挿入／上書き表示"
+    IDS_INDICATOR_READONLY  "書込みＯＫ／禁止表示"
+    IDS_INDICATOR_TIME      "現在時刻表示"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_INDICATOR_CHARCODE  "キャレット位置コード表示"
+    IDS_INDICATOR_KANA      "Kana Lock表示"
+    IDS_INDICATOR_CAPS      "Caps Lock表示"
+    IDS_INDICATOR_NUM       "Num Lock表示"
+    IDS_INDICATOR_SCRL      "Scrl Lock表示"
+    IDS_FILEPROP_MTIME      "更新日時：%Y年%m月%d日 %H時%M分%S秒"
+    IDS_FILEPROP_INFO       "%s,    サイズ：%d KB"
+    IDS_FILEPROP_BINARY     "バイナリファイル"
+    IDS_FILEPROP_EUC        "ＥＵＣコードファイル"
+    IDS_FILEPROP_JIS        "ＪＩＳコードファイル"
+    IDS_FILEPROP_UNKNOWN    "文字コード不明ファイル"
+    IDS_FILEPROP_PATH       "パス：%s"
+    IDS_SOUND_XERXES_STARTEND "Xerxesの起動、終了"
+    IDS_SOUND_XERXES_START  "Xerxesの起動"
+    IDS_SOUND_XERXES_END    "Xerxesの終了"
+    IDS_SOUND_MESSAGE       "メッセージ"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_EDITORTYPE          "\nXerxes\nXerxes\n\n\nXerxes.Document\nXerxes Document"
+    IDR_MAINFRAME           "Xerxes"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Xerxes"
+    AFX_IDS_IDLEMESSAGE     "レディ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "上書"
+    ID_INDICATOR_REC        "記録"
+    ID_INDICATOR_KANA       "カナ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "新規にファイルを作成\n新規ファイル"
+    ID_FILE_OPEN            "既存のファイルを開く\n開く"
+    ID_FILE_CLOSE           "作業中のファイルを閉じる\n閉じる"
+    ID_FILE_SAVE            "作業中のファイルを上書き保存\n上書き保存"
+    ID_FILE_SAVE_AS         "作業中のファイルに名前を付けて保存\n名前をつけて保存"
+    ID_FILE_PAGE_SETUP      "印刷設定の変更\n印刷設定"
+    ID_FILE_PRINT_SETUP     "プリンタ/印刷設定の変更\nプリンタの設定"
+    ID_FILE_PRINT           "作業中のファイルを印刷\n印刷"
+    ID_FILE_PRINT_PREVIEW   "作業中ファイルの印刷イメージを表示\n印刷プレビュー"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "プログラムの情報、バージョンそして著作権を表示\nバージョン情報"
+    ID_APP_EXIT             "アプリケーションを終了し、ファイルの保存を指示\n終了"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "指定のファイルを開く"
+    ID_FILE_MRU_FILE2       "指定のファイルを開く"
+    ID_FILE_MRU_FILE3       "指定のファイルを開く"
+    ID_FILE_MRU_FILE4       "指定のファイルを開く"
+    ID_FILE_MRU_FILE5       "指定のファイルを開く"
+    ID_FILE_MRU_FILE6       "指定のファイルを開く"
+    ID_FILE_MRU_FILE7       "指定のファイルを開く"
+    ID_FILE_MRU_FILE8       "指定のファイルを開く"
+    ID_FILE_MRU_FILE9       "指定のファイルを開く"
+    ID_FILE_MRU_FILE10      "指定のファイルを開く"
+    ID_FILE_MRU_FILE11      "指定のファイルを開く"
+    ID_FILE_MRU_FILE12      "指定のファイルを開く"
+    ID_FILE_MRU_FILE13      "指定のファイルを開く"
+    ID_FILE_MRU_FILE14      "指定のファイルを開く"
+    ID_FILE_MRU_FILE15      "指定のファイルを開く"
+    ID_FILE_MRU_FILE16      "指定のファイルを開く"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "スプリッタウインドウの次のペインに切り替える\n次のペイン"
+    ID_PREV_PANE            "スプリッタウインドウの前のペインに切り替える\n前のペイン"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "作業中のウインドウを複写して表示\n新規ウインドウ"
+    ID_WINDOW_ARRANGE       "ウインドウの下部にアイコンを整列\nアイコンの整列"
+    ID_WINDOW_CASCADE       "ウインドウを重ねて表示\n重ねて表示"
+    ID_WINDOW_TILE_HORZ     "ウインドウを上下に並べて表示\n上下に並べて表示"
+    ID_WINDOW_TILE_VERT     "ウインドウを左右に並べて表示\n左右に並べて表示"
+    ID_WINDOW_SPLIT         "作業中のウインドウを分割\n分割"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "選択範囲を消去\n消去"
+    ID_EDIT_CLEAR_ALL       "すべて消去\nすべて消去"
+    ID_EDIT_COPY            "選択範囲をコピーしてクリップボードに保存\nコピー"
+    ID_EDIT_CUT             "選択範囲を切り取ってクリップボードに保存\n切り取り"
+    ID_EDIT_FIND            "指定した文字列の検索\n検索"
+    ID_EDIT_PASTE           "クリップボードの内容を貼り付け\n貼り付け"
+    ID_EDIT_REPEAT          "直前に行った動作を繰り返す\nリピート"
+    ID_EDIT_REPLACE         "指定した文字列を他の文字列で置換\n置換"
+    ID_EDIT_SELECT_ALL      "ファイル全体を選択\nすべて選択"
+    ID_EDIT_UNDO            "直前に行った動作を元に戻す\n元に戻す"
+    ID_EDIT_REDO            "直前に行った動作を繰り返す\n繰り返し"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "標準ツールバーの表示/非表示\n標準ツールバーの表示/非表示"
+    ID_VIEW_STATUS_BAR      "ステータスバーの表示/非表示\nステータスバーの表示/非表示"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "ウインドウのサイズを変更"
+    AFX_IDS_SCMOVE          "ウインドウの位置を変更"
+    AFX_IDS_SCMINIMIZE      "ウインドウをアイコン化する"
+    AFX_IDS_SCMAXIMIZE      "ウインドウを最大表示にする"
+    AFX_IDS_SCNEXTWINDOW    "次のウインドウに切り替える"
+    AFX_IDS_SCPREVWINDOW    "前のウインドウに切り替える"
+    AFX_IDS_SCCLOSE         "作業中のウインドウを閉じ、変更したファイルの保存を指示"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "ウインドウを通常のサイズに戻す"
+    AFX_IDS_SCTASKLIST      "アプリケーションの切り替え"
+    AFX_IDS_MDICHILD        "指定のウインドウを表示"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "印刷プレビューモードを閉じる\nプレビューのキャンセル"
+    ID_INDICATOR_GYORETU    "    "
+    ID_INDICATOR_INS        "    "
+    ID_INDICATOR_TIME       "    "
+    ID_INDICATOR_READONLY   "    "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_LINENO          "行番号を表示\n行番号表示"
+    ID_VIEW_TAB4            "タブサイズを４に変更\n４タブ"
+    ID_VIEW_TAB8            "タブサイズを８に変更\n８タブ"
+    ID_SETTINGS             "設定\n設定"
+    ID_EDIT_SELECTALL       "ドキュメント全体を選択\nすべて選択"
+    ID_EDIT_DEL             "選択範囲を削除します\n削除(Del)"
+    ID_EDIT_JUMP2TOP        "先頭行へジャンプ\n先頭行ジャンプ"
+    ID_EDIT_JUMP2BOTTOM     "最終行へジャンプ\n最終行ジャンプ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_JUMP2LINE       "指定行へジャンプ\n指定行ジャンプ"
+    ID_EDIT_FINDCONTINUE    "前回検索時と同一条件で文末方向へ検索を続行\n次を検索"
+    ID_WINDOW_ALLCLOSE      "すべてのウインドウを閉じる\nすべて閉じる"
+    ID_FILE_ALLSAVE         "すべてのファイルを保存\nすべて保存"
+    ID_VIEW_CRLF            "改行マークを表示\n改行マーク表示"
+    ID_VIEW_RULER           "ルーラを表示\nルーラ表示"
+    ID_FILE_OPENONEXIT      "前回終了時のファイルを開く\n前回終了時ファイルオープン"
+    ID_WINDOW_CLOSE         "ウインドウを閉じる\n閉じる"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_FINDREVCONTINUE "前回検索時と同一条件で文頭方向へ検索を続行\n前を検索"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_GREP            "複数のファイルから文字列を検索\nファイルから検索"
+    ID_PARENTHESIS          "現在のキャレット位置の括弧と対応する括弧へジャンプ"
+    ID_VIEW_TAB             "タブマークを表示\nタブ表示"
+    ID_VIEW_ZENKAKUSPACE    "全角スペースを表示\n全角スペース表示"
+    ID_EDIT_TAB2SPACE       "選択領域のタブを半角スペースに変換\nタブ－＞半角スペース変換"
+    ID_EDIT_SPACE2TAB       "選択領域の半角スペースをタブに変換\n半角スペース－＞タブ変換"
+    ID_EDIT_SPACE_ZEN2HAN   "選択領域の全角スペースを半角スペースに変換\n全角スペース－＞半角スペース変換"
+    ID_EDIT_SPACE_HAN2ZEN   "選択領域の半角スペースを全角スペースに変換\n半角スペース－＞全角スペース変換"
+    ID_EDIT_CODECONV        "複数ファイルの文字コードを一括してＳＪＩＳ、ＥＵＣ、ＪＩＳコードへ変換します。\n文字コード変換"
+    ID_EDIT_ASCIIDUMP       "現在アクティブなウインドウのファイルをＡＳＣＩＩコード表示でダンプします\nASCIIコード表示ダンプ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_SJISDUMP        "現在アクティブなウインドウのファイルをＳｈｉｆｔ-ＪＩＳコード表示でダンプします\nＳｈｉｆｔ-ＪＩＳコード表示ダンプ"
+    ID_FILE_REREAD          "現在アクティブなウインドウの内容をファイルから再び読み込みなおします\n再読み込み"
+    ID_FILE_PROPERTY        "作業中の文書についての情報を表示します。\nプロパティ"
+    ID_EDIT_SETREADONLY     "作業中の文書を書込み禁止に設定します\n書込み禁止設定"
+    ID_EDIT_UNSETREADONLY   "作業中の文書の書込みを許可します\n書込み禁止解除"
+    ID_EDIT_KATAKANA_HAN2ZEN 
+                            "選択領域の半角カタカナを全角カタカナに変換\n半角カタカナ－＞全角カタカナ変換"
+    ID_EDIT_KATAKANA_ZEN2HAN 
+                            "選択領域の全角カタカナを半角カタカナに変換\n全角カタカナ－＞半角カタカナ変換"
+    ID_EDIT_WORDCOUNT       "複数ファイルのバイト数、ワード数、行数を数えます。\nワードカウント"
+    ID_VIEW_UNDERLINE       "キャレット行にアンダーラインを表示\nアンダーライン表示"
+    ID_VIEW_CARET_IBEAM     "キャレット形状を縦棒にする"
+    ID_VIEW_CARET_SQUARE    "キャレット形状を箱型にする"
+    ID_VIEW_TAB_4           "タブサイズ：４タブ"
+    ID_VIEW_TAB_8           "タブサイズ：８タブ"
+    ID_EDIT_FILESEARCH      "指定条件に一致するファイルを検索します\nファイル検索"
+    ID_EDIT_ALNUM_HAN2ZEN   "選択領域の半角英数字を全角英数字に変換\n半角英数字－＞全角英数字変換"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_ALNUM_ZEN2HAN   "選択領域の全角英数字を半角英数字に変換\n全角英数字－＞半角英数字変換"
+    ID_HELP_LICENSE         "ユーザ情報入力、ライセンスＩＤの登録"
+    ID_EDIT_DELTOPSPACES    "選択領域内の先頭のスペース、タブを全て削除\n先頭スペース、タブ全削除"
+    ID_HELP_CONTENT         "ヘルプの目次を表示\nヘルプの目次"
+    ID_EDIT_INSTAB          "選択領域のインデントレベルを下げる\nタブをひとつ挿入(TAB)"
+    ID_EDIT_DELTAB          "選択領域のインデントレベルを上げる\nタブをひとつ削除(Shift+TAB)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_CHARCODE   "  "
+    ID_INDICATOR_BYTE       "  "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ALLSAVE_EXIT         "すべてのファイルを保存し、その後アプリケーションを終了"
+    ID_FILE_SAVECLOSE       "作業中のファイルを上書き保存して閉じる\n上書き保存して閉じる"
+    ID_EDIT_CLIPVIEW        "現在クリップボードの中にあるデータを見る\nクリップボードの中を見る"
+    ID_EDIT_TAGJUMP         "キャレット位置からタグ情報を取得してファイルを開く\nタグジャンプ"
+    ID_TOOL_OPE_STARTENDRECORD 
+                            "キー操作の記録を開始/終了\nキー操作記録開始/終了"
+    ID_TOOL_OPE_SAVE        "記録されているキー操作をファイルへ保存"
+    ID_TOOL_OPE_DO          "記録されているキー操作を実行\nキー操作の実行"
+    ID_TOOL_OPE_OPEN        "ファイル保存されているキー操作を読み込む"
+    ID_TOOL_OPE_DISP        "記録されているキー操作を一覧表示"
+    ID_TOOL_OPE_STEPDO      "記録されているキー操作をステップ実行\nキー操作のステップ実行"
+    ID_TOOL_OPE_STEPDO_NEXT "記録されている次のキー操作をステップ実行\n次のキー操作のステップ実行"
+    ID_TOOL_OPE_STEPDO_END  "記録されているキー操作のステップ実行を終了\nキー操作のステップ実行終了"
+    ID_WND_NEXT             "ＭＤＩの次のウインドウに移動\n次のウインドウ"
+    ID_WND_PREV             "ＭＤＩの前のウインドウに移動\n前のウインドウ"
+    ID_EDIT_CLEARUNDOBUF    "元に戻す、繰り返し用バッファをクリア\nUndo/Redoバッファクリア"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_INSCPPCOMMENT   "選択領域の先頭にＣ／Ｃ＋＋の行コメント( // )を挿入\nＣ／Ｃ＋＋行コメント挿入"
+    ID_EDIT_INSVBCOMMENT    "選択領域の先頭にＶＢの行コメント( ' )を挿入\nＶＢ行コメント挿入"
+    ID_EDIT_INSASMCOMMENT   "選択領域の先頭にアセンブラの行コメント( ; )を挿入\nアセンブラ行コメント挿入"
+    ID_VIEW_REDRAW          "現在のウインドウの内容表示をリフレッシュします\nリフレッシュ"
+    ID_VIEW_EOF             "ＥＯＦマークを表示\nＥＯＦマーク表示"
+    ID_JUMP_SETMARK         "キャレット位置の行をマークします\n現在行マーク"
+    ID_JUMP_DELMARK         "キャレット位置の行マークを解除します\nマーク解除"
+    ID_JUMP_NEXTMARK        "キャレット位置よりも下にある次のマーク行へジャンプします\n次のマーク位置へジャンプ"
+    ID_JUMP_PREVMARK        "キャレット位置よりも上にある前のマーク行へジャンプします\n前のマーク位置へジャンプ"
+    ID_JUMP_MARKLIST        "現在マークされている行を一覧表示します\nマーク位置一覧表示"
+    ID_JUMP_ALLDELMARK      "すべての行マークを解除します\n全マーク解除"
+    ID_EDIT_INSDAY          "キャレット位置に現在の日付文字列を挿入\n日付を挿入"
+    ID_EDIT_INSTIME         "キャレット位置に現在の時刻文字列を挿入\n時刻を挿入"
+    ID_EDIT_INCRIMENTALSEARCH 
+                            "インクリメンタルサーチの開始/終了\nインクリメンタルサーチ"
+    ID_EDIT_AL2UPPER        "選択領域の半角英字を大文字に変換\n英字－＞大文字"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_AL2LOWER        "選択領域の半角英字を小文字に変換\n英字－＞小文字"
+    ID_EDIT_UUDECODE        "選択領域をＵＵＤＥＣＯＤＥデコードしてファイルへ保存\nＵＵＤＥＣＯＤＥデコード"
+    ID_EDIT_BASE64DECODE    "選択領域をＢａｓｅ６４デコードしてファイルへ保存\nＢａｓｅ６４デコード"
+    ID_EDIT_QUOTEDDECODE    "選択領域をＱｕｏｔｅｄ－Ｐｒｉｎｔａｂｌｅデコードしてファイルへ保存\nＱｕｏｔｅｄ－Ｐｒｉｎｔａｂｌｅデコード"
+    ID_SECURITY_ENCRIPT     "ファイルを暗号化し、内容がわからないようにします。\n暗号化"
+    ID_SECURITY_DECRIPT     "ファイルを復号化し、内容がわかるようにします。\n復号化"
+    ID_EDIT_UUENCODE        "指定ファイルをＵＵＥＮＣＯＤＥエンコードしてウインドウに表示\nＵＵＥＮＣＯＤＥエンコード"
+    ID_EDIT_BASE64ENCODE    "指定ファイルをＢａｓｅ６４エンコードしてウインドウに表示\nＢａｓｅ６４エンコード"
+    ID_EDIT_QUOTEDENCODE    "指定ファイルをＱｕｏｔｅｄ－Ｐｒｉｎｔａｂｌｅエンコードしてウインドウに表示\nＱｕｏｔｅｄ－Ｐｒｉｎｔａｂｌｅエンコード"
+    ID_EDIT_FILECOMPARE     "２つのテキストファイルを比較して相違個所の行を探します\nファイル比較"
+    ID_EDIT_NEXTDIFF        "ファイル比較結果で判明した次の相違個所へジャンプ\n次の相違個所へ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_FCOMP_ZENEQUAL2HAN "ファイル比較時に、全角と半角を区別しない"
+    ID_EDIT_FCOMP_ALPHABETBIGANDSMALL 
+                            "ファイル比較時に、英字の大文字小文字を区別しない"
+    ID_EDIT_SOURCEARRANGE   "Ｃ／Ｃ＋＋言語ソースのカッコやインデントを整形します"
+    ID_EDIT_FILERECOMPARE   "現在の２つのテキストファイルを再度比較して相違個所の行を探します\nファイル再比較"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_PREVDIFF        "ファイル比較結果で判明した前の相違個所へジャンプ\n前の相違個所へ"
+    ID_FILE_OPENSAMENAME    "同一ディレクトリにある、現在開いているファイルと（拡張子は違うが）同じ名前のファイルを開く"
+    ID_EDIT_DIRCOMPARE      "２つのディレクトリを比較して個々のファイルの相違を探します\nディレクトリ比較"
+    ID_EDIT_DIRCMP_SYOSAI   "ディレクトリ比較で相違ありと判定されたファイルを詳細比較\n詳細比較"
+    ID_FILE_COPY            "現在開いているファイルを指定ディレクトリへコピーします\nコピー"
+    ID_FILE_RENAME          "現在開いているファイルの名前を変更します\n名前の変更"
+    ID_FILE_DELETE          "現在開いているファイルを削除します\n削除"
+    ID_FILE_MOVE            "現在開いているファイルを指定ディレクトリへ移動します\n移動"
+    ID_EDIT_FILETOUCH       "複数ファイルの最終更新日時を指定日時へ一括変更します\nタッチ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_BROWSEURL       "キャレット位置のＵＲＬをＷＥＢブラウザで表示します\nＵＲＬをブラウズ"
+    ID_FILE_SHELLOPEN       "現在開いているファイルを、関連づけられたソフトで開く"
+    ID_WINDOW_RESTORE       "アイコン化または最大表示されているウインドウを元のサイズと位置に戻す"
+    ID_WINDOW_MINIMIZE      "ウインドウのアイコン化"
+    ID_WINDOW_MAXIMIZE      "ウインドウを最大表示にする"
+    ID_EDIT_CODE2SJIS       "現在開いているファイルの全文をＳｈｉｆｔ－ＪＩＳコードへ変換\nＳｈｉｆｔ－ＪＩＳコード変換"
+    ID_EDIT_CODE2EUC        "現在開いているファイルの全文をＥＵＣコードへ変換\nＥＵＣコード変換"
+    ID_EDIT_CODE2JIS        "現在開いているファイルの全文をＪＩＳコードへ変換\nＪＩＳコード変換"
+    ID_VIEW_TOOLBAR_WND     "ウインドウ関連ツールバーの表示/非表示\nウインドウ関連ツールバーの表示/非表示"
+    ID_VIEW_TOOLBAR_TOOLS   "ツール関連ツールバーの表示/非表示\nツール関連ツールバーの表示/非表示"
+    ID_VIEW_TOOLBAR_FIND    "検索関連ツールバーの表示/非表示\n検索関連ツールバーの表示/非表示"
+    ID_VIEW_TOOLBAR_EDIT    "編集関連ツールバーの表示/非表示\n編集関連ツールバーの表示/非表示"
+    ID_VIEW_TOOLBAR_JMP     "ジャンプ関連ツールバーの表示/非表示\nジャンプ関連ツールバーの表示/非表示"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TAB_2           "タブサイズ：２タブ"
+    IDW_TOOLBAR_EDIT        "edit tool bar"
+    IDW_TOOLBAR_FIND        "find tool bar"
+    IDW_TOOLBAR_TOOLS       "tools tool bar"
+    IDW_TOOLBAR_WND         "window tool bar"
+    IDW_TOOLBAR_JMP         "jump tool bar"
+    ID_EDIT_EXECMAILER      "キャレット位置のメールアドレスをもとにメーラーを起動します\nメーラーを起動"
+    ID_FILE_SENDMAIL        "現在開いている文書をそのままメールメッセージにして送信\nメール送信"
+    ID_EDIT_CRLF            "ファイルの改行コードをＣＲ＋ＬＦにします。"
+    ID_EDIT_LF              "ファイルの改行コードをＬＦにします。"
+    ID_EDIT_CR              "ファイルの改行コードをＣＲにします。"
+    ID_EDIT_INSQUOTE        "選択領域の先頭に引用符号( > )を挿入\n引用符号挿入"
+    ID_EDIT_DELCPPCOMMENT   "選択領域の先頭のＣ／Ｃ＋＋の行コメント( // )を削除\nＣ／Ｃ＋＋行コメント削除"
+    ID_EDIT_DELVBCOMMENT    "選択領域の先頭のＶＢの行コメント( ' )を削除\nＶＢ行コメント削除"
+    ID_EDIT_DELASMCOMMENT   "選択領域の先頭のアセンブラの行コメント( ; )を削除\nアセンブラ行コメント削除"
+    ID_EDIT_DELQUOTE        "選択領域の先頭の引用符号( > )を削除\n引用符号削除"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MAILACCOUNT_4       "第五アカウント"
+    IDS_MAILACCOUNT_5       "第六アカウント"
+    IDS_MAILACCOUNT_6       "第七アカウント"
+    IDS_MAILACCOUNT_7       "第八アカウント"
+    IDS_REGEX_COMPERR       "正規表現がただしくありません"
+    IDS_INPUT_REQUESTPATH   "開くＨＴＭＬファイルのパスを入力してください"
+    IDS_INPUT_PROXYIPADDRESS "プロキシサーバのアドレスを入力してください"
+    IDS_HTTP_INVALIDFORMAT  "開くＨＴＭＬファイルパスが不正です。http://で始めてください。"
+    IDS_HTTP_ASCIONLY       "開くＨＴＭＬファイルパスは半角文字のみにしてください"
+    IDS_HTTP_DLLNOTFOUND    "ソケット通信ＤＬＬ(sock_dll.dll)がみつかりません"
+    IDS_HTTP_CONNECTERR     "ＨＴＴＰサーバーへの接続ができませんでした"
+    IDS_HTTP_SENDERR        "ＨＴＴＰサーバーへの送信エラー"
+    IDS_HTTP_TIMEOUT        "応答受信データ待ちタイムアウト"
+    IDS_HTTP_DISCONNECTED   "ＨＴＴＰサーバへの通信が切断された"
+    IDS_HTTP_TITLE          "「%s」のHTMLファイルオープン結果"
+    IDS_HTTP_CONNECT        "ＨＴＴＰサーバ接続中"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HTTP_GET            "ＨＴＭＬファイル取得中"
+    IDS_HTTPOPEN_END        "ＨＴＭＬファイル取得終了"
+    IDS_HTTPOPEN_CANCEL     "ＨＴＭＬファイル取得を中止しました"
+    IDS_HTTP_FILEOPENERR    "ＨＴＭＬキャッシュ用ファイル作成ができませんでした"
+    IDS_INPUT_USERID        "ユーザＩＤを入力してください"
+    IDS_INPUT_PASSWORD      "パスワードを入力してください"
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE 17, 1
+#pragma code_page(932)
+#endif
+#include "res\Editor.rc2"  // Microsoft Visual C++ 以外のツールで編集されたリソース
+#include "l.jpn\afxres.rc"          // 標準のコンポーネント
+#include "l.jpn\afxprint.rc"        // 印刷/印刷プレビュー リソース
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

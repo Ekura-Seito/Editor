@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{B4347767-A5F5-4EBA-871D-A8C595EF26A3}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;AFX_TARG_ENU;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\Editor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <DisableSpecificWarnings>4005;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\Editor.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0411</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\Editor.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\Editor.exe</OutputFile>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;AFX_TARG_ENU;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Release\Editor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\Editor.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0411</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\Editor.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\Xerxes.exe</OutputFile>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDlg.cpp" />
+    <ClCompile Include="AutoResizer.cpp" />
+    <ClCompile Include="Base64.cpp" />
+    <ClCompile Include="BasicAuthorizationDlg.cpp" />
+    <ClCompile Include="BCMenu.cpp" />
+    <ClCompile Include="BitmapClient.cpp" />
+    <ClCompile Include="CheckExecPasswdDlg.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="ClipBoardViewDlg.cpp" />
+    <ClCompile Include="CodeConvDlg.cpp" />
+    <ClCompile Include="CodeConvManager.cpp" />
+    <ClCompile Include="CodeConvStatusDlg.cpp" />
+    <ClCompile Include="ColorButton.cpp" />
+    <ClCompile Include="ColorManager.cpp" />
+    <ClCompile Include="DateMaskEdit.cpp" />
+    <ClCompile Include="DdeClient.cpp" />
+    <ClCompile Include="DdeServer.cpp" />
+    <ClCompile Include="DecriptDlg.cpp" />
+    <ClCompile Include="DecriptStatusDlg.cpp" />
+    <ClCompile Include="DirCompare.cpp" />
+    <ClCompile Include="DirCompareDlg.cpp" />
+    <ClCompile Include="DirCompareResultDlg.cpp" />
+    <ClCompile Include="DirCompareStatusDlg.cpp" />
+    <ClCompile Include="DirDialog.cpp" />
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="EditorDoc.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">_DEBUG;WIN32;_WINDOWS;AFX_TARG_JPN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="EditorView.cpp" />
+    <ClCompile Include="EditorView2.cpp" />
+    <ClCompile Include="EncriptDlg.cpp" />
+    <ClCompile Include="EncriptStatusDlg.cpp" />
+    <ClCompile Include="ExecPasswdDlg.cpp" />
+    <ClCompile Include="FileCompare.cpp" />
+    <ClCompile Include="FileCompareResultDlg.cpp" />
+    <ClCompile Include="FileCompareStatusDlg.cpp" />
+    <ClCompile Include="FileCopyDlg.cpp" />
+    <ClCompile Include="FileDialogEx.cpp" />
+    <ClCompile Include="FileMoveDlg.cpp" />
+    <ClCompile Include="FilePropertyDlg.cpp" />
+    <ClCompile Include="FileRenameDlg.cpp" />
+    <ClCompile Include="FileSearchDlg.cpp" />
+    <ClCompile Include="FileSearchStatusDlg.cpp" />
+    <ClCompile Include="FileTouchDlg.cpp" />
+    <ClCompile Include="FindDlg.cpp" />
+    <ClCompile Include="FolderDialog.cpp" />
+    <ClCompile Include="GlobalData.cpp" />
+    <ClCompile Include="GrepDlg.cpp" />
+    <ClCompile Include="GrepStatusDlg.cpp" />
+    <ClCompile Include="HtmlOpenDlg.cpp" />
+    <ClCompile Include="HtmlOpenResultDlg.cpp" />
+    <ClCompile Include="HtmlOpenStatusDlg.cpp" />
+    <ClCompile Include="http.cpp" />
+    <ClCompile Include="HyperLink.cpp" />
+    <ClCompile Include="KaigyoConvDlg.cpp" />
+    <ClCompile Include="KaigyoConvStatusDlg.cpp" />
+    <ClCompile Include="KeyBind.cpp" />
+    <ClCompile Include="KeyBindListDlg.cpp" />
+    <ClCompile Include="KeyBindManager.cpp" />
+    <ClCompile Include="KeyOpeDispDlg.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="LineJumpDlg.cpp" />
+    <ClCompile Include="LineManager.cpp" />
+    <ClCompile Include="ListCtrlEx.cpp" />
+    <ClCompile Include="MailListDlg.cpp" />
+    <ClCompile Include="MailListStatusDlg.cpp" />
+    <ClCompile Include="MailSendDlg.cpp" />
+    <ClCompile Include="MailSendStatusDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MarkLineListDlg.cpp" />
+    <ClCompile Include="MyComboBoxEx.cpp" />
+    <ClCompile Include="MyComboBoxEx2.cpp" />
+    <ClCompile Include="MyDes.cpp" />
+    <ClCompile Include="Myfeal.cpp" />
+    <ClCompile Include="Mymd5.cpp" />
+    <ClCompile Include="MyPropertyPage1.cpp" />
+    <ClCompile Include="MyPropertyPage10.cpp" />
+    <ClCompile Include="MyPropertyPage11.cpp" />
+    <ClCompile Include="MyPropertyPage12.cpp" />
+    <ClCompile Include="MyPropertyPage2.cpp" />
+    <ClCompile Include="MyPropertyPage3.cpp" />
+    <ClCompile Include="MyPropertyPage4.cpp" />
+    <ClCompile Include="MyPropertyPage5.cpp" />
+    <ClCompile Include="MyPropertyPage6.cpp" />
+    <ClCompile Include="MyPropertyPage7.cpp" />
+    <ClCompile Include="MyPropertyPage8.cpp" />
+    <ClCompile Include="MyPropertyPage9.cpp" />
+    <ClCompile Include="MyPropertySheet.cpp" />
+    <ClCompile Include="MySha1.cpp" />
+    <ClCompile Include="Operation.cpp" />
+    <ClCompile Include="OperationManager.cpp" />
+    <ClCompile Include="pop.cpp" />
+    <ClCompile Include="QuotedPrintable.cpp" />
+    <ClCompile Include="ReplaceDlg.cpp" />
+    <ClCompile Include="SetLicenseDlg.cpp" />
+    <ClCompile Include="smtp.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="StaticData.cpp" />
+    <ClCompile Include="StaticFilespec.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="TimeMaskEdit.cpp" />
+    <ClCompile Include="ToolBarEx.cpp" />
+    <ClCompile Include="UndoItem.cpp" />
+    <ClCompile Include="UndoItemAddCharacter.cpp" />
+    <ClCompile Include="UndoItemAl2Lower.cpp" />
+    <ClCompile Include="UndoItemAl2Upper.cpp" />
+    <ClCompile Include="UndoItemAlnumHan2Zen.cpp" />
+    <ClCompile Include="UndoItemAlnumZen2Han.cpp" />
+    <ClCompile Include="UndoItemBackSpaceChar.cpp" />
+    <ClCompile Include="UndoItemCutSelectArea.cpp" />
+    <ClCompile Include="UndoItemDelAsmComment.cpp" />
+    <ClCompile Include="UndoItemDelChar.cpp" />
+    <ClCompile Include="UndoItemDelCppComment.cpp" />
+    <ClCompile Include="UndoItemDelQuote.cpp" />
+    <ClCompile Include="UndoItemDelTopSpaces.cpp" />
+    <ClCompile Include="UndoItemDelVbComment.cpp" />
+    <ClCompile Include="UndoItemEditPaste.cpp" />
+    <ClCompile Include="UndoItemInsAsmComment.cpp" />
+    <ClCompile Include="UndoItemInsCppComment.cpp" />
+    <ClCompile Include="UndoItemInsDay.cpp" />
+    <ClCompile Include="UndoItemInsQuote.cpp" />
+    <ClCompile Include="UndoItemInsTime.cpp" />
+    <ClCompile Include="UndoItemInsVbComment.cpp" />
+    <ClCompile Include="UndoItemKatakanaHan2Zen.cpp" />
+    <ClCompile Include="UndoItemKatakanaZen2Han.cpp" />
+    <ClCompile Include="UndoItemOleDrop.cpp" />
+    <ClCompile Include="UndoItemReplaceSelectWord.cpp" />
+    <ClCompile Include="UndoItemReturn.cpp" />
+    <ClCompile Include="UndoItemShiftTabWhenSelected.cpp" />
+    <ClCompile Include="UndoItemSpace2Tab.cpp" />
+    <ClCompile Include="UndoItemSpaceHan2Zen.cpp" />
+    <ClCompile Include="UndoItemSpaceZen2Han.cpp" />
+    <ClCompile Include="UndoItemTab2Space.cpp" />
+    <ClCompile Include="UndoItemTabWhenSelected.cpp" />
+    <ClCompile Include="UndoManager.cpp" />
+    <ClCompile Include="Uudecoder.cpp" />
+    <ClCompile Include="Uuencoder.cpp" />
+    <ClCompile Include="WCntStatusDlg.cpp" />
+    <ClCompile Include="WordCountDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Editor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h" />
+    <ClInclude Include="BasicAuthorizationDlg.h" />
+    <ClInclude Include="BCMenu.h" />
+    <ClInclude Include="BitmapClient.h" />
+    <ClInclude Include="CheckExecPasswdDlg.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="ClipBoardViewDlg.h" />
+    <ClInclude Include="CodeConvDlg.h" />
+    <ClInclude Include="CodeConvManager.h" />
+    <ClInclude Include="CodeConvStatusDlg.h" />
+    <ClInclude Include="ColorButton.h" />
+    <ClInclude Include="ColorManager.h" />
+    <ClInclude Include="DecriptDlg.h" />
+    <ClInclude Include="DecriptStatusDlg.h" />
+    <ClInclude Include="DirCompareResultDlg.h" />
+    <ClInclude Include="DirDialog.h" />
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="EditorDoc.h" />
+    <ClInclude Include="EditorView.h" />
+    <ClInclude Include="Editor_Def.h" />
+    <ClInclude Include="EncriptStatusDlg.h" />
+    <ClInclude Include="ExecPasswdDlg.h" />
+    <ClInclude Include="FileCompareStatusDlg.h" />
+    <ClInclude Include="FileDialogEx.h" />
+    <ClInclude Include="FilePropertyDlg.h" />
+    <ClInclude Include="FileSearchDlg.h" />
+    <ClInclude Include="FileSearchStatusDlg.h" />
+    <ClInclude Include="FindDlg.h" />
+    <ClInclude Include="GrepDlg.h" />
+    <ClInclude Include="GrepStatusDlg.h" />
+    <ClInclude Include="HtmlOpenDlg.h" />
+    <ClInclude Include="HtmlOpenResultDlg.h" />
+    <ClInclude Include="HtmlOpenStatusDlg.h" />
+    <ClInclude Include="HyperLink.h" />
+    <ClInclude Include="KaigyoConvDlg.h" />
+    <ClInclude Include="KaigyoConvStatusDlg.h" />
+    <ClInclude Include="KeyBind.h" />
+    <ClInclude Include="KeyBindListDlg.h" />
+    <ClInclude Include="KeyBindManager.h" />
+    <ClInclude Include="KeyOpeDispDlg.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="LineJumpDlg.h" />
+    <ClInclude Include="LineManager.h" />
+    <ClInclude Include="MailListDlg.h" />
+    <ClInclude Include="MailListStatusDlg.h" />
+    <ClInclude Include="MailSendDlg.h" />
+    <ClInclude Include="MailSendStatusDlg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MarkLineListDlg.h" />
+    <ClInclude Include="Myfeal.h" />
+    <ClInclude Include="Mymd5.h" />
+    <ClInclude Include="MyPropertyPage1.h" />
+    <ClInclude Include="MyPropertyPage10.h" />
+    <ClInclude Include="MyPropertyPage11.h" />
+    <ClInclude Include="MyPropertyPage12.h" />
+    <ClInclude Include="mypropertypage2.h" />
+    <ClInclude Include="MyPropertyPage3.h" />
+    <ClInclude Include="MyPropertyPage4.h" />
+    <ClInclude Include="MyPropertyPage5.h" />
+    <ClInclude Include="MyPropertyPage6.h" />
+    <ClInclude Include="MyPropertyPage7.h" />
+    <ClInclude Include="MyPropertyPage8.h" />
+    <ClInclude Include="MyPropertyPage9.h" />
+    <ClInclude Include="MyPropertySheet.h" />
+    <ClInclude Include="Operation.h" />
+    <ClInclude Include="OperationManager.h" />
+    <ClInclude Include="ReplaceDlg.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SetLicenseDlg.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="StaticFilespec.h" />
+    <ClInclude Include="StatusBarDisp.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="ToolBarEx.h" />
+    <ClInclude Include="UndoItem.h" />
+    <ClInclude Include="UndoItemAddCharacter.h" />
+    <ClInclude Include="UndoItemAl2Lower.h" />
+    <ClInclude Include="UndoItemAl2Upper.h" />
+    <ClInclude Include="UndoItemAlnumHan2Zen.h" />
+    <ClInclude Include="UndoItemAlnumZen2Han.h" />
+    <ClInclude Include="UndoItemBackSpaceChar.h" />
+    <ClInclude Include="UndoItemCutSelectArea.h" />
+    <ClInclude Include="UndoItemDelChar.h" />
+    <ClInclude Include="UndoItemDelTopSpaces.h" />
+    <ClInclude Include="UndoItemEditPaste.h" />
+    <ClInclude Include="UndoItemInsAsmComment.h" />
+    <ClInclude Include="UndoItemInsCppComment.h" />
+    <ClInclude Include="UndoItemInsDay.h" />
+    <ClInclude Include="UndoItemInsTime.h" />
+    <ClInclude Include="UndoItemInsVbComment.h" />
+    <ClInclude Include="UndoItemKatakanaHan2Zen.h" />
+    <ClInclude Include="UndoItemKatakanaZen2Han.h" />
+    <ClInclude Include="UndoItemOleDrop.h" />
+    <ClInclude Include="UndoItemReplaceSelectWord.h" />
+    <ClInclude Include="UndoItemReturn.h" />
+    <ClInclude Include="UndoItemShiftTabWhenSelected.h" />
+    <ClInclude Include="UndoItemSpace2Tab.h" />
+    <ClInclude Include="UndoItemSpaceHan2Zen.h" />
+    <ClInclude Include="UndoItemSpaceZen2Han.h" />
+    <ClInclude Include="UndoItemTab2Space.h" />
+    <ClInclude Include="UndoItemTabWhenSelected.h" />
+    <ClInclude Include="UndoManager.h" />
+    <ClInclude Include="Uudecoder.h" />
+    <ClInclude Include="WCntStatusDlg.h" />
+    <ClInclude Include="WordCountDlg.h" />
+    <ClInclude Include="zmouse.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\auth.ico" />
+    <Image Include="res\bar_edit.bmp" />
+    <Image Include="res\bar_find.bmp" />
+    <Image Include="res\bar_jump.bmp" />
+    <Image Include="res\bar_tool.bmp" />
+    <Image Include="res\bar_wnd.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\bmp00004.bmp" />
+    <Image Include="res\bmp00005.bmp" />
+    <Image Include="res\bmp00006.bmp" />
+    <Image Include="res\bmp00007.bmp" />
+    <Image Include="res\bmp00008.bmp" />
+    <Image Include="res\bmp00009.bmp" />
+    <Image Include="res\bmp00010.bmp" />
+    <Image Include="res\bmp00011.bmp" />
+    <Image Include="res\bmp00012.bmp" />
+    <Image Include="res\bmp00013.bmp" />
+    <Image Include="res\bmp00014.bmp" />
+    <Image Include="res\bmp00015.bmp" />
+    <Image Include="res\bmp00016.bmp" />
+    <Image Include="res\bmp00017.bmp" />
+    <Image Include="res\bmp00018.bmp" />
+    <Image Include="res\bmp00019.bmp" />
+    <Image Include="res\bmp00020.bmp" />
+    <Image Include="res\brws_url.bmp" />
+    <Image Include="res\clipview.bmp" />
+    <Image Include="res\decrypt.bmp" />
+    <Image Include="res\edit_cli.bmp" />
+    <Image Include="res\edit_del.bmp" />
+    <Image Include="res\edit_fil.bmp" />
+    <Image Include="res\edit_ins.bmp" />
+    <Image Include="res\encrypt.bmp" />
+    <Image Include="res\file_cmp.bmp" />
+    <Image Include="res\file_toc.bmp" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\idr_main.ico" />
+    <Image Include="res\instime.bmp" />
+    <Image Include="res\ins_asm.bmp" />
+    <Image Include="res\ins_cpp.bmp" />
+    <Image Include="res\ins_day.bmp" />
+    <Image Include="res\ins_tab.bmp" />
+    <Image Include="res\ins_vb.bmp" />
+    <Image Include="res\jump_nex.bmp" />
+    <Image Include="res\jump_pre.bmp" />
+    <Image Include="res\jump_set.bmp" />
+    <Image Include="res\laugh.ico" />
+    <Image Include="res\logo.bmp" />
+    <Image Include="res\mailattach.bmp" />
+    <Image Include="res\security.bmp" />
+    <Image Include="res\setreado.bmp" />
+    <Image Include="res\smallico.bmp" />
+    <Image Include="res\splash.BMP" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\toolbar_.bmp" />
+    <Image Include="res\unreadon.bmp" />
+    <Image Include="res\window_c.bmp" />
+    <Image Include="res\window_s.bmp" />
+    <Image Include="res\window_t.bmp" />
+    <Image Include="res\wnd_acls.bmp" />
+    <Image Include="res\wnd_arng.bmp" />
+    <Image Include="res\wnd_casc.bmp" />
+    <Image Include="res\wnd_clos.bmp" />
+    <Image Include="res\wnd_hrz.bmp" />
+    <Image Include="res\wnd_new.bmp" />
+    <Image Include="res\wnd_next.bmp" />
+    <Image Include="res\wnd_prev.bmp" />
+    <Image Include="res\wnd_splt.bmp" />
+    <Image Include="res\wnd_vrt.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\cursor1.cur" />
+    <CustomBuild Include="res\Editor.rc2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

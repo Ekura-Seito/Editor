@@ -1,0 +1,2992 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include <Dlgs.h>
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include <Dlgs.h>\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\Editor.rc2""  // Microsoft Visual C++ 以外のツールで編集されたリソース\r\n"
+    "#include ""afxres.rc""          // 標準のコンポーネント\r\n"
+    "#include ""afxprint.rc""        // 印刷/印刷プレビュー リソース\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英語 (ｱﾒﾘｶ) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_EDITORTYPE          ICON    DISCARDABLE     "..\\res\\icon1.ico"
+IDR_MAINFRAME           ICON    DISCARDABLE     "..\\res\\idr_main.ico"
+IDR_LAUGHICON           ICON    DISCARDABLE     "..\\res\\laugh.ico"
+IDR_AUTH                ICON    DISCARDABLE     "..\\res\\auth.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "..\\res\\Toolbar.bmp"
+IDB_WINDOW_NEW          BITMAP  DISCARDABLE     "..\\res\\wnd_new.bmp"
+IDB_WINDOW_TILE_HORZ    BITMAP  DISCARDABLE     "..\\res\\wnd_hrz.bmp"
+IDB_WINDOW_TILE_VERT    BITMAP  DISCARDABLE     "..\\res\\wnd_vrt.bmp"
+IDB_WINDOW_CASCADE      BITMAP  DISCARDABLE     "..\\res\\wnd_casc.bmp"
+IDB_WINDOW_CLOSE        BITMAP  DISCARDABLE     "..\\res\\wnd_clos.bmp"
+IDB_WINDOW_SPLIT        BITMAP  DISCARDABLE     "..\\res\\wnd_splt.bmp"
+IDB_WINDOW_ALLCLOSE     BITMAP  DISCARDABLE     "..\\res\\wnd_acls.bmp"
+IDB_SETREADONLY         BITMAP  DISCARDABLE     "..\\res\\setreado.bmp"
+IDB_UNSETREADONLY       BITMAP  DISCARDABLE     "..\\res\\unreadon.bmp"
+IDB_WND_NEXT            BITMAP  DISCARDABLE     "..\\res\\wnd_next.bmp"
+IDB_WND_PREV            BITMAP  DISCARDABLE     "..\\res\\wnd_prev.bmp"
+IDB_LOGO                BITMAP  DISCARDABLE     "..\\res\\logo.BMP"
+IDB_SPLASH              BITMAP  DISCARDABLE     "..\\res\\splash.BMP"
+IDB_EDIT_INSTAB         BITMAP  DISCARDABLE     "..\\res\\ins_tab.bmp"
+IDB_EDIT_DELTAB         BITMAP  DISCARDABLE     "..\\res\\edit_ins.bmp"
+IDB_EDIT_INSCPPCOMMENT  BITMAP  DISCARDABLE     "..\\res\\ins_cpp.bmp"
+IDB_EDIT_INSVBCOMMENT   BITMAP  DISCARDABLE     "..\\res\\ins_vb.bmp"
+IDB_EDIT_INSASMCOMMENT  BITMAP  DISCARDABLE     "..\\res\\ins_asm.bmp"
+IDB_EDIT_INSDAY         BITMAP  DISCARDABLE     "..\\res\\ins_day.bmp"
+IDB_EDIT_INSTIME        BITMAP  DISCARDABLE     "..\\res\\instime.bmp"
+IDB_VIEW_REDRAW         BITMAP  DISCARDABLE     "..\\res\\edit_del.bmp"
+IDB_WINDOW_ARRANGE      BITMAP  DISCARDABLE     "..\\res\\wnd_arng.bmp"
+IDB_SECURITY_ENCRIPT    BITMAP  DISCARDABLE     "..\\res\\encrypt.bmp"
+IDB_SECURITY_DECRIPT    BITMAP  DISCARDABLE     "..\\res\\decrypt.bmp"
+IDB_EDIT_CLIPVIEW       BITMAP  DISCARDABLE     "..\\res\\clipview.bmp"
+IDB_JUMP_SETMARK        BITMAP  DISCARDABLE     "..\\res\\edit_cli.bmp"
+IDB_JUMP_DELMARK        BITMAP  DISCARDABLE     "..\\res\\jump_set.bmp"
+IDB_JUMP_NEXTMARK       BITMAP  DISCARDABLE     "..\\res\\jump_nex.bmp"
+IDB_JUMP_PREVMARK       BITMAP  DISCARDABLE     "..\\res\\jump_pre.bmp"
+IDB_EDIT_FILECOMPARE    BITMAP  DISCARDABLE     "..\\res\\file_cmp.bmp"
+IDB_EDIT_DIRCOMPARE     BITMAP  DISCARDABLE     "..\\res\\edit_fil.bmp"
+IDB_EDIT_FILETOUCH      BITMAP  DISCARDABLE     "..\\res\\file_toc.bmp"
+IDB_EDIT_BROWSEURL      BITMAP  DISCARDABLE     "..\\res\\brws_url.bmp"
+IDR_TOOLBAR_WND         BITMAP  DISCARDABLE     "..\\res\\bar_wnd.bmp"
+IDR_TOOLBAR_TOOLS       BITMAP  DISCARDABLE     "..\\res\\bar_tool.bmp"
+IDR_TOOLBAR_FIND        BITMAP  DISCARDABLE     "..\\res\\bar_find.bmp"
+IDR_TOOLBAR_EDIT        BITMAP  DISCARDABLE     "..\\res\\bar_edit.bmp"
+IDR_TOOLBAR_JMP         BITMAP  DISCARDABLE     "..\\res\\bar_jump.bmp"
+IDB_MAILATTACH          BITMAP  DISCARDABLE     "..\\res\\mailattach.bmp"
+IDB_SOUNDICONS          BITMAP  DISCARDABLE     "..\\res\\smallico.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_CLOSE
+    BUTTON      ID_FILE_SAVE
+    BUTTON      ID_FILE_ALLSAVE
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_FILE_PRINT_PREVIEW
+    BUTTON      ID_FILE_PRINT_SETUP
+    SEPARATOR
+    BUTTON      ID_SETTINGS
+    SEPARATOR
+    BUTTON      ID_HELP_CONTENT
+    BUTTON      ID_HELP_CONTENT2
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_TOOLBAR_WND TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_WINDOW_NEW
+    BUTTON      ID_WINDOW_SPLIT
+    BUTTON      ID_WINDOW_ARRANGE
+    BUTTON      ID_WND_NEXT
+    BUTTON      ID_WND_PREV
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_WINDOW_TILE_VERT
+    BUTTON      ID_WINDOW_CLOSE
+    BUTTON      ID_WINDOW_ALLCLOSE
+END
+
+IDR_TOOLBAR_TOOLS TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_SENDMAIL
+    BUTTON      ID_EDIT_SJISDUMP
+    BUTTON      ID_EDIT_CODECONV
+    BUTTON      ID_EDIT_KAIGYOCONV
+    BUTTON      ID_EDIT_WORDCOUNT
+    BUTTON      ID_EDIT_FILESEARCH
+    BUTTON      ID_EDIT_FILETOUCH
+    BUTTON      ID_SECURITY_ENCRIPT
+    BUTTON      ID_SECURITY_DECRIPT
+    BUTTON      ID_TOOL_OPE_STARTENDRECORD
+END
+
+IDR_TOOLBAR_FIND TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_EDIT_FIND
+    BUTTON      ID_EDIT_FINDCONTINUE
+    BUTTON      ID_EDIT_FINDREVCONTINUE
+    BUTTON      ID_EDIT_REPLACE
+    BUTTON      ID_EDIT_GREP
+    BUTTON      ID_EDIT_FILECOMPARE
+    BUTTON      ID_EDIT_DIRCOMPARE
+END
+
+IDR_TOOLBAR_EDIT TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_EDIT_DEL
+    SEPARATOR
+    BUTTON      ID_EDIT_CLIPVIEW
+    BUTTON      ID_EDIT_BROWSEURL
+    BUTTON      ID_EDIT_EXECMAILER
+    BUTTON      ID_EDIT_SETREADONLY
+    BUTTON      ID_EDIT_UNSETREADONLY
+    BUTTON      ID_EDIT_INSDAY
+    BUTTON      ID_EDIT_INSTIME
+    BUTTON      ID_EDIT_INSTAB
+    BUTTON      ID_EDIT_DELTAB
+    BUTTON      ID_EDIT_INSCPPCOMMENT
+    BUTTON      ID_EDIT_INSVBCOMMENT
+    BUTTON      ID_EDIT_INSASMCOMMENT
+    BUTTON      ID_EDIT_INSQUOTE
+END
+
+IDR_TOOLBAR_JMP TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_EDIT_JUMP2TOP
+    BUTTON      ID_EDIT_JUMP2BOTTOM
+    BUTTON      ID_EDIT_JUMP2LINE
+    BUTTON      ID_JUMP_SETMARK
+    BUTTON      ID_JUMP_DELMARK
+    BUTTON      ID_JUMP_NEXTMARK
+    BUTTON      ID_JUMP_PREVMARK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "File (&F)"
+    BEGIN
+        MENUITEM "New (&N)\tCtl+Shft+Back",     ID_FILE_NEW
+        MENUITEM "Open(&O)",                    ID_FILE_OPEN
+        MENUITEM "Open files when at exit(&T)", ID_FILE_OPENONEXIT
+        MENUITEM "Open html file on web site(&W)", ID_HTTP_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Print Setup (&R)",            ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Exit (&X)",                   ID_APP_EXIT
+    END
+    POPUP "Edit (&E)"
+    BEGIN
+        MENUITEM "View ClipBoard\tCtl+Shft+Back", ID_EDIT_CLIPVIEW
+    END
+    POPUP "Find (&K)"
+    BEGIN
+        MENUITEM "Grep (&G)\tCtl+Shft+Back",    ID_EDIT_GREP
+        MENUITEM SEPARATOR
+        MENUITEM "File comparison (&C)",        ID_EDIT_FILECOMPARE
+        POPUP "Options of file comparison(&O)"
+        BEGIN
+            MENUITEM "White spaces are not distinguished.\tCtl+Shft+Back", 
+                                                    ID_EDIT_FCOMP_TABEQUAL2SPACE
+
+            MENUITEM "Full size and half size are not distinguished.", 
+                                                    ID_EDIT_FCOMP_ZENEQUAL2HAN
+
+            MENUITEM "The capital letter and small letter are not distinguished.", 
+                                                    ID_EDIT_FCOMP_ALPHABETBIGANDSMALL
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Directory comparison (&D)",   ID_EDIT_DIRCOMPARE
+    END
+    POPUP "View (&V)"
+    BEGIN
+        MENUITEM "Toolbar (&T)\tCtl+Shft+Back", ID_VIEW_TOOLBAR
+        MENUITEM "Edit related tool bar",       ID_VIEW_TOOLBAR_EDIT
+        MENUITEM "Find related tool bar",       ID_VIEW_TOOLBAR_FIND
+        MENUITEM "Jump related tool bar",       ID_VIEW_TOOLBAR_JMP
+        MENUITEM "Tool related tool bar",       ID_VIEW_TOOLBAR_TOOLS
+        MENUITEM "Window related tool bar",     ID_VIEW_TOOLBAR_WND
+        MENUITEM "Status Bar(&S)",              ID_VIEW_STATUS_BAR
+    END
+    POPUP "Tool (&T)"
+    BEGIN
+        MENUITEM "POP3 server mail list (&L)\tCtl+Shft+Back", 
+                                                ID_FILE_MAILLIST
+        MENUITEM SEPARATOR
+        MENUITEM "Character code conversion(&C)", ID_EDIT_CODECONV
+        MENUITEM "New-line code conversion(&K)", ID_EDIT_KAIGYOCONV
+        MENUITEM "WORD count (&W)",             ID_EDIT_WORDCOUNT
+        MENUITEM "File search (&F)",            ID_EDIT_FILESEARCH
+        MENUITEM "File touch (&T)",             ID_EDIT_FILETOUCH
+        MENUITEM SEPARATOR
+        MENUITEM "File encryption(&E)",         ID_SECURITY_ENCRIPT
+        MENUITEM "File decryption(&D)",         ID_SECURITY_DECRIPT
+        MENUITEM SEPARATOR
+        MENUITEM "Uuencode",                    ID_EDIT_UUENCODE
+        MENUITEM "Base64 encoding",             ID_EDIT_BASE64ENCODE
+        MENUITEM "Quoted-Printable encoding",   ID_EDIT_QUOTEDENCODE
+        MENUITEM SEPARATOR
+        MENUITEM "Save key operation to a file", ID_TOOL_OPE_SAVE
+        MENUITEM "Read Key operation from a file", ID_TOOL_OPE_OPEN
+        MENUITEM "Display key operations",      ID_TOOL_OPE_DISP
+    END
+    POPUP "Settings (&S)"
+    BEGIN
+        MENUITEM "Customize tool bar\tCtl+Shft+Back", ID_CUSTOMIZE_TOOLBAR
+        MENUITEM "Customize edit related tool bar", ID_CUSTOMIZE_TOOLBAREDIT
+        MENUITEM "Customize find related tool bar", ID_CUSTOMIZE_TOOLBARFIND
+        MENUITEM "Customize Jump related tool bar", ID_CUSTOMIZE_TOOLBARJMP
+        MENUITEM "Customize Tool related tool bar", 
+                                                ID_CUSTOMIZE_TOOLBARTOOLS
+        MENUITEM "Customize Window related toolbar", ID_CUSTOMIZE_TOOLBARWND
+    END
+    POPUP "Help (&H)"
+    BEGIN
+        MENUITEM "Table of contents (&C)\tCtl+Shft+Back", ID_HELP_CONTENT
+        MENUITEM "HTML Help table of contents(&H)", ID_HELP_CONTENT2
+        MENUITEM "Version information (&A)",    ID_APP_ABOUT
+        MENUITEM "License registration (&L)",   ID_HELP_LICENSE
+    END
+END
+
+IDR_EDITORTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "File (&F)"
+    BEGIN
+        MENUITEM "New (&N)\tCtl+Shft+Back",     ID_FILE_NEW
+        MENUITEM "Open (&O)",                   ID_FILE_OPEN
+        MENUITEM "Close(&C)",                   ID_FILE_CLOSE
+        MENUITEM "Save and Close(&E)",          ID_FILE_SAVECLOSE
+        MENUITEM "Save (&S)",                   ID_FILE_SAVE
+        MENUITEM "Save As (&A)",                ID_FILE_SAVE_AS
+        MENUITEM "Save all files(&L)",          ID_FILE_ALLSAVE
+        MENUITEM "Open files when at exit(&T)", ID_FILE_OPENONEXIT
+        MENUITEM "Open html file on web site(&W)", ID_HTTP_FILE_OPEN
+        MENUITEM "Re-loading",                  ID_FILE_REREAD
+        MENUITEM "Property(&I)",                ID_FILE_PROPERTY
+        MENUITEM "Open files of the same name", ID_FILE_OPENSAMENAME
+        MENUITEM "Open with the assosiated software", ID_FILE_SHELLOPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Move",                        ID_FILE_MOVE
+        MENUITEM "Copy",                        ID_FILE_COPY
+        MENUITEM "Rename",                      ID_FILE_RENAME
+        MENUITEM "Delete",                      ID_FILE_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Print (&P)",                  ID_FILE_PRINT
+        MENUITEM "Print Preview(&V)",           ID_FILE_PRINT_PREVIEW
+        MENUITEM "Print Setup(&R)",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Save all files and Exit(&Y)", ID_ALLSAVE_EXIT
+        MENUITEM "Exit (&X)",                   ID_APP_EXIT
+    END
+    POPUP "Edit (&E)"
+    BEGIN
+        MENUITEM "Undo (&U)\tCtl+Shft+Back",    ID_EDIT_UNDO
+        MENUITEM "Redo (&R)",                   ID_EDIT_REDO
+        MENUITEM "Undo/Redo buffer clearance",  ID_EDIT_CLEARUNDOBUF
+        MENUITEM "Undo all operation",          ID_EDIT_ALLUNDO
+        MENUITEM "Redo all operation",          ID_EDIT_ALLREDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cut (&T)",                    ID_EDIT_CUT
+        MENUITEM "Copy (&C)",                   ID_EDIT_COPY
+        MENUITEM "Paste (&P)",                  ID_EDIT_PASTE
+        MENUITEM "Delete (&D)",                 ID_EDIT_DEL
+        MENUITEM "Select All (&A)",             ID_EDIT_SELECTALL
+        MENUITEM "View ClipBoard",              ID_EDIT_CLIPVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Browse URL",                  ID_EDIT_BROWSEURL
+        MENUITEM "Start a mailer",              ID_EDIT_EXECMAILER
+        MENUITEM "Make the ban on writing",     ID_EDIT_SETREADONLY
+        MENUITEM "Cancel the ban on writing",   ID_EDIT_UNSETREADONLY
+        MENUITEM "Insert date",                 ID_EDIT_INSDAY
+        MENUITEM "Insert time",                 ID_EDIT_INSTIME
+        MENUITEM SEPARATOR
+        POPUP "New-line code conversion"
+        BEGIN
+            MENUITEM "DOS/Windows  CR+LF\tCtl+Shft+Back", ID_EDIT_CRLF
+            MENUITEM "UNIX  LF",                    ID_EDIT_LF
+            MENUITEM "Macintosh  CR",               ID_EDIT_CR
+        END
+        POPUP "Character code conversion"
+        BEGIN
+            MENUITEM "EUC code \tCtl+Shft+Back",    ID_EDIT_CODE2EUC
+            MENUITEM "Shift-JIS code",              ID_EDIT_CODE2SJIS
+            MENUITEM "JIS code",                    ID_EDIT_CODE2JIS
+        END
+        POPUP "Conversion in a selection"
+        BEGIN
+            MENUITEM "Tab -> Half-size space\tCtl+Shft+Back", 
+                                                    ID_EDIT_TAB2SPACE
+            MENUITEM "Half-size space -> Tab",      ID_EDIT_SPACE2TAB
+            MENUITEM "Space full-size -> half-size", ID_EDIT_SPACE_ZEN2HAN
+            MENUITEM "Space half-size -> full-size", ID_EDIT_SPACE_HAN2ZEN
+            MENUITEM "Katakana half-size -> full-size", 
+                                                    ID_EDIT_KATAKANA_HAN2ZEN
+            MENUITEM "Katakana full-size -> half-size", 
+                                                    ID_EDIT_KATAKANA_ZEN2HAN
+            MENUITEM "Alphanumeric character half-size -> full-size", 
+                                                    ID_EDIT_ALNUM_HAN2ZEN
+            MENUITEM "Alphanumeric character full-size -> half size", 
+                                                    ID_EDIT_ALNUM_ZEN2HAN
+            MENUITEM "Alphabetic character -> Capital letter", 
+                                                    ID_EDIT_AL2UPPER
+            MENUITEM "Alphabetic character -> Small letter", 
+                                                    ID_EDIT_AL2LOWER
+            MENUITEM "Delete all spaces and tabs in the head", 
+                                                    ID_EDIT_DELTOPSPACES
+            MENUITEM "Insert a tab\tTAB",           ID_EDIT_INSTAB
+            MENUITEM "Delete a tab\tShift+TAB",     ID_EDIT_DELTAB
+            MENUITEM "Insert C/C++ line comment(//)", ID_EDIT_INSCPPCOMMENT
+            MENUITEM "Delete C/C++ line comment(//)", ID_EDIT_DELCPPCOMMENT
+            MENUITEM "Insert VB line comment(')",   ID_EDIT_INSVBCOMMENT
+            MENUITEM "Delete VB line comment(')",   ID_EDIT_DELVBCOMMENT
+            MENUITEM "Insert Assembler line comment(;)", 
+                                                    ID_EDIT_INSASMCOMMENT
+            MENUITEM "Delete Assembler line comment(;)", 
+                                                    ID_EDIT_DELASMCOMMENT
+            MENUITEM "Insert a quotation-mark(>)",  ID_EDIT_INSQUOTE
+            MENUITEM "Delete a quotation-mark(>)",  ID_EDIT_DELQUOTE
+        END
+    END
+    POPUP "Find (&K)"
+    BEGIN
+        MENUITEM "Find the specified text(&F)\tCtl+Shft+Back", ID_EDIT_FIND
+        MENUITEM "Continue to find downward",   ID_EDIT_FINDCONTINUE
+        MENUITEM "Continue to find upward",     ID_EDIT_FINDREVCONTINUE
+        MENUITEM "Incremental Search(&I)",      ID_EDIT_INCRIMENTALSEARCH
+        MENUITEM SEPARATOR
+        MENUITEM "Replace the specified text(&R)", ID_EDIT_REPLACE
+        MENUITEM "Grep (&G)",                   ID_EDIT_GREP
+        MENUITEM SEPARATOR
+        MENUITEM "File comparison (&C)",        ID_EDIT_FILECOMPARE
+        POPUP "Options of file comparison(&O)"
+        BEGIN
+            MENUITEM "White spaces are not distinguished.\tCtl+Shft+Back", 
+                                                    ID_EDIT_FCOMP_TABEQUAL2SPACE
+
+            MENUITEM "Full size and half size are not distinguished.", 
+                                                    ID_EDIT_FCOMP_ZENEQUAL2HAN
+
+            MENUITEM "The capital letter and small letter are not distinguished.", 
+                                                    ID_EDIT_FCOMP_ALPHABETBIGANDSMALL
+
+        END
+        MENUITEM "Jump to the different line downword (&N)", 
+                                                ID_EDIT_NEXTDIFF
+        MENUITEM "Jump to the different line upword (&P)", ID_EDIT_PREVDIFF
+        MENUITEM "File Re-comparison",          ID_EDIT_FILERECOMPARE
+        MENUITEM SEPARATOR
+        MENUITEM "Directory comparison (&D)",   ID_EDIT_DIRCOMPARE
+        MENUITEM "Compare different files in detail", ID_EDIT_DIRCMP_SYOSAI
+    END
+    POPUP "Jump (&J)"
+    BEGIN
+        MENUITEM "Jump to a head line (&T)\tCtl+Shft+Back", ID_EDIT_JUMP2TOP
+        MENUITEM "Jump to a last line (&B)",    ID_EDIT_JUMP2BOTTOM
+        MENUITEM "Jump to a specified line (&G)", ID_EDIT_JUMP2LINE
+        MENUITEM SEPARATOR
+        MENUITEM "Jump to a corresponding parenthesis", ID_PARENTHESIS
+        MENUITEM "Tag jump",                    ID_EDIT_TAGJUMP
+        MENUITEM SEPARATOR
+        MENUITEM "Mark the current line (&M)",  ID_JUMP_SETMARK
+        MENUITEM "Mark release the current line (&U)", ID_JUMP_DELMARK
+        MENUITEM "Mark release all line (&A)",  ID_JUMP_ALLDELMARK
+        MENUITEM "Jump to the marked line downword (&N)", ID_JUMP_NEXTMARK
+        MENUITEM "Jump to the marked line upword (&P)", ID_JUMP_PREVMARK
+        MENUITEM "Display the marked line list (&L)", ID_JUMP_MARKLIST
+    END
+    POPUP "View (&V)"
+    BEGIN
+        MENUITEM "Standard tool bar (&T)\tCtl+Shft+Back", ID_VIEW_TOOLBAR
+        MENUITEM "Edit related tool bar",       ID_VIEW_TOOLBAR_EDIT
+        MENUITEM "Find related tool bar",       ID_VIEW_TOOLBAR_FIND
+        MENUITEM "Jump related tool bar",       ID_VIEW_TOOLBAR_JMP
+        MENUITEM "Tool related tool bar",       ID_VIEW_TOOLBAR_TOOLS
+        MENUITEM "Window related tool bar",     ID_VIEW_TOOLBAR_WND
+        MENUITEM "Status Bar (&S)",             ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Reflesh",                     ID_VIEW_REDRAW
+        MENUITEM SEPARATOR
+        MENUITEM "Display line no (&L)",        ID_VIEW_LINENO
+        MENUITEM "Display ruler (&R)",          ID_VIEW_RULER
+        MENUITEM "Display new-line code (&C)",  ID_VIEW_CRLF
+        MENUITEM "Display tab",                 ID_VIEW_TAB
+        MENUITEM "Display full-size space",     ID_VIEW_ZENKAKUSPACE
+        MENUITEM "Display underline (&U)",      ID_VIEW_UNDERLINE
+        MENUITEM "Display the end of file mark (&E)", ID_VIEW_EOF
+        MENUITEM SEPARATOR
+        POPUP "Caret form"
+        BEGIN
+            MENUITEM "Caret form : I beam\tCtl+Shft+Back", 
+                                                    ID_VIEW_CARET_IBEAM
+            MENUITEM "Caret form : Square",         ID_VIEW_CARET_SQUARE
+        END
+        POPUP "Tab size"
+        BEGIN
+            MENUITEM "2 tab\tCtl+Shft+Back",        ID_VIEW_TAB_2
+            MENUITEM "4 tab",                       ID_VIEW_TAB_4
+            MENUITEM "8 tab",                       ID_VIEW_TAB_8
+        END
+    END
+    POPUP "Tool (&T)"
+    BEGIN
+        MENUITEM "Send mail (&M)\tCtl+Shft+Back", ID_FILE_SENDMAIL
+        MENUITEM "POP3 server mail list(&L)",   ID_FILE_MAILLIST
+        MENUITEM SEPARATOR
+        MENUITEM "Dumping in ASCII code (&A)",  ID_EDIT_ASCIIDUMP
+        MENUITEM "Dumping in Shift-JIS code (&S)", ID_EDIT_SJISDUMP
+        MENUITEM "Character code conversion (&C)", ID_EDIT_CODECONV
+        MENUITEM "New-line code conversion (&K)", ID_EDIT_KAIGYOCONV
+        MENUITEM "WORD count (&W)",             ID_EDIT_WORDCOUNT
+        MENUITEM "File search (&F)",            ID_EDIT_FILESEARCH
+        MENUITEM "File touch (&T)",             ID_EDIT_FILETOUCH
+        MENUITEM "Arrange C/C++ Source",        ID_EDIT_SOURCEARRANGE
+        MENUITEM SEPARATOR
+        MENUITEM "File encryption (&E)",        ID_SECURITY_ENCRIPT
+        MENUITEM "File decryption (&D)",        ID_SECURITY_DECRIPT
+        MENUITEM SEPARATOR
+        MENUITEM "Uuencode",                    ID_EDIT_UUENCODE
+        MENUITEM "Base64 encoding",             ID_EDIT_BASE64ENCODE
+        MENUITEM "Quoted-Printable encoding",   ID_EDIT_QUOTEDENCODE
+        MENUITEM SEPARATOR
+        MENUITEM "Uudecode (&U)",               ID_EDIT_UUDECODE
+        MENUITEM "Base64 decoding (&B)",        ID_EDIT_BASE64DECODE
+        MENUITEM "Quoted-Printable decoding (&Q)", ID_EDIT_QUOTEDDECODE
+        MENUITEM SEPARATOR
+        MENUITEM "Recoding key operations",     ID_TOOL_OPE_STARTENDRECORD
+        MENUITEM "Executing key operations",    ID_TOOL_OPE_DO
+        POPUP "Step Execution of key operations"
+        BEGIN
+            MENUITEM "Execute the next key operation\tCtl+Shft+Back", 
+                                                    ID_TOOL_OPE_STEPDO_NEXT
+            MENUITEM "Stop the execution of key operations", 
+                                                    ID_TOOL_OPE_STEPDO_END
+        END
+        MENUITEM "Save key operation to a file", ID_TOOL_OPE_SAVE
+        MENUITEM "Read key operation from a file", ID_TOOL_OPE_OPEN
+        MENUITEM "Display key operations",      ID_TOOL_OPE_DISP
+    END
+    POPUP "Settings (&S)"
+    BEGIN
+        MENUITEM "Settings (&S)",               ID_SETTINGS
+        MENUITEM "Customize Standard tool bar\tCtl+Shft+Back", 
+                                                ID_CUSTOMIZE_TOOLBAR
+        MENUITEM "Customize Edit related tool bar", ID_CUSTOMIZE_TOOLBAREDIT
+        MENUITEM "Customize Find related tool bar", ID_CUSTOMIZE_TOOLBARFIND
+        MENUITEM "Customize Jump related tool bar", ID_CUSTOMIZE_TOOLBARJMP
+        MENUITEM "Customize Tool related tool bar", 
+                                                ID_CUSTOMIZE_TOOLBARTOOLS
+        MENUITEM "Customize Window related tool bar", 
+                                                ID_CUSTOMIZE_TOOLBARWND
+    END
+    POPUP "Window (&W)"
+    BEGIN
+        MENUITEM "New window (&N)\tCtl+Shft+Back", ID_WINDOW_NEW
+        MENUITEM "Split window (&P)",           ID_WINDOW_SPLIT
+        MENUITEM "Arrange icons (&A)",          ID_WINDOW_ARRANGE
+        MENUITEM "Minimize",                    ID_WINDOW_MINIMIZE
+        MENUITEM "Maximize",                    ID_WINDOW_MAXIMIZE
+        MENUITEM "Restore (&R)",                ID_WINDOW_RESTORE
+        MENUITEM SEPARATOR
+        MENUITEM "Next window (&X)",            ID_WND_NEXT
+        MENUITEM "Prev window (&V)",            ID_WND_PREV
+        MENUITEM "Next pane (&J)",              ID_NEXT_PANE
+        MENUITEM "Prev pane (&K)",              ID_PREV_PANE
+        MENUITEM SEPARATOR
+        MENUITEM "Cascade (&C)",                ID_WINDOW_CASCADE
+        MENUITEM "Arrange up and down (&H)",    ID_WINDOW_TILE_HORZ
+        MENUITEM "Arrange right and left (&T)", ID_WINDOW_TILE_VERT
+        MENUITEM "Close (&O)",                  ID_WINDOW_CLOSE
+        MENUITEM "Close all (&L)",              ID_WINDOW_ALLCLOSE
+    END
+    POPUP "Help (&H)"
+    BEGIN
+        MENUITEM "Table of contents (&C)\tCtl+Shft+Back", ID_HELP_CONTENT
+        MENUITEM "HTML Help table of contents (&H)", ID_HELP_CONTENT2
+        MENUITEM "Version information (&A)",    ID_APP_ABOUT
+        MENUITEM "License registration (&L)",   ID_HELP_LICENSE
+    END
+END
+
+CG_IDR_POPUP_EDITOR_VIEW MENU DISCARDABLE 
+BEGIN
+    POPUP "_popup_"
+    BEGIN
+        MENUITEM "Undo (&U)\tCtl+Shft+Back",    ID_EDIT_UNDO
+        MENUITEM "Redo (&R)",                   ID_EDIT_REDO
+        MENUITEM "Undo/Redo buffer clearance",  ID_EDIT_CLEARUNDOBUF
+        MENUITEM "Undo all operation",          ID_EDIT_ALLUNDO
+        MENUITEM "Redo all operation",          ID_EDIT_ALLREDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cut (&T)",                    ID_EDIT_CUT
+        MENUITEM "Copy (&C)",                   ID_EDIT_COPY
+        MENUITEM "Paste (&P)",                  ID_EDIT_PASTE
+        MENUITEM "Delete (&D)",                 ID_EDIT_DEL
+        MENUITEM "Select All (&A)",             ID_EDIT_SELECTALL
+        MENUITEM "View ClipBoard",              ID_EDIT_CLIPVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Browse URL",                  ID_EDIT_BROWSEURL
+        MENUITEM "Start a mailer",              ID_EDIT_EXECMAILER
+        MENUITEM "Make the ban on writing",     ID_EDIT_SETREADONLY
+        MENUITEM "Cancel the ban on writing",   ID_EDIT_UNSETREADONLY
+        MENUITEM "Insert date",                 ID_EDIT_INSDAY
+        MENUITEM "Insert time",                 ID_EDIT_INSTIME
+        MENUITEM SEPARATOR
+        POPUP "New-line code conversion"
+        BEGIN
+            MENUITEM "DOS/Windows  CRLF\tCtl+Shft+Back", ID_EDIT_CRLF
+            MENUITEM "UNIX  LF",                    ID_EDIT_LF
+            MENUITEM "Macintosh  CR",               ID_EDIT_CR
+        END
+        POPUP "Character code conversion"
+        BEGIN
+            MENUITEM "EUC code\tCtl+Shft+Back",     ID_EDIT_CODE2EUC
+            MENUITEM "Shift-JIS code",              ID_EDIT_CODE2SJIS
+            MENUITEM "JIS code",                    ID_EDIT_CODE2JIS
+        END
+        POPUP "Conversion in a selection"
+        BEGIN
+            MENUITEM "Tab -> Half-size space\tCtl+Shft+Back", 
+                                                    ID_EDIT_TAB2SPACE
+            MENUITEM "Half-size space -> Tab",      ID_EDIT_SPACE2TAB
+            MENUITEM "Space full-size -> half-size", ID_EDIT_SPACE_ZEN2HAN
+            MENUITEM "Space half-size -> full-size", ID_EDIT_SPACE_HAN2ZEN
+            MENUITEM "Katakana half-size -> full-size", 
+                                                    ID_EDIT_KATAKANA_HAN2ZEN
+            MENUITEM "Katakana full-size -> half-size", 
+                                                    ID_EDIT_KATAKANA_ZEN2HAN
+            MENUITEM "Alphanumeric character half-size -> full-size", 
+                                                    ID_EDIT_ALNUM_HAN2ZEN
+            MENUITEM "Alphanumeric character full-size -> half-size", 
+                                                    ID_EDIT_ALNUM_ZEN2HAN
+            MENUITEM "Alphabetic character -> Capital letter", 
+                                                    ID_EDIT_AL2UPPER
+            MENUITEM "Alphabetic character -> Small letter", 
+                                                    ID_EDIT_AL2LOWER
+            MENUITEM "Delete all spaces and tabs in the head", 
+                                                    ID_EDIT_DELTOPSPACES
+            MENUITEM "Insert a tab\tTAB",           ID_EDIT_INSTAB
+            MENUITEM "Delete a tab\tShift+TAB",     ID_EDIT_DELTAB
+            MENUITEM "Insert C/C++ line comment(//)", ID_EDIT_INSCPPCOMMENT
+            MENUITEM "Delete C/C++ line comment(//)", ID_EDIT_DELCPPCOMMENT
+            MENUITEM "Insert VB line comment(')",   ID_EDIT_INSVBCOMMENT
+            MENUITEM "Delete VB line comment(')",   ID_EDIT_DELVBCOMMENT
+            MENUITEM "Insert Assembler line comment(;)", 
+                                                    ID_EDIT_INSASMCOMMENT
+            MENUITEM "Delete Assembler line comment(;)", 
+                                                    ID_EDIT_DELASMCOMMENT
+            MENUITEM "Insert Quotation-mark(>)",    ID_EDIT_INSQUOTE
+            MENUITEM "Delete Quotation-mark(>)",    ID_EDIT_DELQUOTE
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 247, 79
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Version Information"
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,203,4,38,14,WS_GROUP
+    ICON            IDR_MAINFRAME,IDC_APPICON,5,5,20,20,SS_SUNKEN | 
+                    WS_BORDER,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LTEXT           "Xerxes  Beta Version (2005/02/27)",IDC_SOFTNAME,31,1,
+                    169,14,SS_NOPREFIX
+    LTEXT           "Copyright (C) 1998-2005  Ekura Seito",IDC_HYPERLINK,31,
+                    18,154,8
+    LTEXT           "Organization",IDC_KAISYA,30,48,168,9
+    LTEXT           "User",IDC_USER,30,59,168,9
+    LTEXT           "Contains security software derived from the RSA Data Security, Inc. MD5 Message-Digest Algorithm.",
+                    IDC_CREDIT,31,28,179,17
+    GROUPBOX        "",IDC_STATIC,22,40,181,31
+END
+
+IDD_PROPPAGE1 DIALOG DISCARDABLE  0, 0, 279, 181
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION " General "
+FONT 10, "MS Sans Serif"
+BEGIN
+    CONTROL         "Display the splash screen at the time of starting(Effective next start time)",
+                    IDC_CHECK_SHOWSPLASH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,9,255,10
+    LTEXT           "How long to display",IDC_STATIC,17,21,62,8
+    LTEXT           "(1-10)",IDC_STATIC,83,22,22,8
+    EDITTEXT        IDC_EDIT_SPLASHTIME,108,19,36,15,ES_AUTOHSCROLL
+    LTEXT           "sec.",IDC_STATIC,149,22,15,8
+    CONTROL         "Two or more instance are prevented.",
+                    IDC_CHECK_NODOUBLEEXECUTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,35,135,10
+    CONTROL         "Memorize the position and size of a main frame window",
+                    IDC_CHECK_SAVEWINDOWPLACE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,45,193,10
+    CONTROL         "Open a new window at the time of starting(Effective next start time)",
+                    IDC_CHECK_OPENNEWFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,55,235,10
+    CONTROL         "Maximize the window at the time of window creating",
+                    IDC_CHECK_MAXCLDWND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,66,183,10
+    CONTROL         "Change to the directory of opened file",
+                    IDC_CHECK_CHDIRTOOPENFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,76,139,10
+    CONTROL         "Display the file path on title bar",IDC_CHECK_FULLTITLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,86,117,10
+    CONTROL         "Display the End of file mark",IDC_CHECK_DISPEOFMARK,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,96,103,10
+    CONTROL         "Check a password at the time of starting",
+                    IDC_CHECK_EXECPASSWD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,106,147,10
+    DEFPUSHBUTTON   "Password Setting",IDC_SETPASSWDBTN,159,104,67,14
+    CONTROL         "Enable file open from Explorer",
+                    IDC_CHECK_ENABLESHELLOPEN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,116,112,10
+    CONTROL         "Create the shortcut to Xerxes on desktop",
+                    IDC_CHECK_MAKESHORTCUTDSKTOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,126,153,10
+    LTEXT           "Recent files count",IDC_STATIC,10,139,61,8
+    EDITTEXT        IDC_EDIT_MAXMRU,76,137,36,16,ES_AUTOHSCROLL
+    LTEXT           "(4-16)",IDC_STATIC,11,149,22,8
+    CONTROL         "IME automatically open at the time of window creating",
+                    IDC_CHECK_IMMAUTOOPEN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,158,190,10
+END
+
+IDD_PROPPAGE2 DIALOG DISCARDABLE  0, 0, 269, 163
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION " View "
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Font settings for every file extension",IDC_STATIC,7,7,
+                    254,85
+    LTEXT           "File extension",IDC_STATIC,11,20,46,8
+    COMBOBOX        IDC_COMBO_FILEEXT,71,18,79,68,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Font for a display",IDC_STATIC,11,35,56,8
+    LTEXT           "Font name",IDC_STATIC,30,48,36,8
+    COMBOBOX        IDC_COMBO_DISPFONTNAME,70,45,80,72,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Size",IDC_STATIC,154,48,20,8
+    COMBOBOX        IDC_COMBO_DISPFONTSIZE,176,45,80,72,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Font for a print",IDC_STATIC,11,62,50,8
+    LTEXT           "Font name",IDC_STATIC,30,76,36,8
+    COMBOBOX        IDC_COMBO_PRINTFONTNAME,70,73,80,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Size",IDC_STATIC,155,75,20,8
+    COMBOBOX        IDC_COMBO_PRINTFONTSIZE,177,73,80,72,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Font for a status bar(&S)",IDC_BUTTON_STSBARFONT,11,102,
+                    80,14
+    GROUPBOX        "Tab size",IDC_STATIC,99,98,45,46,WS_GROUP
+    CONTROL         "2(&2)",IDC_RADIO_2TAB,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,108,109,29,10
+    CONTROL         "4(&4)",IDC_RADIO_4TAB,"Button",BS_AUTORADIOBUTTON,108,
+                    120,29,10
+    CONTROL         "8(&8)",IDC_RADIO_8TAB,"Button",BS_AUTORADIOBUTTON,108,
+                    131,29,10
+END
+
+IDD_PROPPAGE3 DIALOG DISCARDABLE  0, 0, 331, 226
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION " Colors "
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Color settings for every file extension",IDC_STATIC,7,9,
+                    248,210
+    COMBOBOX        IDC_COMBO_FILEEXT,15,22,68,68,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Character",IDC_BUTTON_TXTCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,15,38,71,14
+    CONTROL         "Background",IDC_BUTTON_BKCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,15,54,71,14
+    CONTROL         "Reversal character",IDC_BUTTON_INVTXTCLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,15,70,71,14
+    CONTROL         "Reversal background",IDC_BUTTON_INVBKCLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,15,86,71,14
+    CONTROL         "Keyword no.1",IDC_BUTTON_KEYWORD1CLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,15,102,71,14
+    CONTROL         "Keyword no.2",IDC_BUTTON_KEYWORD2CLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,15,118,71,14
+    CONTROL         "Keyword no.3",IDC_BUTTON_KEYWORD3CLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,15,134,71,14
+    CONTROL         "Keyword no.4",IDC_BUTTON_KEYWORD4CLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,15,150,71,14
+    CONTROL         "Marked line",IDC_BUTTON_MARKLINE,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,15,166,71,14
+    CONTROL         "Enable( &/ )",IDC_CHECK_CPPCOMMENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,94,24,50,10
+    CONTROL         "C/C++ line comment(//)",IDC_BUTTON_COMMENTCLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,145,21,94,14
+    CONTROL         "Enable( &' )",IDC_CHECK_VBCOMMENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,94,40,47,10
+    CONTROL         "VB line comment(')",IDC_BUTTON_COMMENTCLR2,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,145,37,94,14
+    CONTROL         "Enable( &; )",IDC_CHECK_ASMCOMMENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,94,56,47,10
+    CONTROL         "Assembler line comment(;)",IDC_BUTTON_COMMENTCLR3,
+                    "Button",BS_OWNERDRAW | WS_TABSTOP,145,53,94,14
+    CONTROL         "Display(&L)",IDC_CHECK_DISPLINENO,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,94,87,46,10
+    CONTROL         "Line no",IDC_BUTTON_LINENO,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,145,85,63,14
+    CONTROL         "Background",IDC_BUTTON_LINENOBACK,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,209,85,42,14
+    CONTROL         "Display(&R)",IDC_CHECK_DISPRULER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,94,103,47,10
+    CONTROL         "Ruler",IDC_BUTTON_RULER,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,145,101,63,14
+    CONTROL         "Background",IDC_BUTTON_RULERBACK,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,209,101,42,14
+    CONTROL         "Display(&C)",IDC_CHECK_DISPCRLF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,94,119,47,10
+    CONTROL         "New-line code",IDC_BUTTON_CRLFCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,145,117,63,14
+    CONTROL         "Display(&T)",IDC_CHECK_DISPTAB,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,94,135,47,10
+    CONTROL         "Tab code",IDC_BUTTON_TABCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,145,133,63,14
+    CONTROL         "Display(&S)",IDC_CHECK_DISPSPACE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,94,151,47,10
+    CONTROL         "Full-size space",IDC_BUTTON_SPACECLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,145,149,63,14
+    CONTROL         "Display(&D)",IDC_CHECK_DISPUNDERLINE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,94,167,47,10
+    CONTROL         "Underline",IDC_BUTTON_UNDERLINE,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,145,165,63,14
+    CONTROL         "Display(&U)",IDC_CHECK_DISPURL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,94,184,47,10
+    CONTROL         "URL",IDC_BUTTON_URLCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,145,181,63,14
+    CONTROL         "Display(&E)",IDC_CHECK_DISPEMAIL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,94,199,46,10
+    CONTROL         "e-mail",IDC_BUTTON_EMAILCLR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,145,197,63,14
+    CONTROL         "Background of MDI",IDC_BUTTON_MDIBKGND,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,259,21,65,14
+    CONTROL         "Deleted line",IDC_BUTTON_DIFFDELLINECLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,259,37,65,14
+    CONTROL         "Added line",IDC_BUTTON_DIFFADDLINECLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,259,53,65,14
+    CONTROL         "Different file",IDC_BUTTON_DIRCMPDIFFFILECLR,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,259,69,65,14
+    CONTROL         "Enable( &> )",IDC_CHECK_QUOTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,94,71,50,10
+    CONTROL         "Quotation-mark(>)",IDC_BUTTON_COMMENTCLR4,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,145,69,63,14
+END
+
+IDD_DIALOG_JUMP DIALOG DISCARDABLE  0, 0, 171, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Jump to the specified line"
+FONT 10, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_LINENO,90,16,64,16,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Jump(&J)",IDOK,27,40,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,86,40,50,14
+    LTEXT           "(00000 ～ 00000)",IDC_LINENO,17,26,60,8
+    LTEXT           "Line no",IDC_STATIC,19,15,25,8
+END
+
+IDD_GREP DIALOG DISCARDABLE  0, 0, 266, 95
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Find from files"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Text to find(&T)",IDC_STATIC,10,11,54,8
+    COMBOBOX        IDC_COMBO_GREPSTR,79,7,128,62,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "File kind",IDC_STATIC,11,27,27,8
+    EDITTEXT        IDC_EDIT_FILEKIND,78,23,129,15,ES_AUTOHSCROLL
+    LTEXT           "Folder",IDC_STATIC,12,42,21,8
+    EDITTEXT        IDC_EDIT_FOLDER,78,40,129,15,ES_AUTOHSCROLL
+    CONTROL         "Subfolders are also looked for (&S)",
+                    IDC_CHECK_SUBFOLDER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,59,123,10
+    CONTROL         "Case sensitive (&C)",IDC_CHECK_MATCHCASE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,141,59,74,10
+    CONTROL         "Use regular expression(&R)",IDC_CHECK_REGEX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,73,98,10
+    CONTROL         "Word only(&W)",IDC_CHECK_MATCHWHOLEWORD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,141,73,59,10
+    DEFPUSHBUTTON   "Find(&K)",IDOK,211,7,52,14
+    PUSHBUTTON      "Cancel",IDCANCEL,211,24,52,14
+    PUSHBUTTON      "Folder (&F)",IDC_BROWSE,211,41,52,14
+END
+
+IDD_GREPSTATUS DIALOG DISCARDABLE  0, 0, 207, 103
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Under GREP processing..."
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,78,82,50,14
+    LTEXT           "Folder",IDC_STATIC,11,40,21,8
+    LTEXT           "File",IDC_STATIC,11,54,12,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,40,133,8
+    LTEXT           "FILE",IDC_FILE,67,54,133,8
+    LTEXT           "File Kind",IDC_STATIC,11,26,28,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,26,133,8
+    LTEXT           "Text",IDC_STATIC,11,12,20,8
+    LTEXT           "GREPSTR",IDC_GREPSTR,67,12,133,8
+    LTEXT           "Matches",IDC_STATIC,11,67,28,8
+    LTEXT           "MATCHCOUNT",IDC_MATCHCOUNT,66,67,133,8
+END
+
+IDD_CODECONV DIALOG DISCARDABLE  0, 0, 270, 105
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Character code conversion"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Convert (&K)",IDC_STATIC,10,11,39,8
+    COMBOBOX        IDC_COMBO_CONVKIND,80,7,129,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "File Kind (&T)",IDC_STATIC,11,27,40,8
+    EDITTEXT        IDC_EDIT_FILEKIND,80,24,129,14,ES_AUTOHSCROLL
+    LTEXT           "Folder (&O)",IDC_STATIC,11,42,33,8
+    EDITTEXT        IDC_EDIT_FOLDER,80,40,129,13,ES_AUTOHSCROLL
+    CONTROL         "Subfolders are also looked for (&S)",
+                    IDC_CHECK_SUBFOLDER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,59,123,10
+    CONTROL         "Output the result to another file (&B)",
+                    IDC_CHECK_OUTOTHERFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,72,133,10
+    LTEXT           "How detect code of input file",IDC_STATIC,11,87,94,8
+    COMBOBOX        IDC_COMBO_INCODE,117,84,112,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Convert (&C)",IDOK,211,7,52,14
+    PUSHBUTTON      "Cancel",IDCANCEL,211,23,52,14
+    PUSHBUTTON      "Folder(&F)",IDC_BROWSE,211,39,52,14
+END
+
+IDD_CONVSTATUS DIALOG DISCARDABLE  0, 0, 207, 103
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Under conversion processing..."
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,78,82,50,14
+    LTEXT           "Folder",IDC_STATIC,11,40,21,8
+    LTEXT           "File",IDC_STATIC,11,54,12,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,40,133,8
+    LTEXT           "FILE",IDC_FILE,67,54,133,8
+    LTEXT           "File Kind",IDC_STATIC,11,26,28,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,26,133,8
+    LTEXT           "Convert",IDC_STATIC,11,12,27,8
+    LTEXT           "CONVKIND",IDC_CONVKIND,67,12,133,8
+    LTEXT           "Converted",IDC_STATIC,11,67,35,8
+    LTEXT           "FILECOUNT",IDC_FILECOUNT,66,67,133,8
+END
+
+IDD_PROPPAGE4 DIALOG DISCARDABLE  0, 0, 183, 151
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION " File save "
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "New-line code at the time of saving",IDC_STATIC,9,8,154,
+                    51,WS_GROUP
+    CONTROL         "DOS/Windows  CR+LF(&D)",IDC_RADIO_CRLF,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,19,21,97,10
+    CONTROL         "UNIX  LF(&U)",IDC_RADIO_LF,"Button",BS_AUTORADIOBUTTON,
+                    19,33,53,10
+    CONTROL         "Macintosh  CR(&M)",IDC_RADIO_CR,"Button",
+                    BS_AUTORADIOBUTTON,19,44,74,10
+    GROUPBOX        "Automatically save",IDC_STATIC,9,62,155,45,WS_GROUP
+    CONTROL         "Do automatically saving (&S)",IDC_CHECK_AUTOSAVE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,73,102,10
+    LTEXT           "Interval to save (1-60)",IDC_STATIC,20,90,74,8
+    EDITTEXT        IDC_EDIT_SAVEINTERVAL,100,87,36,16,ES_AUTOHSCROLL
+    LTEXT           "min",IDC_STATIC,140,91,12,8
+    CONTROL         "Delete the spaces of the end of line (&C)",
+                    IDC_CHECK_DELENDSPACES,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,20,113,144,10
+    CONTROL         "Convert space to tab(&T)",IDC_CHECK_SPACE2TAB,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,126,93,10
+END
+
+IDD_PROPPAGE5 DIALOG DISCARDABLE  0, 0, 259, 187
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION " Print "
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Direction",IDC_STATIC,10,6,72,47
+    CONTROL         "Vertical (&V)",IDC_RADIO_PRINTORIENTATION_TATE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,18,19,50,10
+    CONTROL         "Horizontal (&H)",IDC_RADIO_PRINTORIENTATION_YOKO,"Button",
+                    BS_AUTORADIOBUTTON,18,35,58,10
+    GROUPBOX        "Space(1/1000inch)",IDC_STATIC,86,6,144,48
+    LTEXT           "Left(&L)",IDC_STATIC,95,21,23,8
+    EDITTEXT        IDC_EDIT_YOHAKU_HIDARI,123,18,28,13,ES_AUTOHSCROLL
+    LTEXT           "Top(&T)",IDC_STATIC,95,35,22,8
+    EDITTEXT        IDC_EDIT_YOHAKU_UE,123,33,28,13,ES_AUTOHSCROLL
+    LTEXT           "Right(&R)",IDC_STATIC,157,20,27,8
+    EDITTEXT        IDC_EDIT_YOHAKU_MIGI,195,17,28,13,ES_AUTOHSCROLL
+    LTEXT           "Bottom(&B)",IDC_STATIC,158,35,34,8
+    EDITTEXT        IDC_EDIT_YOHAKU_SITA,195,32,28,13,ES_AUTOHSCROLL
+    CONTROL         "Print line no(&N)",IDC_CHECK_LINENO,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,60,68,10
+    CONTROL         "2 columns (&2)",IDC_CHECK_2DANGUMI,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,82,61,58,10
+    DEFPUSHBUTTON   "Layout help",IDC_BUTTON_LAYOUTHELP,167,63,43,14
+    GROUPBOX        "Header layout",IDC_STATIC,10,78,238,45
+    EDITTEXT        IDC_EDIT_HEADERFORMAT,19,90,223,16,ES_AUTOHSCROLL
+    CONTROL         "Left",IDC_RADIO_HEADER_LEFT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,21,109,29,10
+    CONTROL         "Center",IDC_RADIO_HEADER_CENTER,"Button",
+                    BS_AUTORADIOBUTTON,58,109,39,10
+    CONTROL         "Right",IDC_RADIO_HEADER_RIGHT,"Button",
+                    BS_AUTORADIOBUTTON,101,109,33,10
+    GROUPBOX        "Footer layout",IDC_STATIC,10,127,238,46
+    EDITTEXT        IDC_EDIT_FOOTERFORMAT,19,139,223,16,ES_AUTOHSCROLL
+    CONTROL         "Left",IDC_RADIO_FOOTER_LEFT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,21,158,29,10
+    CONTROL         "Center",IDC_RADIO_FOOTER_CENTER,"Button",
+                    BS_AUTORADIOBUTTON,58,158,39,10
+    CONTROL         "Right",IDC_RADIO_FOOTER_RIGHT,"Button",
+                    BS_AUTORADIOBUTTON,103,158,33,10
+END
+
+IDD_FILEPROPERTY DIALOG DISCARDABLE  0, 0, 238, 142
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "File property"
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,93,121,50,14
+    LTEXT           "File Name",IDC_STATIC,9,20,32,8
+    LTEXT           "FILENAME",IDC_FILENAME,83,20,148,8
+    LTEXT           "Created Time",IDC_STATIC,9,30,45,8
+    LTEXT           "CTIME",IDC_CTIME,83,30,148,8
+    LTEXT           "Updated Time",IDC_STATIC,9,40,44,8
+    LTEXT           "MTIME",IDC_MTIME,83,40,148,8
+    LTEXT           "Accessed Time",IDC_STATIC,9,50,50,8
+    LTEXT           "ATIME",IDC_ATIME,83,50,148,8
+    LTEXT           "Size",IDC_STATIC,9,61,15,8
+    LTEXT           "SIZE",IDC_LOGSIZE,83,61,148,8
+    LTEXT           "Attribute",IDC_STATIC,9,71,30,8
+    LTEXT           "ATTRIBUTE",IDC_ATTR,83,71,148,8
+    LTEXT           "New-line code",IDC_STATIC,9,80,47,8
+    LTEXT           "KAIGYO",IDC_KAIGYO,83,80,148,8
+    LTEXT           "Character code",IDC_STATIC,9,90,51,8
+    LTEXT           "CODE",IDC_CODE,83,90,148,8
+    LTEXT           "Number of lines",IDC_STATIC,9,99,51,8
+    LTEXT           "LINECNT",IDC_LINECNT,83,99,148,8
+    LTEXT           "Tab size",IDC_STATIC,9,108,27,8
+    LTEXT           "TABSIZE",IDC_TABSIZE,83,108,148,8
+    LTEXT           "Title",IDC_STATIC,9,10,16,8
+    LTEXT           "TITLE",IDC_TITLE,83,10,148,8
+END
+
+IDD_WORDCOUNT DIALOG DISCARDABLE  0, 0, 270, 69
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "WORD count"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "File Kind(&T)",ID_STATIC,11,11,38,8
+    EDITTEXT        IDC_EDIT_FILEKIND,80,8,129,14,ES_AUTOHSCROLL
+    LTEXT           "Folder(&O)",ID_STATIC,11,26,31,8
+    EDITTEXT        IDC_EDIT_FOLDER,80,24,129,13,ES_AUTOHSCROLL
+    CONTROL         "Subfolders are also looked for (&S)",
+                    IDC_CHECK_SUBFOLDER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,42,123,10
+    DEFPUSHBUTTON   "Count (&C)",IDOK,212,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,212,24,50,14
+    PUSHBUTTON      "Folder (&F)",IDC_BROWSE,212,41,50,14
+END
+
+IDD_FILESEARCH DIALOG DISCARDABLE  0, 0, 274, 69
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "File search"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "File Kind(&T)",ID_STATIC,11,11,38,8
+    EDITTEXT        IDC_EDIT_FILEKIND,80,8,129,14,ES_AUTOHSCROLL
+    LTEXT           "Folder(&O)",ID_STATIC,11,26,31,8
+    EDITTEXT        IDC_EDIT_FOLDER,80,24,129,13,ES_AUTOHSCROLL
+    CONTROL         "Subfolders are also looked for (&S)",
+                    IDC_CHECK_SUBFOLDER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,42,123,10
+    DEFPUSHBUTTON   "Search (&K)",IDOK,215,7,52,14
+    PUSHBUTTON      "Cancel",IDCANCEL,215,24,52,14
+    PUSHBUTTON      "Folder(&F)",IDC_BROWSE,215,41,52,14
+END
+
+IDD_FILESEARCHSTATUS DIALOG DISCARDABLE  0, 0, 207, 90
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Under file search processing..."
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,78,69,50,14
+    LTEXT           "Folder",ID_STATIC,11,26,21,8
+    LTEXT           "File",ID_STATIC,11,40,12,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,26,133,8
+    LTEXT           "FILE",IDC_FILE,67,40,133,8
+    LTEXT           "File Kind",ID_STATIC,11,12,28,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,12,133,8
+    LTEXT           "Matches",ID_STATIC,11,53,28,8
+    LTEXT           "MATCHCOUNT",IDC_MATCHCOUNT,66,53,133,8
+END
+
+IDD_PROPPAGE6 DIALOG DISCARDABLE  0, 0, 271, 195
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION " Caret "
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Caret form",IDC_STATIC,9,7,123,42,WS_GROUP
+    CONTROL         "Caret form : I Beam(&I)",IDC_RADIO_CARET_IBEAM,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,16,19,87,10
+    CONTROL         "Caret form : Square(&B)",IDC_RADIO_CARET_SQUARE,"Button",
+                    BS_AUTORADIOBUTTON,16,33,91,10
+    GROUPBOX        "Interval of blinking",IDC_STATIC,9,56,123,34
+    EDITTEXT        IDC_EDIT_BLINKTIME,16,67,38,18,ES_AUTOHSCROLL
+    LTEXT           "(ms)",IDC_STATIC,60,72,15,8
+    GROUPBOX        "Behavior when a screen scrolls",IDC_STATIC,9,95,123,42,
+                    WS_GROUP
+    CONTROL         "Change(&M)",IDC_RADIO_CARETMOVE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,16,107,50,10
+    CONTROL         "Stay(&S)",IDC_RADIO_CARETSTAY,"Button",
+                    BS_AUTORADIOBUTTON,16,121,39,10
+    GROUPBOX        "Behavior when a caret moves up and down",IDC_STATIC,9,
+                    142,150,42,WS_GROUP
+    CONTROL         "Word processor like (&W)",IDC_RADIO_WORDTYPE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,15,154,97,10
+    CONTROL         "Notepad like (&N)",IDC_RADIO_NOTEPADTYPE,"Button",
+                    BS_AUTORADIOBUTTON,15,168,70,10
+    GROUPBOX        "Acceleration when a caret moves",IDC_STATIC,138,7,123,
+                    81,WS_GROUP
+    CONTROL         "does not accelerate (&1)",IDC_RADIO_ACCEL_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,144,19,91,10
+    CONTROL         "Accelerate twice (&2)",IDC_RADIO_ACCEL_2,"Button",
+                    BS_AUTORADIOBUTTON,144,32,82,10
+    CONTROL         "Accelerate 3 times (&3)",IDC_RADIO_ACCEL_3,"Button",
+                    BS_AUTORADIOBUTTON,144,45,89,10
+    CONTROL         "Accelerate 4 times (&4)",IDC_RADIO_ACCEL_4,"Button",
+                    BS_AUTORADIOBUTTON,144,58,89,10
+    CONTROL         "Accelerate 5 times (&5)",IDC_RADIO_ACCEL_5,"Button",
+                    BS_AUTORADIOBUTTON,144,71,89,10
+    GROUPBOX        "Position after pasting text",IDC_STATIC,138,96,123,41,
+                    WS_GROUP
+    CONTROL         "At the head (&T)",IDC_RADIO_PASTETOP,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,144,108,65,10
+    CONTROL         "At the tail (&L)",IDC_RADIO_PASTEEND,"Button",
+                    BS_AUTORADIOBUTTON,144,121,59,10
+END
+
+IDD_LICENSE DIALOG DISCARDABLE  0, 0, 223, 181
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "License registration"
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "User infomation",IDC_STATIC,7,13,209,68
+    LTEXT           "Input organization and name",IDC_STATIC,14,25,92,8
+    LTEXT           "Organization",IDC_STATIC,16,41,41,8
+    EDITTEXT        IDC_EDIT_KAISYA,61,36,148,17,ES_AUTOHSCROLL
+    LTEXT           "Name",IDC_STATIC,17,60,19,8
+    EDITTEXT        IDC_EDIT_USER,61,56,148,17,ES_AUTOHSCROLL
+    GROUPBOX        "License registration",IDC_STATIC,7,92,209,54
+    LTEXT           "Input license key",IDC_STATIC,13,104,59,8
+    LTEXT           "License key",IDC_STATIC,16,124,40,8
+    EDITTEXT        IDC_EDIT_LICENSEKEY,61,120,148,17,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    DEFPUSHBUTTON   "OK",IDOK,53,160,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,119,160,50,14
+END
+
+IDD_PROPPAGE7 DIALOG DISCARDABLE  0, 0, 299, 137
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION " MDI "
+FONT 10, "MS Sans Serif"
+BEGIN
+    CONTROL         "Display the logo on background of MDI(&L)",
+                    IDC_CHECK_LOGODISP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    8,9,146,10
+    CONTROL         "Display Xerxes logo(&1)",IDC_RADIO_XERXES,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,19,22,89,10
+    CONTROL         "Display your favorite bitmap (&2)",IDC_RADIO_FAVARITE,
+                    "Button",BS_AUTORADIOBUTTON,19,34,115,10
+    LTEXT           "Path",IDC_STATIC,30,49,16,8
+    EDITTEXT        IDC_EDIT_BMPFILEPATH,49,46,184,18,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Refference(&R)",IDC_REF,238,48,50,14
+    CONTROL         "Display by the tile(&3)",IDC_RADIO_TILE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,19,69,81,10
+    CONTROL         "Specify the position(&4)",IDC_RADIO_POSSITEI,"Button",
+                    BS_AUTORADIOBUTTON,19,82,89,10
+    LTEXT           "Position X(0-100)",IDC_STATIC,33,96,59,8
+    EDITTEXT        IDC_EDIT_LOGOPOSX,111,92,36,16,ES_AUTOHSCROLL
+    LTEXT           "Position Y(0-100)",IDC_STATIC,33,113,59,8
+    EDITTEXT        IDC_EDIT_LOGOPOSY,111,109,36,16,ES_AUTOHSCROLL
+END
+
+IDD_WCNTSTATUS DIALOG DISCARDABLE  0, 0, 207, 76
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Under WORD count processing..."
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,78,55,50,14
+    LTEXT           "Folder",ID_STATIC,11,26,21,8
+    LTEXT           "File",ID_STATIC,11,40,12,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,26,133,8
+    LTEXT           "FILE",IDC_FILE,67,40,133,8
+    LTEXT           "File Kind",ID_STATIC,11,12,28,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,12,133,8
+END
+
+IDD_CLIPBOARDVIEW DIALOG DISCARDABLE  0, 0, 254, 170
+STYLE WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Contents of clipboard"
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,101,149,50,14
+    EDITTEXT        IDC_EDIT_CLIP_CONTENTS,7,7,240,136,ES_MULTILINE | 
+                    ES_READONLY | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_KEYOPE_DISP DIALOG DISCARDABLE  0, 0, 306, 267
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "List of recorded key operations"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Comment",IDC_STATIC,17,17,32,8
+    EDITTEXT        IDC_EDIT_OPERATIONNAME,72,11,221,19,ES_AUTOHSCROLL
+    LTEXT           "File Name",IDC_STATIC,16,39,32,8
+    LTEXT           "File Name to Save",IDC_KEYOPE_FNAME,73,39,217,8
+    CONTROL         "List1",IDC_KEYOPE_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_OWNERDRAWFIXED | WS_BORDER | WS_TABSTOP,7,58,292,176
+    DEFPUSHBUTTON   "OK",IDOK,128,246,50,14
+END
+
+IDD_PROPPAGE8 DIALOG DISCARDABLE  0, 0, 270, 175
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION " Status Bar "
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Items displayed now",IDC_STATIC,7,8,64,8
+    LISTBOX         IDC_LIST_CURRENTITEM,7,20,105,64,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Additional items",IDC_STATIC,158,8,52,8
+    LISTBOX         IDC_LIST_ADDITEM,156,20,105,64,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "<--Add(&A)",IDC_BUTTON_ADD,116,22,38,14
+    DEFPUSHBUTTON   "-->Del(&D)",IDC_BUTTON_DEL,116,45,38,14
+    GROUPBOX        "Display style",IDC_STATIC,9,92,196,70
+    LTEXT           "Date style",IDC_STATIC,17,108,35,8
+    COMBOBOX        IDC_COMBO_DAYSTYLE,82,105,113,76,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Time style",IDC_STATIC,17,126,36,8
+    COMBOBOX        IDC_COMBO_HOURSTYLE,82,124,113,76,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Line offset style",IDC_STATIC,17,145,54,8
+    COMBOBOX        IDC_COMBO_LINESTYLE,82,143,113,76,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_MARKLINELIST DIALOG DISCARDABLE  0, 0, 230, 200
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "List of marked lines"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "If a mark line is double-clicked or a JUMP button is pushed,",
+                    IDC_STATIC,7,7,192,8
+    LTEXT           "it will jump to the mark line.",IDC_STATIC,7,19,90,8
+    LISTBOX         IDC_LIST_MARKLINE,7,33,216,140,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Jump(&J)",IDC_JUMPBTN,56,179,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,122,179,50,14
+END
+
+IDD_ENCRIPT DIALOG DISCARDABLE  0, 0, 266, 99
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "File encryption"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Encryption key (&K)",IDC_STATIC,10,14,60,8
+    EDITTEXT        IDC_EDIT_KEY,74,10,129,14,ES_LOWERCASE | ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "File Kind(&T)",IDC_STATIC,11,29,38,8
+    EDITTEXT        IDC_EDIT_FILEKIND,74,26,129,14,ES_AUTOHSCROLL
+    LTEXT           "Folder(&O)",IDC_STATIC,11,44,31,8
+    EDITTEXT        IDC_EDIT_FOLDER,74,42,129,13,ES_AUTOHSCROLL
+    CONTROL         "Subfolders are also looked for (&S)",
+                    IDC_CHECK_SUBFOLDER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,61,123,10
+    CONTROL         "Output the result to another file (&B)",
+                    IDC_CHECK_OUTOTHERFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,74,133,10
+    DEFPUSHBUTTON   "Encrypt(&C)",IDOK,206,9,52,14
+    PUSHBUTTON      "Canel",IDCANCEL,206,25,52,14
+    PUSHBUTTON      "Help(&H)",IDC_MYHELP,206,41,52,14
+    PUSHBUTTON      "Folder(&F)",IDC_BROWSE,206,57,52,14
+END
+
+IDD_ENCRIPTSTATUS DIALOG DISCARDABLE  0, 0, 207, 90
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Under file encryption processing..."
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,78,69,50,14
+    LTEXT           "Folder",ID_STATIC,11,25,21,8
+    LTEXT           "Encrypting",ID_STATIC,11,39,35,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,25,133,8
+    LTEXT           "FILE",IDC_FILE,67,39,133,8
+    LTEXT           "File Kind",ID_STATIC,11,11,28,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,11,133,8
+    LTEXT           "Encrypted",ID_STATIC,11,52,33,8
+    LTEXT           "FILECOUNT",IDC_FILECOUNT,66,52,133,8
+END
+
+IDD_DECRIPT DIALOG DISCARDABLE  0, 0, 266, 97
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "File decryption"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Decryption key (&K)",IDC_STATIC,10,12,60,8
+    EDITTEXT        IDC_EDIT_KEY,74,9,129,14,ES_LOWERCASE | ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "File Kind(&T)",IDC_STATIC,11,28,38,8
+    EDITTEXT        IDC_EDIT_FILEKIND,74,25,129,14,ES_AUTOHSCROLL
+    LTEXT           "Folder(&O)",IDC_STATIC,11,43,31,8
+    EDITTEXT        IDC_EDIT_FOLDER,74,41,129,13,ES_AUTOHSCROLL
+    CONTROL         "Subfolders are also looked for (&S)",
+                    IDC_CHECK_SUBFOLDER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,60,123,10
+    CONTROL         "Output the result to another file(&B)",
+                    IDC_CHECK_OUTOTHERFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,73,130,10
+    DEFPUSHBUTTON   "Decrypt(&C)",IDOK,207,9,52,14
+    PUSHBUTTON      "Cancel",IDCANCEL,207,25,52,14
+    PUSHBUTTON      "Help(&H)",IDC_MYHELP,207,41,52,14
+    PUSHBUTTON      "Folder(&F)",IDC_BROWSE,207,57,52,14
+END
+
+IDD_DECRIPTSTATUS DIALOG DISCARDABLE  0, 0, 207, 90
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Under file decryption processing..."
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,78,69,50,14
+    LTEXT           "Folder",ID_STATIC,11,25,21,8
+    LTEXT           "Decrypting",ID_STATIC,11,39,35,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,25,133,8
+    LTEXT           "FILE",IDC_FILE,67,39,133,8
+    LTEXT           "File Kind",ID_STATIC,11,11,28,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,11,133,8
+    LTEXT           "Decrypted",ID_STATIC,11,52,34,8
+    LTEXT           "FILECOUNT",IDC_FILECOUNT,66,52,133,8
+END
+
+IDD_EXECPASSWD DIALOG DISCARDABLE  0, 0, 187, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password setting at the time of starting"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Password(&P)",IDC_STATIC,9,17,40,8
+    EDITTEXT        IDC_EDIT_EXECPASSWD,65,13,115,17,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,35,40,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,101,40,50,14
+END
+
+IDD_CHECKEXECPASSWD DIALOG DISCARDABLE  0, 0, 187, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Check typed password"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Password(&P)",IDC_STATIC,9,17,40,8
+    EDITTEXT        IDC_EDIT_EXECPASSWD,53,13,127,17,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,35,40,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,101,40,50,14
+END
+
+IDD_FILECOMPARERESULT DIALOG DISCARDABLE  0, 0, 243, 118
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "File comparison result"
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,96,97,50,14
+    LTEXT           "2nd File",ID_STATIC,11,25,26,8
+    LTEXT           "Result",ID_STATIC,11,64,22,8
+    LTEXT           "1st File",ID_STATIC,11,12,25,8
+    LTEXT           "FILE1_NAME",IDC_FILE1_NAME,68,12,168,8
+    LTEXT           "FILE2_NAME",IDC_FILE2_NAME,68,25,168,8
+    LTEXT           "Result",IDC_COMPARE_STATUS,68,64,168,8
+    LTEXT           "Deleted",ID_STATIC,11,38,26,8
+    LTEXT           "Deleted Line Count",IDC_DELLINE_CNT,68,38,168,8
+    LTEXT           "Added",ID_STATIC,11,51,20,8
+    LTEXT           "Added Line Count",IDC_ADDLINE_CNT,68,51,168,8
+    LTEXT           "Time",ID_STATIC,11,77,17,8
+    LTEXT           "Time",IDC_TIME,68,77,168,8
+END
+
+IDD_FILECOMPARE DIALOG DISCARDABLE  0, 0, 243, 77
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Under file comparison processing..."
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,96,56,50,14
+    LTEXT           "2nd File",ID_STATIC,11,25,26,8
+    LTEXT           "1st File",ID_STATIC,11,12,25,8
+    LTEXT           "FILE1_NAME",IDC_FILE1,68,12,168,8
+    LTEXT           "FILE2_NAME",IDC_FILE2,68,25,168,8
+    LTEXT           "Status",ID_STATIC,11,38,22,8
+    LTEXT           "Status",IDC_STATUS,68,38,168,8
+END
+
+IDD_DIRCOMPARE DIALOG DISCARDABLE  0, 0, 363, 71
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Directory comparison"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "First Directory(&1)",ID_STATIC,11,14,57,8
+    COMBOBOX        IDC_COMBO_FOLDER1,82,10,215,54,CBS_DROPDOWN | 
+                    CBS_LOWERCASE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Folder(&F)",IDC_BROWSE1,304,9,52,14
+    LTEXT           "Second Directory(&2)",ID_STATIC,11,33,66,8
+    COMBOBOX        IDC_COMBO_FOLDER2,82,30,215,49,CBS_DROPDOWN | 
+                    CBS_LOWERCASE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Folder(&G)",IDC_BROWSE2,304,29,52,14
+    DEFPUSHBUTTON   "Compare(&C)",IDOK,123,50,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,189,50,50,14
+END
+
+IDD_DIRCOMPARESTATUS DIALOG DISCARDABLE  0, 0, 243, 77
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Under directory comparison processing..."
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,96,56,50,14
+    LTEXT           "2nd Directory",ID_STATIC,11,25,45,8
+    LTEXT           "1st Directory",ID_STATIC,11,12,44,8
+    LTEXT           "DIR1",IDC_DIR1,68,12,168,8
+    LTEXT           "DIR2",IDC_DIR2,68,25,168,8
+    LTEXT           "Status",ID_STATIC,11,38,22,8
+    LTEXT           "Status",IDC_STATUS,68,38,168,8
+END
+
+IDD_DIRCOMPARERESULT DIALOG DISCARDABLE  0, 0, 243, 154
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Directory comparison result"
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,96,133,50,14
+    LTEXT           "2nd Directory",ID_STATIC,11,25,45,8
+    LTEXT           "Result",ID_STATIC,11,101,22,8
+    LTEXT           "1st Directory",ID_STATIC,11,12,44,8
+    LTEXT           "DIR1_NAME",IDC_DIR1_NAME,68,12,168,8
+    LTEXT           "DIR2_NAME",IDC_DIR2_NAME,68,25,168,8
+    LTEXT           "Result",IDC_COMPARE_STATUS,68,101,168,27
+    LTEXT           "Deleted count",ID_STATIC,11,51,47,8
+    LTEXT           "DELFILE_CNT",IDC_DELFILE_CNT,68,51,168,8
+    LTEXT           "Added count",ID_STATIC,11,64,41,8
+    LTEXT           "ADDFILE_CNT",IDC_ADDFILE_CNT,68,64,168,8
+    LTEXT           "Time",ID_STATIC,11,89,17,8
+    LTEXT           "Time",IDC_TIME,68,89,168,8
+    LTEXT           "Different",ID_STATIC,11,77,30,8
+    LTEXT           "DIFFILE_CNT",IDC_DIFFILE_CNT,68,77,168,8
+    LTEXT           "Compared count",ID_STATIC,11,38,54,8
+    LTEXT           "COMPAREFILE_CNT",IDC_COMPAREFILE_CNT,68,38,168,8
+END
+
+IDD_FILECOPY DIALOG DISCARDABLE  0, 0, 298, 81
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Copy file"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "File Name",ID_STATIC,11,9,32,8
+    LTEXT           "FILE",IDC_FILE,71,8,180,10
+    LTEXT           "Destination(&O)",ID_STATIC,11,27,47,8
+    EDITTEXT        IDC_EDIT_FOLDER,71,22,161,18,ES_AUTOHSCROLL
+    PUSHBUTTON      "Folder(&F)",IDC_BROWSE,236,24,52,14
+    CONTROL         "Rename on collision(&R)",IDC_CHECK_RENAMEONCOLLISION,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,44,90,10
+    DEFPUSHBUTTON   "Copy (&C)",IDOK,90,60,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,156,60,50,14
+END
+
+IDD_FILERENAME DIALOG DISCARDABLE  0, 0, 246, 69
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rename file"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Original",ID_STATIC,11,9,25,8
+    LTEXT           "FROMFILENAME",IDC_FROMFILE,72,8,167,10
+    LTEXT           "Name after (&O)",ID_STATIC,11,27,48,8
+    EDITTEXT        IDC_EDIT_TOFILE,71,22,161,18,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Rename (&R)",IDOK,65,48,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,131,48,50,14
+END
+
+IDD_FILEMOVE DIALOG DISCARDABLE  0, 0, 298, 69
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Move file"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "File Name",ID_STATIC,11,9,32,8
+    LTEXT           "FILE",IDC_FILE,72,8,180,10
+    LTEXT           "Destination (&O)",ID_STATIC,11,27,50,8
+    EDITTEXT        IDC_EDIT_FOLDER,71,22,161,18,ES_AUTOHSCROLL
+    PUSHBUTTON      "Folder(&F)",IDC_BROWSE,236,24,52,14
+    DEFPUSHBUTTON   "Move (&M)",IDOK,90,48,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,156,48,50,14
+END
+
+IDD_FILETOUCH DIALOG DISCARDABLE  0, 0, 262, 81
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Touch file"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Update time(&D)",ID_STATIC,12,11,50,8
+    EDITTEXT        IDC_EDIT_DATE,68,8,62,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TIME,132,8,64,14,ES_AUTOHSCROLL
+    LTEXT           "File Kind(&T)",ID_STATIC,11,28,38,8
+    EDITTEXT        IDC_EDIT_FILEKIND,68,25,129,14,ES_AUTOHSCROLL
+    LTEXT           "Folder(&O)",ID_STATIC,11,43,31,8
+    EDITTEXT        IDC_EDIT_FOLDER,68,41,129,13,ES_AUTOHSCROLL
+    CONTROL         "Subfolders are also looked for (&S)",
+                    IDC_CHECK_SUBFOLDER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,59,123,10
+    DEFPUSHBUTTON   "Touch(&H)",IDOK,201,7,52,14
+    PUSHBUTTON      "Cancel",IDCANCEL,201,24,52,14
+    PUSHBUTTON      "Folder(&F)",IDC_BROWSE,201,41,52,14
+END
+
+IDD_FIND DIALOG DISCARDABLE  0, 0, 270, 84
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Find"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Text (&T)",IDC_STATIC,9,11,27,8
+    COMBOBOX        IDC_COMBO_FINDSTRING,75,7,133,68,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Word only(&W)",IDC_CHECK_WHOLEWORD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,31,59,10
+    CONTROL         "Case sensitive(&C)",IDC_CHECK_MATCHCASE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,47,74,10
+    CONTROL         "Use regular expression(&R)",IDC_CHECK_REGEX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,62,98,10
+    GROUPBOX        "Direction",IDC_STATIC,90,29,116,28,WS_GROUP
+    CONTROL         "Upword (&U)",IDC_RADIO_UP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,97,40,46,10
+    CONTROL         "Downword (&D)",IDC_RADIO_DOWN,"Button",
+                    BS_AUTORADIOBUTTON,147,40,58,10
+    DEFPUSHBUTTON   "Find (&F)",IDC_FIND,213,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,213,24,50,14
+END
+
+IDD_REPLACE DIALOG DISCARDABLE  0, 0, 286, 83
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Replace"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Text (&T)",IDC_STATIC,9,10,27,8
+    COMBOBOX        IDC_COMBO_FINDSTRING,75,7,133,68,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Replace with (&P)",IDC_STATIC,9,28,58,8
+    COMBOBOX        IDC_COMBO_REPLACESTRING,75,25,133,68,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Word only(&W)",IDC_CHECK_WHOLEWORD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,41,59,10
+    CONTROL         "Case sensitive(&C)",IDC_CHECK_MATCHCASE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,52,74,10
+    CONTROL         "Use regular expression(&R)",IDC_CHECK_REGEX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,64,98,10
+    DEFPUSHBUTTON   "Find next(&F)",IDC_FIND,217,7,62,14
+    PUSHBUTTON      "Replace next(&N)",IDC_REPLACENEXT,217,25,62,14
+    PUSHBUTTON      "Replace all(&A)",IDC_REPLACEALL,217,43,62,14
+    PUSHBUTTON      "Cancel",IDCANCEL,217,62,62,14
+END
+
+IDD_PROPPAGE9 DIALOG DISCARDABLE  0, 0, 338, 221
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION " Mail "
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Account",IDC_STATIC,11,10,28,8
+    COMBOBOX        IDC_COMBO_ACCOUNT,44,8,111,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Account information",IDC_STATIC,7,23,269,63
+    LTEXT           "Mail address",IDC_STATIC,13,36,41,8
+    EDITTEXT        IDC_EDIT_MAILADDRESS,60,33,127,15,ES_AUTOHSCROLL
+    LTEXT           "SMTP server",IDC_STATIC,13,52,44,8
+    EDITTEXT        IDC_EDIT_SMTPSERVER,60,49,126,15,ES_AUTOHSCROLL
+    LTEXT           "POP3 server",IDC_STATIC,13,69,42,8
+    EDITTEXT        IDC_EDIT_POPSERVER,60,65,126,15,ES_AUTOHSCROLL
+    LTEXT           "POP3 user",IDC_STATIC,191,30,36,8
+    EDITTEXT        IDC_EDIT_POPUSERNAME,190,39,79,15,ES_AUTOHSCROLL
+    LTEXT           "POP3 password",IDC_STATIC,192,56,50,8
+    EDITTEXT        IDC_EDIT_POPPASSWD,191,66,79,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    GROUPBOX        "Connect",IDC_STATIC,7,89,193,82
+    CONTROL         "Make dialup connection by using a modem (&M)",
+                    IDC_CHECK_DIALUP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    14,98,163,10
+    LTEXT           "Name",IDC_STATIC,14,112,19,8
+    COMBOBOX        IDC_COMBO_DIALUPENTRY,48,110,111,41,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "User",IDC_STATIC,15,129,16,8
+    EDITTEXT        IDC_EDIT_RASUSERNAME,48,124,110,15,ES_AUTOHSCROLL
+    LTEXT           "Password",IDC_STATIC,15,144,31,8
+    EDITTEXT        IDC_EDIT_RASPASSWD,48,140,110,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    CONTROL         "Disconnect automatically after finished sending (&E)",
+                    IDC_CHECK_AUTODISCONNECT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,16,157,179,10
+    GROUPBOX        "Attached files encoding",IDC_STATIC,202,89,114,42
+    CONTROL         "MIME:Base64(&B)",IDC_RADIO_ENCODE_BASE64,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,209,99,67,10
+    CONTROL         "MIME:Quoted-Printable(&Q)",IDC_RADIO_ENCODE_QUOTED,
+                    "Button",BS_AUTORADIOBUTTON,209,109,101,10
+    CONTROL         "Uuencode(&U)",IDC_RADIO_ENCODE_UUENCODE,"Button",
+                    BS_AUTORADIOBUTTON,209,119,57,10
+    CONTROL         "Automatically set the subject(&S)",
+                    IDC_CHECK_SUBJECTAUTOSET,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,210,136,120,10
+    CONTROL         "Send message-id header(&I)",IDC_CHECK_SENDMSGID,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,210,146,101,10
+    CONTROL         "Send date header(&D)",IDC_CHECK_SENDDATE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,210,156,81,10
+    LTEXT           "Signature",IDC_STATIC,10,175,32,8
+    EDITTEXT        IDC_EDIT_SIGNATURE,44,174,156,35,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN
+    GROUPBOX        "User authentication",IDC_STATIC,205,170,114,33
+    CONTROL         "USER/PASS command(&N)",IDC_RADIO_AUTH_STANDARD,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,212,179,98,10
+    CONTROL         "APOP command(&P)",IDC_RADIO_AUTH_APOP,"Button",
+                    BS_AUTORADIOBUTTON,212,190,77,10
+END
+
+IDD_MAILSEND DIALOG DISCARDABLE  0, 0, 210, 271
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Send mail"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "To",IDC_STATIC,8,13,15,8
+    COMBOBOX        IDC_COMBO_TO,41,10,163,63,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Subject",IDC_STATIC,8,30,26,8
+    EDITTEXT        IDC_EDIT_SUBJECT,41,27,162,15,ES_AUTOHSCROLL
+    LTEXT           "Cc",IDC_STATIC,8,48,10,8
+    EDITTEXT        IDC_EDIT_CC,41,45,162,15,ES_AUTOHSCROLL
+    LTEXT           "Bcc",IDC_STATIC,8,66,14,8
+    EDITTEXT        IDC_EDIT_BCC,41,63,162,15,ES_AUTOHSCROLL
+    LTEXT           "ReplyTo",IDC_STATIC,8,84,27,8
+    EDITTEXT        IDC_EDIT_REPLYTO,41,81,162,15,ES_AUTOHSCROLL
+    LTEXT           "Ref",IDC_STATIC,8,102,12,8
+    EDITTEXT        IDC_EDIT_REFERENCE,41,100,162,15,ES_AUTOHSCROLL
+    CONTROL         "Request message disposition notification(&R)",
+                    IDC_CHECK_DISPOSITION,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,120,156,10
+    PUSHBUTTON      "Attach Files(&A)",IDC_FILEATTACH,9,137,53,14
+    PUSHBUTTON      "Detach Files(&D)",IDC_FILEDETACH,67,137,54,14
+    CONTROL         "List2",IDC_LIST_ATTACHFILE,"SysListView32",
+                    LVS_AUTOARRANGE | WS_BORDER | WS_TABSTOP,7,154,196,91
+    DEFPUSHBUTTON   "Send(&S)",IDOK,46,250,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,112,250,50,14
+END
+
+IDD_MAILSENDSTATUS DIALOG DISCARDABLE  0, 0, 243, 95
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Under sending processing..."
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,96,72,50,14
+    LTEXT           "Status",IDC_STATIC,11,36,22,8
+    LTEXT           "",IDC_STATUS,65,36,168,31
+    LTEXT           "Smtp server",IDC_STATIC,11,22,40,8
+    LTEXT           "",IDC_MSENDSERVER,65,22,168,9
+    LTEXT           "Account",IDC_STATIC,11,10,31,8
+    LTEXT           "",IDC_MSENDACCOUNT,65,10,168,9
+END
+
+IDD_MAILLISTSTATUS DIALOG DISCARDABLE  0, 0, 243, 95
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Under getting list processing..."
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Account",ID_STATIC,11,10,28,8
+    LTEXT           "",IDC_LISTACCOUNT,65,10,168,9
+    LTEXT           "POP3 server",ID_STATIC,11,22,42,8
+    LTEXT           "",IDC_LISTSERVER,65,22,168,9
+    LTEXT           "Status",ID_STATIC,11,36,22,8
+    LTEXT           "",IDC_STATUS,65,36,168,32
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,96,72,50,14
+END
+
+IDD_MAILLIST DIALOG DISCARDABLE  0, 0, 370, 221
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "List of mails on POP3 server"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "POP3 server : ",IDC_STATIC,7,9,46,8
+    LTEXT           "POP3 server",IDC_POPSERVER,59,10,268,11
+    LTEXT           "POP3 user : ",IDC_STATIC,7,25,39,8
+    LTEXT           "POP3 user",IDC_POPUSER,59,26,268,11
+    LTEXT           "Mail count : ",IDC_MAILCOUNT,7,40,74,8
+    CONTROL         "List2",IDC_LIST_MAIL,"SysListView32",LVS_REPORT | 
+                    LVS_OWNERDRAWFIXED | WS_BORDER | WS_TABSTOP,7,58,356,131
+    PUSHBUTTON      "Receive(&R)",IDC_RECVBTN,7,200,50,14
+    PUSHBUTTON      "Delete(&D)",IDC_DELBTN,58,200,50,14
+    DEFPUSHBUTTON   "OK",IDOK,313,200,50,14
+    PUSHBUTTON      "Update(&H)",IDC_REFRESHBTN,109,200,50,14
+END
+
+IDD_KAIGYOCONV DIALOG DISCARDABLE  0, 0, 270, 95
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "New-line code conversion"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Convert(&K)",IDC_STATIC,10,11,36,8
+    COMBOBOX        IDC_COMBO_CONVKIND,80,7,129,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "File Kind(&T)",IDC_STATIC,11,27,38,8
+    EDITTEXT        IDC_EDIT_FILEKIND,80,24,129,14,ES_AUTOHSCROLL
+    LTEXT           "Folder(&O)",IDC_STATIC,11,42,31,8
+    EDITTEXT        IDC_EDIT_FOLDER,80,40,129,13,ES_AUTOHSCROLL
+    CONTROL         "Subfolders are also looked for (&S)",
+                    IDC_CHECK_SUBFOLDER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,59,123,10
+    CONTROL         "Output the result to another file(&B)",
+                    IDC_CHECK_OUTOTHERFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,72,130,10
+    DEFPUSHBUTTON   "Convert(&C)",IDOK,213,7,52,14
+    PUSHBUTTON      "Cancel",IDCANCEL,213,24,52,14
+    PUSHBUTTON      "Folder(&F)",IDC_BROWSE,213,41,52,14
+END
+
+IDD_KAIGYOCONVSTATUS DIALOG DISCARDABLE  0, 0, 207, 103
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Under new-line conversion processing..."
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,78,82,50,14
+    LTEXT           "Folder",IDC_STATIC,11,40,21,8
+    LTEXT           "Converting",IDC_STATIC,11,54,36,8
+    LTEXT           "FOLDER",IDC_FOLDER,67,40,133,8
+    LTEXT           "FILE",IDC_FILE,67,54,133,8
+    LTEXT           "File Kind",IDC_STATIC,11,26,28,8
+    LTEXT           "FILEKIND",IDC_FILEKIND,67,26,133,8
+    LTEXT           "Convert",IDC_STATIC,11,12,27,8
+    LTEXT           "CONVKIND",IDC_CONVKIND,67,12,133,8
+    LTEXT           "Converted",IDC_STATIC,11,67,35,8
+    LTEXT           "FILECOUNT",IDC_FILECOUNT,66,67,133,8
+END
+
+IDD_PROPPAGE10 DIALOG DISCARDABLE  0, 0, 299, 219
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION " Key assign "
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Keystroke(&K)",IDC_STATIC,7,7,43,8
+    LISTBOX         IDC_LIST_KEY,7,17,78,147,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Ctrl(&C)",IDC_CHECK_CTRL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,171,36,10
+    CONTROL         "Shift(&S)",IDC_CHECK_SHIFT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,49,171,36,10
+    CONTROL         "Alt(&L)",IDC_CHECK_ALT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,186,33,10
+    LTEXT           "Function(&F)",IDC_STATIC,92,7,38,8
+    COMBOBOX        IDC_COMBO_FUNC,92,17,124,73,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_CMD,92,35,124,128,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Command ID",IDC_STATIC,93,171,41,8
+    LTEXT           "Command ID",IDC_CMDID,141,171,111,10
+    LTEXT           "Explanation",IDC_STATIC,93,188,37,8
+    LTEXT           "Explanation",IDC_SETUMEI,141,188,152,18
+    DEFPUSHBUTTON   "Assign(&W)",IDC_BUTTON_ASSIGN,220,17,66,14
+    DEFPUSHBUTTON   "Release(&U)",IDC_BUTTON_KAIJYO,220,36,66,14
+    DEFPUSHBUTTON   "List(&D)",IDC_BUTTON_LIST,220,55,66,14
+    DEFPUSHBUTTON   "Riset(&R)",IDC_BUTTON_RESET,220,74,66,14
+    DEFPUSHBUTTON   "Write to a file(&O)",IDC_BUTTON_WRITE,220,93,66,14
+    DEFPUSHBUTTON   "Read from a file(&I)",IDC_BUTTON_READ,220,112,66,14
+    DEFPUSHBUTTON   "Help(&H)",IDC_BUTTON_HELP,220,131,66,14
+END
+
+IDD_KEYBINDLIST DIALOG DISCARDABLE  0, 0, 298, 173
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "List of current key assignment"
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,123,152,50,14
+    CONTROL         "List1",IDC_LIST_KEYBIND,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_OWNERDRAWFIXED | WS_BORDER | 
+                    WS_TABSTOP,7,7,284,139
+END
+
+IDD_CUSTOM_FILEOPEN DIALOG DISCARDABLE  0, 0, 255, 164
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 10, "MS Sans Serif"
+BEGIN
+    CONTROL         "",1119,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,0,0,255,
+                    64
+    LTEXT           "Path",IDC_PATH,5,65,247,9
+    EDITTEXT        IDC_EDIT_PREVIEW,5,89,245,69,ES_MULTILINE | ES_READONLY | 
+                    ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Time",IDC_TIME,5,77,247,9
+END
+
+IDD_PROPPAGE11 DIALOG DISCARDABLE  0, 0, 259, 219
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION " Sound "
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "The scene of sounding sound (&V)",IDC_STATIC,8,8,107,8
+    CONTROL         "Tree1",IDC_TREE_SOUNDS,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,7,19,245,124
+    GROUPBOX        "Sound",IDC_STATIC,7,150,171,59
+    LTEXT           "Sound Name(&N)",IDC_STATIC,13,162,50,8
+    COMBOBOX        IDC_COMBO_WAVEFILES,13,172,157,89,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Test(&T)",IDC_BUTTON_TEST,13,189,61,16
+END
+
+IDD_HTMLOPEN DIALOG DISCARDABLE  0, 0, 282, 110
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Open the specified html file on web site"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "HTML Path to open (&A)  (Ex : http://www.yahoo.com/index.html)",
+                    IDC_STATIC,7,7,208,8
+    COMBOBOX        IDC_COMBO_REQUESTPATH,13,19,257,61,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Via proxy server(&X)",IDC_CHECK_USEPROXY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,37,77,10
+    DEFPUSHBUTTON   "OK",IDOK,83,89,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,149,89,50,14
+    LTEXT           "Proxy server address(&D)  (Ex : foo.bar.com or 123.456.789.0)",
+                    IDC_STATIC,24,50,194,8
+    EDITTEXT        IDC_EDIT_PROXYIPADDRESS,24,64,224,15,ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE12 DIALOG DISCARDABLE  0, 0, 253, 151
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION " Open html"
+FONT 10, "MS Sans Serif"
+BEGIN
+    CONTROL         "Via proxy server(&X)",IDC_CHECK_USEPROXY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,10,77,10
+    LTEXT           "Proxy server address(&D)  (Ex : foo.bar.com or 123.456.789.0)",
+                    IDC_STATIC,17,23,194,8
+    EDITTEXT        IDC_EDIT_PROXYIPADDRESS,17,37,224,15,ES_AUTOHSCROLL
+    GROUPBOX        "Connect",IDC_STATIC,12,57,193,82
+    CONTROL         "Make dialup connection by using a modem (&M)",
+                    IDC_CHECK_DIALUP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    19,66,163,10
+    LTEXT           "Name",IDC_STATIC,19,80,19,8
+    COMBOBOX        IDC_COMBO_DIALUPENTRY,53,78,111,41,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "User",IDC_STATIC,20,97,16,8
+    EDITTEXT        IDC_EDIT_RASUSERNAME,53,92,110,15,ES_AUTOHSCROLL
+    LTEXT           "Password",IDC_STATIC,20,112,31,8
+    EDITTEXT        IDC_EDIT_RASPASSWD,53,108,110,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    CONTROL         "Disconnect automatically after finished (&E)",
+                    IDC_CHECK_AUTODISCONNECT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,125,153,10
+END
+
+IDD_HTMLOPENSTATUS DIALOG DISCARDABLE  0, 0, 235, 102
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Under opening html processing..."
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Status",ID_STATIC,11,10,22,8
+    LTEXT           "status",IDC_STATUS,44,10,179,33
+    LTEXT           "Bytes",ID_STATIC,12,46,19,8
+    LTEXT           "00000 / 00000 ( 000 % )",IDC_BYTE,44,46,179,9
+    CONTROL         "Progress1",IDC_PROGRESS_BYTE,"msctls_progress32",
+                    WS_BORDER,27,63,180,10
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,92,78,50,14
+END
+
+IDD_HTMLOPENRESULT DIALOG DISCARDABLE  0, 0, 238, 145
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Html file open result"
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Status",ID_STATIC,11,9,22,8
+    LTEXT           "",IDC_STATUS,33,9,194,8
+    LTEXT           "Http server response",ID_STATIC,12,23,69,8
+    EDITTEXT        IDC_EDIT_HEADER,11,34,216,85,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL | WS_HSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,96,124,50,14
+END
+
+IDD_BASICAUTH DIALOG DISCARDABLE  0, 0, 258, 140
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Input Network password"
+FONT 10, "MS Sans Serif"
+BEGIN
+    ICON            IDR_AUTH,IDC_STATIC,14,13,20,20
+    LTEXT           "Input user name and password.",IDC_STATIC,43,13,115,8
+    LTEXT           "Site:",IDC_STATIC,43,32,16,8
+    LTEXT           "ejdev2.img.olympus.co.jp",IDC_AUTH_SITE,105,31,140,10
+    LTEXT           "Realm",IDC_STATIC,43,47,18,8
+    LTEXT           "EJIS_Member",IDC_AUTH_REALM,106,46,139,10
+    LTEXT           "User(&U)",IDC_STATIC,44,65,37,8
+    EDITTEXT        IDC_EDIT_AUTH_USER,104,63,142,15,ES_AUTOHSCROLL
+    LTEXT           "Password(&P)",IDC_STATIC,44,84,37,8
+    EDITTEXT        IDC_EDIT_AUTH_PASSWD,104,81,143,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    CONTROL         "Save this password(&S)",IDC_CHECK_SAVETHISPASSWD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,45,101,94,10
+    DEFPUSHBUTTON   "OK",IDOK,137,119,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,200,119,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Text editor Xerxes\0"
+            VALUE "FileVersion", "Beta Version Build 2005/02/27\0"
+            VALUE "InternalName", "Xerxes\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998-2005  Ekura Seito\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Xerxes.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Xerxes\0"
+            VALUE "ProductVersion", "Beta Version Build 2005/02/27\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HAND                CURSOR  DISCARDABLE     "..\\res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        TOPMARGIN, 1
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    ID_FILE_MAILLIST        "A received mail list is displayed on a POP3 server.\nMail List"
+    ID_EDIT_KAIGYOCONV      "Convert new-line codes of files to CR+LF, LF, CR.\nNew-line code conversion"
+    ID_CHANGE_INSMODE       "Insertion/replace mode is changed."
+    ID_HELP_CONTENT2        "Display table of contents of HTML help.\nHTML Help table of contents"
+    ID_CUSTOMIZE_TOOLBAR    "The button row of a standard tool bar is customized."
+    ID_CUSTOMIZE_TOOLBAREDIT 
+                            "The button row of a edit related tool bar is customized."
+    ID_CUSTOMIZE_TOOLBARFIND 
+                            "The button row of a find related tool bar is customized."
+    ID_CUSTOMIZE_TOOLBARJMP "The button row of a jump related tool bar is customized."
+    ID_CUSTOMIZE_TOOLBARTOOLS 
+                            "The button row of a tool related tool bar is customized."
+    ID_CUSTOMIZE_TOOLBARWND "The button row of a window related tool bar is customized."
+    ID_EDIT_ALLUNDO         "All operation performed until now is undone.\nUndo All"
+    ID_EDIT_ALLREDO         "All operation performed until now is redone.\nRedo All"
+    ID_HTTP_FILE_OPEN       "Download the specified html file from the web site and open it."
+    ID_EDIT_FCOMP_TABEQUAL2SPACE 
+                            "White spaces are not distinguished at the time of file comparison."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_FOPEN_ERR           "A file does not open."
+    IDS_CANTACCESS_FILE     "A file cannot be accessed."
+    IDS_FILEACCESS_ERROR    "A file cannot be accessed."
+    IDS_INFOPEN_ERR         "Input file open error."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_OUTFOPEN_ERR        "Output file open error."
+    IDS_FILEKIND            "When you specify the extensions of two or more files, please divide by the semicolon."
+    IDS_BROWSE              "A folder selection dialog is displayed."
+    IDS_INPUT_FOLDER        "Please input a folder."
+    IDS_INPUT_FILEKIND      "Please input the kind of file."
+    IDS_FOPEN_AS_READONLY   "Opens a file only for reading.(&R)"
+    IDS_INPUT_FINDSTRING    "Please input the text to search."
+    IDS_FINDEND             "Reference was completed."
+    IDS_FINDENDMSG          "Reference of %s was completed."
+    IDS_REPLACEEND          "Replacing was completed."
+    IDS_REPLACEENDMSG       "Replacing %s was completed."
+    IDS_FINDFILE_NOTFOUND   "A file %s is not found."
+    IDS_GREPEND             "GREP was completed.\r\nIf it double-clicks, it will jump to the line."
+    IDS_GREPCANCEL          "GREP was stopped."
+    IDS_NOGREPFOLDER        "There is no GREP execution folder."
+    IDS_GREPFILE_NOTFOUND   "A file %s is not found."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_GERP_TITLE          "The GREP result of %s"
+    IDS_GREP_MATCHCOUNT     " Match count : %ld"
+    IDS_ASCIIDUMP_TITLE     "The dumping result of %s in ASCII code"
+    IDS_SJISDUMP_TITLE      "The dumping result of %s in Shift-JIS code"
+    IDS_CONVEND             "Character code conversion was completed."
+    IDS_CONVERR             "Character code conversion went wrong."
+    IDS_CONVCANCEL          "Character code conversion was stopped."
+    IDS_NOCONVFOLDER        "There is no convert execution folder."
+    IDS_CONVZERO            "The object file of character code conversion was zero."
+    IDS_CONVKIND_ERR        "Conversion kind error."
+    IDS_CANTGET_CONVTMPFNAME 
+                            "The tempolary file name for character code conversion is unacquirable."
+    IDS_CANTMAKE_CONVTMPFILE 
+                            "The tempolary file for character code conversion cannot be created."
+    IDS_CONV_TITLE          "The result of character code conversion of %s."
+    IDS_CONV_TITLE2         "The result of character code conversion."
+    IDS_CONV_FILECOUNT      " Target count : %ld"
+    IDS_CONV_MEMO           "Memo : The file name was divided by 30 characters."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_INCODEKIND_ERR      "Input file code error."
+    IDS_CODECONV_TO_EUC     "---> EUC"
+    IDS_CODECONV_TO_SJIS    "---> Shift-JIS"
+    IDS_CODECONV_TO_JIS     "---> JIS"
+    IDS_INCODE_AUTO         "Detect automatically"
+    IDS_INCODE_EUC          "Assume EUC code."
+    IDS_INCODE_SJIS         "Assume Shift-JIS code."
+    IDS_INCODE_JIS          "Assume JIS code."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_CONV_FOLDER_TITLE   "Folder : %s"
+    IDS_CONV_LIST_TITLE     "  In File Name                   Out File Name   Status    "
+    IDS_CONV_MSG_BINARY     "Since it was a binary file, it did not converted."
+    IDS_CONV_MSG_ASCII      "Since it was a ascii file, it did not converted."
+    IDS_CONV_MSG_UNKNOWN    "Since the character code was unknown, it did not converted."
+    IDS_CONV_MSG_SJISEXIST  "Since there was already Shift-JIS code, it did not converted."
+    IDS_CONV_MSG_JISEXIST   "Since there was already JIS code, it did not converted."
+    IDS_CONV_MSG_EUCEXIST   "Since there was already EUC code, it did not converted."
+    IDS_CONV_SJIS2EUC       "Shift-JIS -> EUC conversion normal end."
+    IDS_CONV_SJIS2JIS       "Shift-JIS -> JIS conversion normal end."
+    IDS_CONV_EUC2SJIS       "EUC -> Shift-JIS conversion normal end."
+    IDS_CONV_EUC2JIS        "EUC -> JIS conversion normal end."
+    IDS_CONV_JIS2SJIS       "JIS -> Shift-JIS conversion normal end."
+    IDS_CONV_JIS2EUC        "JIS -> EUC conversion normal end."
+    IDS_CONV_OUT_RENAMEERR  " : The file name change for the same file output went wrong."
+    IDS_CONV_IN_RENAMEERR   " : The file name change for the same file output went wrong."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_KAIGYOCONVEND       "New-line code conversion was completed."
+    IDS_KAIGYOCONVCANCEL    "New-line code conversion was stopped."
+    IDS_NOKAIGYOCONVFOLDER  "There is no convert execution folder."
+    IDS_KAIGYOCONVZERO      "The object file of new-line code conversion was zero."
+    IDS_KAIGYOCONVKIND_ERR  "Conversion kind error."
+    IDS_CANTGET_KAIGYOCONVTMPFNAME 
+                            "The tempolary file name for new-line code conversion is unacquirable."
+    IDS_CANTMAKE_KAIGYOCONVTMPFILE 
+                            "The tempolary file for new-line code conversion cannot be created."
+    IDS_KAIGYOCONV_TITLE    "The result of new-line code conversion of %s"
+    IDS_KAIGYOCONV_TITLE2   "The result of character code conversion"
+    IDS_KAIGYOCONV_FILECOUNT " Target count : %ld"
+    IDS_KAIGYOCONV_MEMO     "Memo : The file name was divided by 30 characters."
+    IDS_KAIGYOCONV_FOLDER_TITLE "Folder : %s"
+    IDS_KAIGYOCONV_LIST_TITLE 
+                            "  In File Name                   Out File Name   Status    "
+    IDS_KAIGYOCONV_MSG_BINARY 
+                            "Since it was a binary file, it did not converted."
+    IDS_KAIGYOCONV_MSG_UNKNOWN 
+                            "Since the character code was unknown, it did not converted."
+    IDS_KAIGYOCONV_MSG_CRLFEXIST 
+                            "Since there was already the CRLF code, it did not converted."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_KAIGYOCONV_MSG_LFEXIST 
+                            "Since there was already the LF code, it did not converted."
+    IDS_KAIGYOCONV_MSG_CREXIST 
+                            "Since there was already the CR code, it did not converted."
+    IDS_KAIGYOCONV_CRLF2LF  "CRLF -> LF conversion normal end."
+    IDS_KAIGYOCONV_CRLF2CR  "CRLF -> CR conversion normal end."
+    IDS_KAIGYOCONV_LF2CRLF  "LF -> CRLF conversion normal end."
+    IDS_KAIGYOCONV_LF2CR    "LF -> CR conversion normal end."
+    IDS_KAIGYOCONV_CR2CRLF  "CR -> CRLF conversion normal end."
+    IDS_KAIGYOCONV_CR2LF    "CR -> LF conversion normal end."
+    IDS_KAIGYOCONV_OUT_RENAMEERR 
+                            " : The file name change for the same file output went wrong."
+    IDS_KAIGYOCONV_IN_RENAMEERR 
+                            " : The file name change for the same file output went wrong."
+    IDS_NOWCOUNTFOLDER      "There is no WORD count execution folder."
+    IDS_WCOUNTEND           "WORD count was completed."
+    IDS_WCOUNTCANCEL        "WORD count was stopped."
+    IDS_WCOUNTZERO          "The object file of WORD count was zero."
+    IDS_WCOUNT_TITLE        "The result of WORD count"
+    IDS_WCOUNT_FILECOUNT    " Target count : %ld"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_WCOUNT_MEMO         "Memo : The file name was divided by 30 characters."
+    IDS_WCOUNT_MEMO2        "       The Words is the number of words divided in the half-size space."
+    IDS_WCOUNT_MEMO3        "       The Empty Line is the number of lines of only a blank character."
+    IDS_WCOUNT_MEMO4        "       The Comment Line is the number of line which starts by the comment of C/C++."
+    IDS_WCOUNT_FOLDER_TITLE "Folder : %s"
+    IDS_WCOUNT_LIST_TITLE   "  File Name                                Bytes      Words     Lines    EmptyLine  CommentLine"
+    IDS_NOFSEARCHFOLDER     "There is no Search file execution folder."
+    IDS_FSEARCHEND          "Search file was completed.\r\nIf it double-clicks, the file will be opend."
+    IDS_FSEARCHCANCEL       "Search file was stopped."
+    IDS_FSEARCH_TITLE       "The result of search files of %s"
+    IDS_FSEARCH_FILECOUNT   " Match Count : %ld"
+    IDS_NOENCRIPTFOLDER     "There is no Encrypt files execution folder."
+    IDS_ENCRIPTEND          "Encrypting files was completed."
+    IDS_ENCRIPTZERO         "The object file of encrytion was zero."
+    IDS_ENCRIPTCANCEL       "Encrypting files was stopped."
+    IDS_INPUT_ENCRIPTKEY    "Please input an encryption key."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_LESS16_ENCRIPTKEY   "Please make an encryption key into less than 16 characters."
+    IDS_ODD_ENCRIPTKEY      "Please make the length of an encryption key into even number."
+    IDS_ASCIONLY_ENCRIPTKEY "Please make an encryption key only into a half-size character."
+    IDS_ASCIONLY_ENCRIPTKEY2 
+                            "Please make an encryption key into the character of only 0-9, and A-F."
+    IDS_CANTGET_ENCRIPTTMPFNAME 
+                            "The tempolary file name for encryption is unacquirable."
+    IDS_CANTMAKE_ENCRIPTTMPFILE 
+                            "The tempolary file for encryption cannot be created."
+    IDS_ENCRYPTKEY          "Please input within 16 characters, combining arbitrarily the number of 0-9, and the alphabet of A-F."
+    IDS_ENCRYPT_TITLE       "The result of encryption by DES"
+    IDS_ENCRYPT_FILECOUNT   " Target File Count : %ld"
+    IDS_ENCRYPT_MEMO        "Memo : The file name was divided by 30 characters."
+    IDS_ENCRYPT_FOLDER_TITLE "Folder : %s"
+    IDS_ENCRYPT_LIST_TITLE  "  In File Name                   Out File Name   Status    "
+    IDS_ENCRYPT_RESULTMSG   "Encrypting files was completed."
+    IDS_ENCRYPT_PARAMERR    "Encryption parameter error."
+    IDS_ENCRYPT_FACCESSERR  "A file cannot be accessed."
+    IDS_ENCRYPT_OUT_RENAMEERR 
+                            " : The file name change for the same file output went wrong."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_ENCRYPT_IN_RENAMEERR 
+                            " : The file name change for the same file output went wrong."
+    IDS_NODECRIPTFOLDER     "There is no Decrypt files execution folder."
+    IDS_DECRIPTEND          "Decrypting files was completed."
+    IDS_DECRIPTZERO         "The object file of decryption was zero."
+    IDS_DECRIPTCANCEL       "Decrypting files was stopped."
+    IDS_INPUT_DECRIPTKEY    "Please input a decryption key."
+    IDS_LESS16_DECRIPTKEY   "Please make a decryption key into less than 16 characters."
+    IDS_ODD_DECRIPTKEY      "Please make the length of a decryption key into even number."
+    IDS_ASCIONLY_DECRIPTKEY "Please make a decryption key only into a half-size character."
+    IDS_ASCIONLY_DECRIPTKEY2 
+                            "Please make a decryption key into the character of only 0-9, and A-F."
+    IDS_CANTGET_DECRIPTTMPFNAME 
+                            "The tempolary file name for decryption is unacquirable."
+    IDS_CANTMAKE_DECRIPTTMPFILE 
+                            "The tempolary file for decryption cannot be created."
+    IDS_DECRYPTKEY          "Please input within 16 characters, combining arbitrarily the number of 0-9, and the alphabet of A-F."
+    IDS_DECRYPT_TITLE       "The result of decryption by DES"
+    IDS_DECRYPT_FILECOUNT   " Target File Count : %ld"
+    IDS_DECRYPT_MEMO        "Memo : The file name was divided by 30 characters."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_DECRYPT_FOLDER_TITLE "Folder : %s"
+    IDS_DECRYPT_LIST_TITLE  "  In File Name                   Out File Name   Status    "
+    IDS_DECRYPT_RESULTMSG   "Decrypting files was completed."
+    IDS_DECRYPT_PARAMERR    "Decryption parameter error."
+    IDS_DECRYPT_FACCESSERR  "A file cannot be accessed."
+    IDS_DECRYPT_FCOLLUPT    "The file is broken or the key is inaccurate."
+    IDS_DECRYPT_OUT_RENAMEERR 
+                            " : The file name change for the same file output went wrong."
+    IDS_DECRYPT_IN_RENAMEERR 
+                            " : The file name change for the same file output went wrong."
+    IDS_FILECOMPARE_SEL1FILE "Please specify the first file for comparison."
+    IDS_FILECOMPARE_SEL2FILE "Please specify the second file for comparison."
+    IDS_FILECOMPARE_READ1FILE "Under the first file reading."
+    IDS_FILECOMPARE_READ2FILE "Under the second file reading."
+    IDS_FILECOMPARE_COMPFILE "Under file comparison."
+    IDS_FILECOMPARE_OUTRESULT "Under a comparison result output."
+    IDS_NO1STDIR_CMP        "There is no first directory of comparison."
+    IDS_NO2NDDIR_CMP        "There is no second directory of comparison."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_NOMORE_NEXTDIFF     "There is no different line in downword any more."
+    IDS_NOMORE_PREVDIFF     "There is no different line in upword any more."
+    IDS_1STZERO_FILECMP     "Since the number of lines of the first file is zero, it cannot compare."
+    IDS_2NDZERO_FILECMP     "Since the number of lines of the second file is zero, it cannot compare."
+    IDS_TIME                "%6ld (sec)"
+    IDS_FILECOMPARE_BINARY  "Since the %s is a binary file, it cannot compare."
+    IDS_FILECOMPARE_TITLE   "The result of comparison files between %s and %s."
+    IDS_FILECOMPARECANCEL   "Cancellation end."
+    IDS_FILECOMPARENG       "Unusual end."
+    IDS_FILECOMPARE_END     "Normal end. There is no different line."
+    IDS_FILECOMPARE_END2    "Normal end."
+    IDS_INPUT1STDIR         "Please input the first directory."
+    IDS_INPUT2NDDIR         "Please input the second directory."
+    IDS_INPUTDIFFDIR        "Please specify a different directory."
+    IDS_1STZERO_DIRCMP      "Since the number of files in the first directory is zero, it cannot compare."
+    IDS_2NDZERO_DIRCMP      "Since the number of files in the second directory is zero, it cannot compare."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_DIRCOMPARE_MAKE1DIR "Under file list creation of the first directory."
+    IDS_DIRCOMPARE_MAKE2DIR "Under file list creation of the second directory."
+    IDS_DIRCOMPARE_NOWCOMPARE "Under directory comparison."
+    IDS_DIRCOMPARE_OUTRESULT "Under a comparison result output."
+    IDS_DIRCOMPARE_RESULTMSG1 "  %-30s : Only in %s"
+    IDS_DIRCOMPARE_RESULTMSG2 "  %-30s : Differ(%s is new)"
+    IDS_DIRCOMPARE_RESULTMSG3 "  %-30s : Differ(same date)"
+    IDS_DIRCOMPARE_TITLE    "The result of directory comparison between %s and %s."
+    IDS_DIRCOMPARE_LIST_TITLE "  File Name                      Status    "
+    IDS_DIRCOMPARE_1STDIR   "First Directory:%s"
+    IDS_DIRCOMPARE_2NDDIR   "Second Directory:%s"
+    IDS_DIRCOMPARE_TITLE2   "The result of directory comparison."
+    IDS_DIRCOMPARECANCEL    "Cancellation end."
+    IDS_DIRCOMPARENG        "Unusual end."
+    IDS_DIRCOMAPRE_END      "Normal end.\r\nIf it double-clicks, the detailed comparison will be carried out."
+    IDS_PRINTLAYOUTHELP     "Layout\r\n\r\n&f:Path\r\n&n:File Name\r\n&d:Date\r\n&t:Time\r\n&p:Page\r\n&P:PageSum"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_LOGOBMPLOAD_NG      "The specified LOGO bitmap has not been loaded."
+    IDS_SPLASHTIME_ERR      "Please input the value of 1-10."
+    IDS_AUTOSAVETIME_ERR    "Please input the value of 1-60."
+    IDS_LOGOX_ERR           "Please input the value of 0-100."
+    IDS_LOGOY_ERR           "Please input the value of 0-100."
+    IDS_SET_PASSWD          "Please set up a starting password."
+    IDS_INPUT_PASSWD        "Please input a starting password."
+    IDS_INPUT_ORGANIZATION  "Please Input Organization."
+    IDS_INPUT_USERNAME      "Please Input User."
+    IDS_NOFILE_INTHISDIR    "There is no other file of a same name in this %s directory."
+    IDS_CONFIRM_REREAD1     "%s\r\n\r\nis changed by the external editor.\r\nIf a re-load is performed, your change will be lost."
+    IDS_CONFIRM_REREAD2     "%s\r\n\r\nis changed by the external editor.\r\nDoes it re-load?"
+    IDS_NOTALLDISP_CLIP     "Since the data in a clipboard is 64KB or more, all cannot be displayed."
+    IDS_ERRCHANGEFILEATTR   "Change of a file attribute was not completed."
+    IDS_HTMLHELP_OPEN_ERR   "A HTML help file cannot be opened.\r\nInternet Explorer Ver4 or more is necessary."
+    IDS_BROUSERKICK_ERR     "Starting of a WEB browser went wrong."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_NOTABOVEURL         "A caret is not on URL."
+    IDS_MAILERKICK_ERR      "Starting of a mailer went wrong."
+    IDS_NOTABOVEEMAIL       "A caret is not on e-mail address."
+    IDS_SOFTKICK_ERR        "Starting an associated software went wrong."
+    IDS_LICENSE_OK          "License key is valid. User's registration was completed."
+    IDS_LICENSE_NG          "License Key is invalid. Please input the right license key."
+    IDS_INITIALNOTE         "Thank you for trying the Xerxes Beta version."
+    IDS_EXPIRED             "The trial term for 30 days expired."
+    IDS_TOOL_OPE_STARTENDRECORD "A record start / end of key operation."
+    IDS_TOOL_OPE_ENDRECORD  "End the record of key operation     "
+    IDS_TOOL_OPE_STARTRECORD "Start the record of key operation     "
+    IDS_KEYOPE_PARSEERR     "Key operation analysis went wrong.\r\nThe file may have broken."
+    IDS_KEYOPE_STARTRECORD  "Record of key operation is started. \r\nKeep in mind that it cannot perform mouse operation during record."
+    IDS_KEYOPE_STEPDOEND    "Step execution of the key operation currently recorded was completed."
+    IDS_KEYOPE_STEPDOEND2   "Step execution of the key operation currently recorded was completed."
+    IDS_KEYOPE_FOPENERR     "Key operation file reading failure."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_NOT_KEYOPEFILE      "This file is not a key operation file."
+    IDS_KEYOPE_OPENEND      "Key operation file reading was completed."
+    IDS_KEYOPE_UNSAVED      "The key operation currently recorded is not saved to a file.\r\nIt will be overwritten if key operation record is started as it is.\r\nMay I start key operation record?"
+    IDS_KEYOPE_RECORDEND    "Key operation recording was completed.\r\n%d key operation is recorded."
+    IDS_NOMARKLINE_NEXT     "There is no marked line in downword any more."
+    IDS_NOTSEL_MARKLINE     "The mark line for a jump is not selected."
+    IDS_OUTOFJUMPRANGE      "The inputted line number is outside the range which can be jumped."
+    IDS_PAREN_NOTFOUND      "There is no corresponding parenthesis."
+    IDS_UUENCODE_INFILE_TITLE "Please specify the file for Uuencode."
+    IDS_UUENCODE_RESULT_TITLE " The result of Uuencoding."
+    IDS_NO_UUDECODEHEADER   "The begin line header of Uudecode is not in the head of the selection."
+    IDS_END_UUDECODE        "Uudecoding was completed."
+    IDS_NO_UUDECODEFOOTER   "The end line footer of Uudecode is not in the selection.\r\nPlease select from a begin line to an end line."
+    IDS_ILLEGAL_LINE_UUDECODE 
+                            "The invalid line was found during Uudecode processing.\r\nThe encoded data in the selection may have broken."
+    IDS_UUDECODE_OUTFILE_TITLE 
+                            "Please specify the file to save Uudecode result."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_NG_ENCODE           "It is the invalid coding that one line is 76 or more characters."
+    IDS_BASE64_INFILE_TITLE "Please specify the file for Base64 encoding."
+    IDS_BASE64_RESULT_TITLE " The result of Base64 encoding."
+    IDS_END_BASE64DECODE    "Base64 encoding was completed."
+    IDS_ILLEGAL_LINE_BASE64DECODE 
+                            "The invalid line was found during base64 decoding.\r\nThe encoded data in the selection may have broken."
+    IDS_BASE64_OUTFILE_TITLE 
+                            "Please specify the file to save Base64 decoding result."
+    IDS_QUOTED_INFILE_TITLE "Please specify the file for Quoted-printable encoding."
+    IDS_QUOTED_RESULT_TITLE " The result of Quoted-Printable encoding."
+    IDS_END_QUOTEDDECODE    "Quoted-Printable decoding was completed."
+    IDS_ILLEGAL_LINE_QUOTEDDECODE 
+                            "The invalid line was found during Quoted-printable decoding.\r\nThe encoded data in the selection may have broken."
+    IDS_QUOTE_OUTFILE_TITLE "Please specify the file to save Quoted-printable decoding result."
+    IDS_PASSWORD_NG         "Password is not right."
+    IDS_SHELLDLL_NOTFOUND   "The file x_shelext.dll is not found."
+    IDS_CANTACCESS_FOLDER   "The specified folder cannot access."
+    IDS_CANTACCESS_FOLDERMV "The specified folder cannot access."
+    IDS_INPUT_EXISTFOLDER   "Please specify the existing directory."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_INPUT_AFTERNAME     "Please input the name after change."
+    IDS_INPUT_DIFFNAME      "Please make the name after change into a different name from the original name."
+    IDS_INVALIDCHAR_AFTERNAME 
+                            "The invalid character is contained in the name after change."
+    IDS_FTOUCHEND           "Touch files was completed."
+    IDS_FTOUCHCANCEL        "Touch files was stopped."
+    IDS_FILETOUCH_INVALIDDATE "The inputted date and time is invalid."
+    IDS_SMTP_CONNECTERR     "Connection with a mail server was failed."
+    IDS_SMTP_LOCALHOSTNAMEERR "Local host name acquisition error."
+    IDS_SMTP_LOCALIPERR     "An IP address acquisition error of a local host."
+    IDS_SMTP_SENDERR        "The transmitting error to a mail server."
+    IDS_SMTP_NOMAILSERVICE  "Mail service is not working on a mail server."
+    IDS_SMTP_SENDEND        "Mail transmitting was completed."
+    IDS_SMTP_NOFROM         "A FROM mail address has not been set up."
+    IDS_SMTP_NOSERVER       "A SMTP server has not been set up."
+    IDS_SMTP_NOTO           "Please input the mail address of a TO."
+    IDS_SMTP_COMMASEPARATE  "In the case of two or more addresses, please divide by comma."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_SMTP_DLLNOTFOUND    "The file sock_dll.dll is not found."
+    IDS_SMTP_ATTACHFILEOPENERR "The file %s cannot be opened."
+    IDS_SMTP_RESCODE_211    "SMTP: System status or a system help response."
+    IDS_SMTP_RESCODE_214    "SMTP: A help message and about the usage of a command."
+    IDS_SMTP_RESCODE_220    "SMTP: The completion of preparation of the server of the domain name specified to be a parameter."
+    IDS_SMTP_RESCODE_221    "SMTP: A connection's closing."
+    IDS_SMTP_RESCODE_250    "SMTP: The requested command was ended normally."
+    IDS_SMTP_RESCODE_251    "SMTP: The user specified as an address of mail does not exist locally.\r\n%s"
+    IDS_SMTP_RESCODE_252    "SMTP: A check of the user in the VRFY command cannot be performed."
+    IDS_SMTP_RESCODE_354    "SMTP: Please start the input of the data of mail."
+    IDS_SMTP_RESCODE_421    "SMTP: This host's mail service is not operating."
+    IDS_SMTP_RESCODE_450    "SMTP: The requested command was not executed.\r\nMail box is busy."
+    IDS_SMTP_RESCODE_451    "SMTP: The specified command has not been executed because of the local error."
+    IDS_SMTP_RESCODE_500    "SMTP: It is the syntax error of a command."
+    IDS_SMTP_RESCODE_501    "SMTP: It is the parameter error of the appointed command."
+    IDS_SMTP_RESCODE_502    "SMTP: The appointed command is not supported."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_SMTP_RESCODE_503    "SMTP: There is a problem in order of execution of a command."
+    IDS_SMTP_RESCODE_504    "SMTP: The parameter of the appointed command is not supporting."
+    IDS_SMTP_RESCODE_550    "SMTP: The command of specification by the reasons of there being no mail box of an address was not executed.\r\n%s"
+    IDS_SMTP_RESCODE_551    "SMTP: The user of the specified address does not exist in this host.\r\nPlease transmit to another path.\r\n%s"
+    IDS_SMTP_RESCODE_552    "SMTP: The Command of specification by the reasons of the problem of a file system was not executed."
+    IDS_SMTP_RESCODE_553    "SMTP: Since a problem was in the mail box name of an address, the appointed command has not been executed."
+    IDS_SMTP_RESCODE_554    "SMTP: Mail transfer processing went wrong."
+    IDS_RAS_NOUSERNAME      "Please input a RAS user name."
+    IDS_RAS_NOPASSWD        "Please input a RAS password."
+    IDS_RAS_CONNECTERR      "RAS connection failure."
+    IDS_RASCONNECT          "Under dialup connection."
+    IDS_RASDISCONNECT       "Under dialup disconnection."
+    IDS_RASCONNECTERR       "RAS connect error : %s"
+    IDS_RASCONNECTEND       "Dialup connection was completed."
+    IDS_RASISCONNECT        "Under waiting for the completion of dialup connection.(%d)\r\n%s"
+    IDS_POP_NOSERVER        "A POP3 server has not set up."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_POP_NOUSER          "A POP3 user name has not set up."
+    IDS_POP_NOPASSWD        "A POP3 password has not set up."
+    IDS_POP_LISTZERO        "The number of mails which has reached the POP3 server was zero."
+    IDS_POP_DLLNOTFOUND     "A file sock_dll.dll is not found."
+    IDS_POP_CONNECTERR      "Connection with a mail server was failed."
+    IDS_POP_SENDERR         "The transmitting error to a pop3 server."
+    IDS_POP_TOPERR          "The transmitting error to a pop3 server."
+    IDS_POP_LISTERR         "The transmitting error to a pop3 server."
+    IDS_POP_RETRERR         "The transmitting error to a pop3 server."
+    IDS_POP_DELERR          "The transmitting error to a pop3 server."
+    IDS_POP_SELECTLIST      "Please specify the target mail form list."
+    IDS_POP_TIMEOUT         "Waiting timeout for response receiving data."
+    IDS_POP_DISCONNECTED    "The communication to a POP3 server was disconnected."
+    IDS_KEYBIND_RESET       "Key assignment is reset in the initial state."
+    IDS_KEYBIND_WRITEEND    "Wriging key assigns to a file was completed."
+    IDS_KEYBIND_READEND     "Reading key assigns from a file was completed."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_NOT_KEYBINDFILE     "This file is not a key assign file."
+    IDS_KEYBIND_INFILE_TITLE "Please specify a file for reading key assigns."
+    IDS_KEYBIND_OUTFILE_TITLE "Please specify a file for writing key assigns."
+    IDS_KEYBIND_ASSIGN      "%s is assigned to %s - %s"
+    IDS_KEYBIND_NOTASSIGNED "There is no function currently assigned to %s."
+    IDS_KEYBIND_DEASSIGN    "The function currently assigned to %s is released."
+    IDS_START_INCRIMENTALSEARCH 
+                            "Now start incremental search. Please type the text.\r\nPlease press ESC key for ending."
+    IDS_END_INCRIMENTALSEARCH "Incremental search was end."
+    IDS_INCREMENTALSEARCH_NOW "Under incremental search."
+    IDS_INCREMENTALSEARCH   "Incremental search"
+    IDS_INCREMENTALSEARCH_E "End   incremental search(I)"
+    IDS_INCREMENTALSEARCH_S "Start incremental search(I)"
+    IDS_INCREMENTALSEARCH_END "Search %s was completed."
+    IDS_FILTER_ALLFILE      "All files (*.*)|*.*|"
+    IDS_FILTER_BATFILE      "Batch file (*.bat)|*.bat|"
+    IDS_FILTER_INIFILE      "Ini file (*.ini)|*.ini|"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_FILTER_MAKFILE      "Make file (*.mak;*.mk)|*.mak;*.mk|"
+    IDS_FONTNAME_ABOUTDLG   "MS Sans Serif"
+    IDS_FONTNAME_DISP       "FixedSys"
+    IDS_FONTNAME_DISP2      "Courier"
+    IDS_FONTNAME_PRINT      "FixedSys"
+    IDS_FONTNAME_PRINT2     "Courier"
+    IDS_SHORTCUTNAME_TOXERXES "Shortcut to Xerxes"
+    IDS_FILEEXCEPTION_NONE  "There is no error."
+    IDS_FILEEXCEPTION_GENGERIC "There is a generic error."
+    IDS_FILEEXCEPTION_NOTFOUND "A file is not found."
+    IDS_FILEEXCEPTION_BADPATH "Invalid path."
+    IDS_FILEEXCEPTION_TOOMANY "An excess of the number of open files."
+    IDS_FILEEXCEPTION_ACCESSDENY "File access was refused."
+    IDS_FILEEXCEPTION_INVALIDFILE "Invalid file handle is used."
+    IDS_FILEEXCEPTION_REMOVECURRDIR "The current directory cannot be deleted."
+    IDS_FILEEXCEPTION_DIRFULL "Directory full."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_FILEEXCEPTION_BADSEEK "Bad seek."
+    IDS_FILEEXCEPTION_HARDIO "Hard error."
+    IDS_FILEEXCEPTION_SHAREVIOLATION "Share violation."
+    IDS_FILEEXCEPTION_LOCKVIOLATION "Lock violation."
+    IDS_FILEEXCEPTION_DISKFULL "Disk full."
+    IDS_FILEEXCEPTION_ENDOFFILE "End of file."
+    IDS_MAILLIST_GET        "Under mail list acquisition."
+    IDS_MAILRECVERR         "Mail (%d) reception error."
+    IDS_MAILRECVEND         "%d mails was received."
+    IDS_MAILCOUNT           "Mails  :  %d"
+    IDS_MAILSERVER_CONNECT  "Under connection to mail server."
+    IDS_MAIL_SEND           "Under sending mails."
+    IDS_MAIL_SENDEND        "Sending mails was completed."
+    IDS_SELECTATTACHFILE    "Please specify files for attachment."
+    IDS_LINENO_FORMAT       "LineNo| "
+    IDS_DAYSTYLE_NONE       "Date style has not set up."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_SOUND_MESSAGE_INFO  "Message(Information)"
+    IDS_SOUND_MESSAGE_STOP  "Message(Stop)"
+    IDS_SOUND_MESSAGE_QUESTION "Message(Question)"
+    IDS_SOUND_MESSAGE_EXCLAIM "Message(Exclamation)"
+    IDS_SOUND_WINDOW        "Window"
+    IDS_SOUND_WINDOW_MINIMIZE "Window(Minimize)"
+    IDS_SOUND_WINDOW_MAXIMIZE "Window(Maximize)"
+    IDS_SOUND_WINDOW_RESTORE "Window(Restore)"
+    IDS_SOUND_WINDOW_NEXT   "Window(Next)"
+    IDS_SOUND_WINDOW_PREV   "Window(Prev)"
+    IDS_SOUND_WINDOW_CLOSE  "Window(Close)"
+    IDS_SOUND_WINDOW_ALLCLOSE "Window(All Close)"
+    IDS_SOUND_FILE          "File"
+    IDS_SOUND_FILE_NEW      "File(New)"
+    IDS_SOUND_NONE          "(none)"
+    IDS_FONTNAME_DISP3      "Courier New"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_FONTNAME_PRINT3     "Courier New"
+    IDS_FONTNAME_DISP4      "Terminal"
+    IDS_FONTNAME_PRINT4     "Terminal"
+    IDS_DIRCOMPARE_RESULTMSG4 "  %-30s : Same"
+    IDS_WCOUNT_LIST_SUM     "Total                                  %9ld  %9ld  %9ld  %9ld  %9ld"
+    IDS_NOMARKLINE_PREV     "There is no marked line in upword any more."
+    IDS_APOP_CONNECTERR     "Connection with a mail server was failed.\r\nServer is seeming not to support the APOP authorization system."
+    IDS_PROPSHT_CAPTION     "Properties setting"
+    IDS_PROPSHT_CAPTION1    "Properties setting"
+    CG_IDS_PHYSICAL_MEM     "%lu KB"
+    CG_IDS_DISK_SPACE       "%lu KB (Drive %c:)"
+    CG_IDS_DISK_SPACE_UNAVAIL "Unknown"
+    IDS_MAILACCOUNT_0       "1st account"
+    IDS_MAILACCOUNT_1       "2nd account"
+    IDS_MAILACCOUNT_2       "3rd account"
+    IDS_MAILACCOUNT_3       "4th account"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_DAYSTYLE_YYYY_MM_DD "%Y/%m/%d (%a)"
+    IDS_DAYSTYLE_YYYY_MM_DD2 "YYYY/MM/DD"
+    IDS_DAYSTYLE_YY_MM_DD   "'%y/%m/%d (%a)"
+    IDS_DAYSTYLE_YY_MM_DD2  "'YY/MM/DD"
+    IDS_DAYSTYLE_MM_DD      "%m/%d (%a)"
+    IDS_DAYSTYLE_MM_DD2     "MM/DD"
+    IDS_HOURSTYLE_NONE      "Time style has not set up."
+    IDS_HOURSTYLE_HH_MM     "%H:%M"
+    IDS_HOURSTYLE_HH_MM2    "HH:MM"
+    IDS_HOURSTYLE_AMPM_HH_MM "%p %I:%M"
+    IDS_HOURSTYLE_AMPM_HH_MM2 "AM/PM HH:MM"
+    IDS_LINESTYLE_LINE_OFFS_ALL "Line:%d, Offs:%d, All:%d"
+    IDS_LINESTYLE_LINE_OFFS_ALL2 "Line:NN, OffsNN, All:NN"
+    IDS_LINESTYLE_LINE_OFFS "Line:%d, Offs:%d"
+    IDS_LINESTYLE_LINE_OFFS2 "Line:NN, Offs:NN"
+    IDS_LINESTYLE_LINE_ALL  "Line:%d, All:%d"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_LINESTYLE_LINE_ALL2 "Line:NN, All:NN"
+    IDS_LINESTYLE_ALL       "All:%d"
+    IDS_LINESTYLE_ALL2      "All:NN"
+    IDS_LINESTYLE_LINE      "Line:%d"
+    IDS_LINESTYLE_LINE2     "Line:NN"
+    IDS_LINESTYLE_OFFS      "Offs:%d"
+    IDS_LINESTYLE_OFFS2     "Offs:NN"
+    IDS_INSMODE_INSERT      "Ins"
+    IDS_INSMODE_OVERWRITE   "Over"
+    IDS_READONLYMODE_READONLY "ReadOnly"
+    IDS_READONLYMODE_WRITEOK "WriteOK"
+    IDS_INDICATOR_GYORETU   "Line, Offs, All"
+    IDS_INDICATOR_BYTE      "The number of bytes at caret."
+    IDS_INDICATOR_INS       "Insertion/Overwrite"
+    IDS_INDICATOR_READONLY  "ReadOnly/WriteOK"
+    IDS_INDICATOR_TIME      "Current time"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_INDICATOR_CHARCODE  "Character code at caret."
+    IDS_INDICATOR_KANA      "Kana Lock"
+    IDS_INDICATOR_CAPS      "Caps Lock"
+    IDS_INDICATOR_NUM       "Num Lock"
+    IDS_INDICATOR_SCRL      "Scrl Lock"
+    IDS_FILEPROP_MTIME      "Date:%Y/%m/%d %H:%M:%S"
+    IDS_FILEPROP_INFO       "%s,    Size:%d KB"
+    IDS_FILEPROP_BINARY     "Binary file"
+    IDS_FILEPROP_EUC        "EUC code file"
+    IDS_FILEPROP_JIS        "JIS code file"
+    IDS_FILEPROP_UNKNOWN    "Unknown code file"
+    IDS_FILEPROP_PATH       "Path:%s"
+    IDS_SOUND_XERXES_STARTEND "Xerxes start/end"
+    IDS_SOUND_XERXES_START  "Xerxes start"
+    IDS_SOUND_XERXES_END    "Xerxes end"
+    IDS_SOUND_MESSAGE       "Message"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_EDITORTYPE          "\nXerxes\nXerxes\n\n\nXerxes.Document\nXerxes Document"
+    IDR_MAINFRAME           "Xerxes"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Xerxes"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "Overwrite"
+    ID_INDICATOR_REC        "record"
+    ID_INDICATOR_KANA       "KANA"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Window Horz"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Window Vert"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace the specified text with a different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the standard tool bar\nToggle standard tool Bar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+    ID_INDICATOR_GYORETU    "    "
+    ID_INDICATOR_INS        "    "
+    ID_INDICATOR_TIME       "    "
+    ID_INDICATOR_READONLY   "    "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_LINENO          "Display line no\nLine no"
+    ID_VIEW_TAB4            "Switch tab size to 4\n4 Tab"
+    ID_VIEW_TAB8            "Switch tab size to 8\n8 Tab"
+    ID_SETTINGS             "Settings\nSettings"
+    ID_EDIT_SELECTALL       "Select the entire document\nSelect All"
+    ID_EDIT_DEL             "Delete the selection\nDelete"
+    ID_EDIT_JUMP2TOP        "Jump to the head line\nJump to head"
+    ID_EDIT_JUMP2BOTTOM     "Jump to the last line\nJump to last"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_JUMP2LINE       "Jump to a specified line.\nJump to a specified line"
+    ID_EDIT_FINDCONTINUE    "Continue to find text downword.\nFind downword"
+    ID_WINDOW_ALLCLOSE      "Close the all windows\nAll Close"
+    ID_FILE_ALLSAVE         "Save the all documents\nAll Save"
+    ID_VIEW_CRLF            "Display new-line code\nDisplay new-line code"
+    ID_VIEW_RULER           "Display ruler\nDisplay ruler"
+    ID_FILE_OPENONEXIT      "Open files when Xerxes opened at exit\nOpen files"
+    ID_WINDOW_CLOSE         "Close the active window\nClose"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_FINDREVCONTINUE "Continue to find text upword\nFind upword"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_GREP            "Search the specified text form files\nSearch from files"
+    ID_PARENTHESIS          "Jump to a corresponding parenthesis."
+    ID_VIEW_TAB             "Display tab.\nDisplay tab"
+    ID_VIEW_ZENKAKUSPACE    "Display full-size space.\nDisplay full-size space"
+    ID_EDIT_TAB2SPACE       "Convert Tab to half-size space in selection.\nConvert Tab to half-size space"
+    ID_EDIT_SPACE2TAB       "Convert half-size space to tab in selection.\nConvert half-size space to tab"
+    ID_EDIT_SPACE_ZEN2HAN   "Convert full-size space to half-size space in selection.\nConvert full-size space to half-size space"
+    ID_EDIT_SPACE_HAN2ZEN   "Convert half-size space to full-size space in selection.\nConvert half-size space to full-size space"
+    ID_EDIT_CODECONV        "Convert character code of files to Shift-JIS, JIS, EUC.\nConvert character code"
+    ID_EDIT_ASCIIDUMP       "Dump the contents of the active document in ASCII code.\nDump in ASCII"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_SJISDUMP        "Dump the contents of the active document in Shift-JIS code.\nDump in Shift-JIS"
+    ID_FILE_REREAD          "Reload the active document.\nReload"
+    ID_FILE_PROPERTY        "Display the information about the active document.\nProperty"
+    ID_EDIT_SETREADONLY     "Change the file attribute to read only.\nto ReadOnly"
+    ID_EDIT_UNSETREADONLY   "Change the file attribute to write OK.\nto WriteOK"
+    ID_EDIT_KATAKANA_HAN2ZEN 
+                            "Convert half-size katakana to full-size katakana in selection.\nConvert half-size katakana to full-size"
+    ID_EDIT_KATAKANA_ZEN2HAN 
+                            "Convert full-size katakana to half-size katakana in selection.\nConvert full-size katakana to half-size"
+    ID_EDIT_WORDCOUNT       "Count words in files.\nCount Words"
+    ID_VIEW_UNDERLINE       "Display the underline.\nDisplay the underline"
+    ID_VIEW_CARET_IBEAM     "Change the caret form to I beam."
+    ID_VIEW_CARET_SQUARE    "Change the caret form to square."
+    ID_VIEW_TAB_4           "Tab size : 4"
+    ID_VIEW_TAB_8           "Tab size : 8"
+    ID_EDIT_FILESEARCH      "Search files which matchs the specified condition.\nSearch Files"
+    ID_EDIT_ALNUM_HAN2ZEN   "Convert half-size alphanumeric character to full-size in selection.\nConvert half-size alphanumeric character to full-size"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_ALNUM_ZEN2HAN   "Convert full-size alphanumeric character to half-size in selection.\nConvert full-size alphanumeric character to half-size"
+    ID_HELP_LICENSE         "Input user information, register license ID."
+    ID_EDIT_DELTOPSPACES    "Delete all spaces and tabs at head in selection.\nDelete spaces and tabs"
+    ID_HELP_CONTENT         "Display table of contents.\nTable of contents"
+    ID_EDIT_INSTAB          "Insert a tab into the selection.\nInsert tab(TAB)"
+    ID_EDIT_DELTAB          "Delete a tab in the selection.\nDelete tab(Shift+TAB)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_CHARCODE   "  "
+    ID_INDICATOR_BYTE       "  "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ALLSAVE_EXIT         "Save the all document and exit.\nSave and exit"
+    ID_FILE_SAVECLOSE       "Save the active document and close.\nSave and close"
+    ID_EDIT_CLIPVIEW        "Display the contents of clipboard.\nView in clipboard"
+    ID_EDIT_TAGJUMP         "Get the tag information and open the file.\nTag Jump"
+    ID_TOOL_OPE_STARTENDRECORD 
+                            "Start/End to record key operations.\nStart/End to record key operations"
+    ID_TOOL_OPE_SAVE        "Save the recorded key operations to a file."
+    ID_TOOL_OPE_DO          "Execute the recorded key operations.\nExecute key operations"
+    ID_TOOL_OPE_OPEN        "Read key operations from a file."
+    ID_TOOL_OPE_DISP        "Display the recorded key operations."
+    ID_TOOL_OPE_STEPDO      "Execute the recorded key operations step by step.\nExecute step by step"
+    ID_TOOL_OPE_STEPDO_NEXT "Execute the next key operation.\nExecute the next"
+    ID_TOOL_OPE_STEPDO_END  "Stop the execution the key operation.\nStop execution"
+    ID_WND_NEXT             "Switch to the next document window.\nNext Window"
+    ID_WND_PREV             "Switch to the previous document window.\nPrev Window"
+    ID_EDIT_CLEARUNDOBUF    "Clear undo/redo buffer.\nClear undo/redo buffer"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_INSCPPCOMMENT   "Insert the C/C++ line comment(//) in the selection.\nInsert C/C++ line comment"
+    ID_EDIT_INSVBCOMMENT    "Insert the VB line comment(') int the selection.\nInsert VB line commnent"
+    ID_EDIT_INSASMCOMMENT   "Insert the Assembler line comment(;) in the selection.\nInsert Assembler line comment"
+    ID_VIEW_REDRAW          "Reflesh the active window.\nReflesh"
+    ID_VIEW_EOF             "Display the end of file mark.\nDisplay EOF"
+    ID_JUMP_SETMARK         "Mark the current line.\nMark line"
+    ID_JUMP_DELMARK         "Mark release the current line\nMark release"
+    ID_JUMP_NEXTMARK        "Jump to the marked line downword.\nJump to next mark"
+    ID_JUMP_PREVMARK        "Jump to the marked line upword.\nJump to prev mark"
+    ID_JUMP_MARKLIST        "Display the marked line list.\nDisplay the marked line list"
+    ID_JUMP_ALLDELMARK      "Mark release all line.\nMark release alll"
+    ID_EDIT_INSDAY          "Insert date at caret position.\nInsert date"
+    ID_EDIT_INSTIME         "Insert time at caret position.\nInsert time"
+    ID_EDIT_INCRIMENTALSEARCH 
+                            "Start/End incremental search.\nIncremental search"
+    ID_EDIT_AL2UPPER        "Convert half-size alphabet to upper case in selection.\nTo upper"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_AL2LOWER        "Convert half-size alphabet to lower case in selection.\nTo Lower"
+    ID_EDIT_UUDECODE        "Uudecode the selection and save to a file.\nUudecode"
+    ID_EDIT_BASE64DECODE    "BASE64 decode the selection and save to a file.\nDecode BASE64"
+    ID_EDIT_QUOTEDDECODE    "Quoted-Printable decode the selection and save to a file.\nDecode Quoted-Printable"
+    ID_SECURITY_ENCRIPT     "File encryption.\nEncrypt"
+    ID_SECURITY_DECRIPT     "File decryption.\nDecrypt"
+    ID_EDIT_UUENCODE        "Uuencode the specified file.\nUuencode"
+    ID_EDIT_BASE64ENCODE    "BASE64 encode the specified file.\nEncode BASE64"
+    ID_EDIT_QUOTEDENCODE    "Quoted-Printable encode the specified file.\nEncode Quoted-Printable"
+    ID_EDIT_FILECOMPARE     "Compare the two files and search different lines.\nCompare Files"
+    ID_EDIT_NEXTDIFF        "Jump to the different line downword.\nJump to next"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_FCOMP_ZENEQUAL2HAN 
+                            "Full size and half size are not distinguished at the time of file comparison."
+    ID_EDIT_FCOMP_ALPHABETBIGANDSMALL 
+                            "The capital letter and small letter are not distinguished at the time of file comparison."
+    ID_EDIT_SOURCEARRANGE   "Arrange indents and parenthesis of C/C++ source file."
+    ID_EDIT_FILERECOMPARE   "Re-Compare the current two files and search different lines.\nRe-Compare Files"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_PREVDIFF        "Jump to the different line upword.\nJump to prev"
+    ID_FILE_OPENSAMENAME    "Open the files of same name"
+    ID_EDIT_DIRCOMPARE      "Compare the two directories and search different files.\nCompare Directories"
+    ID_EDIT_DIRCMP_SYOSAI   "Compare the different files.\nCompare Files"
+    ID_FILE_COPY            "Copy the active document to the specified directory.\nCopy"
+    ID_FILE_RENAME          "Rename the active document.\nRename"
+    ID_FILE_DELETE          "Delete the active document.\nDelete"
+    ID_FILE_MOVE            "Move the active document to the specified directory.\nMove"
+    ID_EDIT_FILETOUCH       "Change the update time of files.\nTouch"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_BROWSEURL       "Browse the URL at caret.\nBrowse URL"
+    ID_FILE_SHELLOPEN       "Open the active document with the assosiated software."
+    ID_WINDOW_RESTORE       "Restore the window to normal size."
+    ID_WINDOW_MINIMIZE      "Reduce the window to an icon."
+    ID_WINDOW_MAXIMIZE      "Enlarge the window to full size."
+    ID_EDIT_CODE2SJIS       "Convert character code of the active document to Shift-JIS code.\nTo Shift-JIS"
+    ID_EDIT_CODE2EUC        "Convert character code of the active document to EUC code.\nTo EUC"
+    ID_EDIT_CODE2JIS        "Convert character code of the active document to JIS code.\nTo JIS"
+    ID_VIEW_TOOLBAR_WND     "Show or hide the window related tool bar.\nToggle Window ToolBar"
+    ID_VIEW_TOOLBAR_TOOLS   "Show or hide the tool related tool bar.\nToggle Tool ToolBar"
+    ID_VIEW_TOOLBAR_FIND    "Show or hide the find related tool bar.\nToggle Find ToolBar"
+    ID_VIEW_TOOLBAR_EDIT    "Show or hide the edit related tool bar.\nToggle Edit ToolBar"
+    ID_VIEW_TOOLBAR_JMP     "Show or hide the jump related tool bar.\nToggle Jump ToolBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TAB_2           "Tab size : 2"
+    IDW_TOOLBAR_EDIT        "edit related tool bar"
+    IDW_TOOLBAR_FIND        "find related tool bar"
+    IDW_TOOLBAR_TOOLS       "tools related tool bar"
+    IDW_TOOLBAR_WND         "window related tool bar"
+    IDW_TOOLBAR_JMP         "jump related tool bar"
+    ID_EDIT_EXECMAILER      "Execute mailer with the mail address at caret.\nExecute Mailer"
+    ID_FILE_SENDMAIL        "Send the active document as mail.\nSend Mail"
+    ID_EDIT_CRLF            "Convert new-line code of the active document to CRLF."
+    ID_EDIT_LF              "Convert new-line code of the active document to LF."
+    ID_EDIT_CR              "Convert new-line code of the active document to CR."
+    ID_EDIT_INSQUOTE        "Insert the quotation mark(>) in the top of selection.\nInsert the quotation mark"
+    ID_EDIT_DELCPPCOMMENT   "Delete C/C++ line comment(//) in the top of selection.\nDelete C/C++ Comment"
+    ID_EDIT_DELVBCOMMENT    "Delete VB line comment(') in the top of selection.\nDelete VB Comment"
+    ID_EDIT_DELASMCOMMENT   "Delete Assembler line comment(;) in the top of selection.\nDelete Assembler Comment"
+    ID_EDIT_DELQUOTE        "Delete quotation mark(>) in the top of selection.\nDelete Quotation Mark"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MAILACCOUNT_4       "5th account"
+    IDS_MAILACCOUNT_5       "6th account"
+    IDS_MAILACCOUNT_6       "7th account"
+    IDS_MAILACCOUNT_7       "8th account"
+    IDS_REGEX_COMPERR       "Invalid regular expression"
+    IDS_INPUT_REQUESTPATH   "Please input a html path to open."
+    IDS_INPUT_PROXYIPADDRESS "Please input a proxy server IP address."
+    IDS_HTTP_INVALIDFORMAT  "HTML path is invalid. Please start with ""http://""."
+    IDS_HTTP_ASCIONLY       "Please make a html path only into a half-size character."
+    IDS_HTTP_DLLNOTFOUND    "The file sock_dll.dll is not found."
+    IDS_HTTP_CONNECTERR     "Connection with a http server was failed."
+    IDS_HTTP_SENDERR        "The transmitting error to a http server."
+    IDS_HTTP_TIMEOUT        "Waiting timeout for response receiving data."
+    IDS_HTTP_DISCONNECTED   "The communication to a HTTP server was disconnected."
+    IDS_HTTP_TITLE          "The result of %s file open."
+    IDS_HTTP_CONNECT        "Under connecting to HTTP server."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HTTP_GET            "Under html file acquisition."
+    IDS_HTTPOPEN_END        "Opening html file was completed."
+    IDS_HTTPOPEN_CANCEL     "Opening html file was stopped."
+    IDS_HTTP_FILEOPENERR    "A HTML cashe file cannot be created."
+    IDS_INPUT_USERID        "Input User ID."
+    IDS_INPUT_PASSWORD      "Input Password."
+END
+
+#endif    // 英語 (ｱﾒﾘｶ) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\Editor.rc2"  // Microsoft Visual C++ 以外のツールで編集されたリソース
+#include "afxres.rc"          // 標準のコンポーネント
+#include "afxprint.rc"        // 印刷/印刷プレビュー リソース
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

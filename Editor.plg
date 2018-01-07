@@ -1,0 +1,609 @@
+<html>
+<body>
+<pre>
+<h1>ﾋﾞﾙﾄﾞのﾛｸﾞ</h1>
+<h3>
+--------------------構成: Editor - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo".\Release/Editor_eng.res" /i "Editor_eng" /d "NDEBUG" /d "_AFXDLL" "C:\Program Files\Microsoft Visual Studio\myprojects\editor\Editor_eng\Editor_eng.rc"" 
+一時ﾌｧｲﾙ "c:\windows\TEMP\RSP1143.TMP" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /Zi /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "AFX_TARG_ENU" /FR".\Release/" /Fp".\Release/Editor.pch" /Yu"stdafx.h" /Fo".\Release/" /Fd".\Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\AboutDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\AutoResizer.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\Base64.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\BasicAuthorizationDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\BCMenu.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\BitmapClient.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\CheckExecPasswdDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\ChildFrm.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\ClipBoardViewDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\CodeConvDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\CodeConvManager.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\CodeConvStatusDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\ColorButton.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\ColorManager.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\DateMaskEdit.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\DdeClient.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\DdeServer.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\DecriptDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\DecriptStatusDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\DirCompare.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\DirCompareDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\DirCompareResultDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\DirCompareStatusDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\DirDialog.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\Editor.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\EditorDoc.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\EditorView.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\EditorView2.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\EncriptDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\EncriptStatusDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\ExecPasswdDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\FileCompare.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\FileCompareResultDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\FileCompareStatusDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\FileCopyDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\FileDialogEx.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\FileMoveDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\FilePropertyDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\FileRenameDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\FileSearchDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\FileSearchStatusDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\FileTouchDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\FindDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\FolderDialog.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\GlobalData.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\GrepDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\GrepStatusDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\HtmlOpenDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\HtmlOpenResultDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\HtmlOpenStatusDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\http.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\HyperLink.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\KaigyoConvDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\KaigyoConvStatusDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\KeyBind.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\KeyBindListDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\KeyBindManager.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\KeyOpeDispDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\Label.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\Line.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\LineJumpDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\LineManager.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\ListCtrlEx.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MailListDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MailListStatusDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MailSendDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MailSendStatusDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MainFrm.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MarkLineListDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyComboBoxEx.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyComboBoxEx2.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyDes.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\Myfeal.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\Mymd5.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyPropertyPage1.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyPropertyPage10.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyPropertyPage11.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyPropertyPage12.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyPropertyPage2.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyPropertyPage3.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyPropertyPage4.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyPropertyPage5.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyPropertyPage6.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyPropertyPage7.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyPropertyPage8.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyPropertyPage9.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MyPropertySheet.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\MySha1.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\Operation.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\OperationManager.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\pop.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\QuotedPrintable.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\ReplaceDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\SetLicenseDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\smtp.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\Splash.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\StaticData.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\StaticFilespec.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\TimeMaskEdit.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\ToolBarEx.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItem.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemAddCharacter.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemAl2Lower.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemAl2Upper.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemAlnumHan2Zen.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemAlnumZen2Han.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemBackSpaceChar.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemCutSelectArea.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemDelAsmComment.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemDelChar.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemDelCppComment.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemDelQuote.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemDelTopSpaces.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemDelVbComment.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemEditPaste.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemInsAsmComment.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemInsCppComment.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemInsDay.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemInsQuote.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemInsTime.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemInsVbComment.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemKatakanaHan2Zen.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemKatakanaZen2Han.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemOleDrop.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemReplaceSelectWord.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemReturn.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemShiftTabWhenSelected.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemSpace2Tab.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemSpaceHan2Zen.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemSpaceZen2Han.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemTab2Space.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoItemTabWhenSelected.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\UndoManager.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\Uudecoder.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\Uuencoder.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\WCntStatusDlg.cpp"
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\WordCountDlg.cpp"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSP1143.TMP" 
+一時ﾌｧｲﾙ "c:\windows\TEMP\RSP1144.TMP" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /Zi /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "AFX_TARG_ENU" /FR".\Release/" /Fp".\Release/Editor.pch" /Yc"stdafx.h" /Fo".\Release/" /Fd".\Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\myprojects\editor\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSP1144.TMP" 
+一時ﾌｧｲﾙ "c:\windows\TEMP\RSP1145.TMP" を作成し、次の内容を記録します
+[
+winmm.lib /nologo /subsystem:windows /profile /debug /machine:I386 /out:".\Release\Xerxes.exe" 
+".\Release\AboutDlg.obj"
+".\Release\AutoResizer.obj"
+".\Release\Base64.obj"
+".\Release\BasicAuthorizationDlg.obj"
+".\Release\BCMenu.obj"
+".\Release\BitmapClient.obj"
+".\Release\CheckExecPasswdDlg.obj"
+".\Release\ChildFrm.obj"
+".\Release\ClipBoardViewDlg.obj"
+".\Release\CodeConvDlg.obj"
+".\Release\CodeConvManager.obj"
+".\Release\CodeConvStatusDlg.obj"
+".\Release\ColorButton.obj"
+".\Release\ColorManager.obj"
+".\Release\DateMaskEdit.obj"
+".\Release\DdeClient.obj"
+".\Release\DdeServer.obj"
+".\Release\DecriptDlg.obj"
+".\Release\DecriptStatusDlg.obj"
+".\Release\DirCompare.obj"
+".\Release\DirCompareDlg.obj"
+".\Release\DirCompareResultDlg.obj"
+".\Release\DirCompareStatusDlg.obj"
+".\Release\DirDialog.obj"
+".\Release\Editor.obj"
+".\Release\EditorDoc.obj"
+".\Release\EditorView.obj"
+".\Release\EditorView2.obj"
+".\Release\EncriptDlg.obj"
+".\Release\EncriptStatusDlg.obj"
+".\Release\ExecPasswdDlg.obj"
+".\Release\FileCompare.obj"
+".\Release\FileCompareResultDlg.obj"
+".\Release\FileCompareStatusDlg.obj"
+".\Release\FileCopyDlg.obj"
+".\Release\FileDialogEx.obj"
+".\Release\FileMoveDlg.obj"
+".\Release\FilePropertyDlg.obj"
+".\Release\FileRenameDlg.obj"
+".\Release\FileSearchDlg.obj"
+".\Release\FileSearchStatusDlg.obj"
+".\Release\FileTouchDlg.obj"
+".\Release\FindDlg.obj"
+".\Release\FolderDialog.obj"
+".\Release\GlobalData.obj"
+".\Release\GrepDlg.obj"
+".\Release\GrepStatusDlg.obj"
+".\Release\HtmlOpenDlg.obj"
+".\Release\HtmlOpenResultDlg.obj"
+".\Release\HtmlOpenStatusDlg.obj"
+".\Release\http.obj"
+".\Release\HyperLink.obj"
+".\Release\KaigyoConvDlg.obj"
+".\Release\KaigyoConvStatusDlg.obj"
+".\Release\KeyBind.obj"
+".\Release\KeyBindListDlg.obj"
+".\Release\KeyBindManager.obj"
+".\Release\KeyOpeDispDlg.obj"
+".\Release\Label.obj"
+".\Release\Line.obj"
+".\Release\LineJumpDlg.obj"
+".\Release\LineManager.obj"
+".\Release\ListCtrlEx.obj"
+".\Release\MailListDlg.obj"
+".\Release\MailListStatusDlg.obj"
+".\Release\MailSendDlg.obj"
+".\Release\MailSendStatusDlg.obj"
+".\Release\MainFrm.obj"
+".\Release\MarkLineListDlg.obj"
+".\Release\MyComboBoxEx.obj"
+".\Release\MyComboBoxEx2.obj"
+".\Release\MyDes.obj"
+".\Release\Myfeal.obj"
+".\Release\Mymd5.obj"
+".\Release\MyPropertyPage1.obj"
+".\Release\MyPropertyPage10.obj"
+".\Release\MyPropertyPage11.obj"
+".\Release\MyPropertyPage12.obj"
+".\Release\MyPropertyPage2.obj"
+".\Release\MyPropertyPage3.obj"
+".\Release\MyPropertyPage4.obj"
+".\Release\MyPropertyPage5.obj"
+".\Release\MyPropertyPage6.obj"
+".\Release\MyPropertyPage7.obj"
+".\Release\MyPropertyPage8.obj"
+".\Release\MyPropertyPage9.obj"
+".\Release\MyPropertySheet.obj"
+".\Release\MySha1.obj"
+".\Release\Operation.obj"
+".\Release\OperationManager.obj"
+".\Release\pop.obj"
+".\Release\QuotedPrintable.obj"
+".\Release\ReplaceDlg.obj"
+".\Release\SetLicenseDlg.obj"
+".\Release\smtp.obj"
+".\Release\Splash.obj"
+".\Release\StaticData.obj"
+".\Release\StaticFilespec.obj"
+".\Release\StdAfx.obj"
+".\Release\TimeMaskEdit.obj"
+".\Release\ToolBarEx.obj"
+".\Release\UndoItem.obj"
+".\Release\UndoItemAddCharacter.obj"
+".\Release\UndoItemAl2Lower.obj"
+".\Release\UndoItemAl2Upper.obj"
+".\Release\UndoItemAlnumHan2Zen.obj"
+".\Release\UndoItemAlnumZen2Han.obj"
+".\Release\UndoItemBackSpaceChar.obj"
+".\Release\UndoItemCutSelectArea.obj"
+".\Release\UndoItemDelAsmComment.obj"
+".\Release\UndoItemDelChar.obj"
+".\Release\UndoItemDelCppComment.obj"
+".\Release\UndoItemDelQuote.obj"
+".\Release\UndoItemDelTopSpaces.obj"
+".\Release\UndoItemDelVbComment.obj"
+".\Release\UndoItemEditPaste.obj"
+".\Release\UndoItemInsAsmComment.obj"
+".\Release\UndoItemInsCppComment.obj"
+".\Release\UndoItemInsDay.obj"
+".\Release\UndoItemInsQuote.obj"
+".\Release\UndoItemInsTime.obj"
+".\Release\UndoItemInsVbComment.obj"
+".\Release\UndoItemKatakanaHan2Zen.obj"
+".\Release\UndoItemKatakanaZen2Han.obj"
+".\Release\UndoItemOleDrop.obj"
+".\Release\UndoItemReplaceSelectWord.obj"
+".\Release\UndoItemReturn.obj"
+".\Release\UndoItemShiftTabWhenSelected.obj"
+".\Release\UndoItemSpace2Tab.obj"
+".\Release\UndoItemSpaceHan2Zen.obj"
+".\Release\UndoItemSpaceZen2Han.obj"
+".\Release\UndoItemTab2Space.obj"
+".\Release\UndoItemTabWhenSelected.obj"
+".\Release\UndoManager.obj"
+".\Release\Uudecoder.obj"
+".\Release\Uuencoder.obj"
+".\Release\WCntStatusDlg.obj"
+".\Release\WordCountDlg.obj"
+".\Release\Editor_eng.res"
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @c:\windows\TEMP\RSP1145.TMP" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+StdAfx.cpp
+ｺﾝﾊﾟｲﾙ中...
+AboutDlg.cpp
+AutoResizer.cpp
+Base64.cpp
+BasicAuthorizationDlg.cpp
+BCMenu.cpp
+BitmapClient.cpp
+CheckExecPasswdDlg.cpp
+ChildFrm.cpp
+ClipBoardViewDlg.cpp
+CodeConvDlg.cpp
+CodeConvManager.cpp
+CodeConvStatusDlg.cpp
+ColorButton.cpp
+ColorManager.cpp
+DateMaskEdit.cpp
+DdeClient.cpp
+DdeServer.cpp
+DecriptDlg.cpp
+DecriptStatusDlg.cpp
+DirCompare.cpp
+ｺｰﾄﾞを生成中...
+ｺﾝﾊﾟｲﾙ中...
+DirCompareDlg.cpp
+DirCompareResultDlg.cpp
+DirCompareStatusDlg.cpp
+DirDialog.cpp
+Editor.cpp
+EditorDoc.cpp
+EditorView.cpp
+EditorView2.cpp
+EncriptDlg.cpp
+EncriptStatusDlg.cpp
+ExecPasswdDlg.cpp
+FileCompare.cpp
+FileCompareResultDlg.cpp
+FileCompareStatusDlg.cpp
+FileCopyDlg.cpp
+FileDialogEx.cpp
+FileMoveDlg.cpp
+FilePropertyDlg.cpp
+FileRenameDlg.cpp
+FileSearchDlg.cpp
+ｺｰﾄﾞを生成中...
+ｺﾝﾊﾟｲﾙ中...
+FileSearchStatusDlg.cpp
+FileTouchDlg.cpp
+FindDlg.cpp
+FolderDialog.cpp
+GlobalData.cpp
+GrepDlg.cpp
+GrepStatusDlg.cpp
+HtmlOpenDlg.cpp
+HtmlOpenResultDlg.cpp
+HtmlOpenStatusDlg.cpp
+http.cpp
+HyperLink.cpp
+KaigyoConvDlg.cpp
+KaigyoConvStatusDlg.cpp
+KeyBind.cpp
+KeyBindListDlg.cpp
+KeyBindManager.cpp
+KeyOpeDispDlg.cpp
+Label.cpp
+Line.cpp
+ｺｰﾄﾞを生成中...
+ｺﾝﾊﾟｲﾙ中...
+LineJumpDlg.cpp
+LineManager.cpp
+ListCtrlEx.cpp
+MailListDlg.cpp
+MailListStatusDlg.cpp
+MailSendDlg.cpp
+MailSendStatusDlg.cpp
+MainFrm.cpp
+MarkLineListDlg.cpp
+MyComboBoxEx.cpp
+MyComboBoxEx2.cpp
+MyDes.cpp
+Myfeal.cpp
+Mymd5.cpp
+MyPropertyPage1.cpp
+MyPropertyPage10.cpp
+MyPropertyPage11.cpp
+MyPropertyPage12.cpp
+MyPropertyPage2.cpp
+MyPropertyPage3.cpp
+ｺｰﾄﾞを生成中...
+ｺﾝﾊﾟｲﾙ中...
+MyPropertyPage4.cpp
+MyPropertyPage5.cpp
+MyPropertyPage6.cpp
+MyPropertyPage7.cpp
+MyPropertyPage8.cpp
+MyPropertyPage9.cpp
+MyPropertySheet.cpp
+MySha1.cpp
+Operation.cpp
+OperationManager.cpp
+pop.cpp
+QuotedPrintable.cpp
+ReplaceDlg.cpp
+SetLicenseDlg.cpp
+smtp.cpp
+Splash.cpp
+StaticData.cpp
+StaticFilespec.cpp
+TimeMaskEdit.cpp
+ToolBarEx.cpp
+ｺｰﾄﾞを生成中...
+ｺﾝﾊﾟｲﾙ中...
+UndoItem.cpp
+UndoItemAddCharacter.cpp
+UndoItemAl2Lower.cpp
+UndoItemAl2Upper.cpp
+UndoItemAlnumHan2Zen.cpp
+UndoItemAlnumZen2Han.cpp
+UndoItemBackSpaceChar.cpp
+UndoItemCutSelectArea.cpp
+UndoItemDelAsmComment.cpp
+UndoItemDelChar.cpp
+UndoItemDelCppComment.cpp
+UndoItemDelQuote.cpp
+UndoItemDelTopSpaces.cpp
+UndoItemDelVbComment.cpp
+UndoItemEditPaste.cpp
+UndoItemInsAsmComment.cpp
+UndoItemInsCppComment.cpp
+UndoItemInsDay.cpp
+UndoItemInsQuote.cpp
+UndoItemInsTime.cpp
+ｺｰﾄﾞを生成中...
+ｺﾝﾊﾟｲﾙ中...
+UndoItemInsVbComment.cpp
+UndoItemKatakanaHan2Zen.cpp
+UndoItemKatakanaZen2Han.cpp
+UndoItemOleDrop.cpp
+UndoItemReplaceSelectWord.cpp
+UndoItemReturn.cpp
+UndoItemShiftTabWhenSelected.cpp
+UndoItemSpace2Tab.cpp
+UndoItemSpaceHan2Zen.cpp
+UndoItemSpaceZen2Han.cpp
+UndoItemTab2Space.cpp
+UndoItemTabWhenSelected.cpp
+UndoManager.cpp
+Uudecoder.cpp
+Uuencoder.cpp
+WCntStatusDlg.cpp
+WordCountDlg.cpp
+ｺｰﾄﾞを生成中...
+ﾘﾝｸ中...
+一時ﾌｧｲﾙ "c:\windows\TEMP\RSP70E0.TMP" を作成し、次の内容を記録します
+[
+/nologo /o".\Release/Editor.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\AboutDlg.sbr"
+".\Release\AutoResizer.sbr"
+".\Release\Base64.sbr"
+".\Release\BasicAuthorizationDlg.sbr"
+".\Release\BCMenu.sbr"
+".\Release\BitmapClient.sbr"
+".\Release\CheckExecPasswdDlg.sbr"
+".\Release\ChildFrm.sbr"
+".\Release\ClipBoardViewDlg.sbr"
+".\Release\CodeConvDlg.sbr"
+".\Release\CodeConvManager.sbr"
+".\Release\CodeConvStatusDlg.sbr"
+".\Release\ColorButton.sbr"
+".\Release\ColorManager.sbr"
+".\Release\DateMaskEdit.sbr"
+".\Release\DdeClient.sbr"
+".\Release\DdeServer.sbr"
+".\Release\DecriptDlg.sbr"
+".\Release\DecriptStatusDlg.sbr"
+".\Release\DirCompare.sbr"
+".\Release\DirCompareDlg.sbr"
+".\Release\DirCompareResultDlg.sbr"
+".\Release\DirCompareStatusDlg.sbr"
+".\Release\DirDialog.sbr"
+".\Release\Editor.sbr"
+".\Release\EditorDoc.sbr"
+".\Release\EditorView.sbr"
+".\Release\EditorView2.sbr"
+".\Release\EncriptDlg.sbr"
+".\Release\EncriptStatusDlg.sbr"
+".\Release\ExecPasswdDlg.sbr"
+".\Release\FileCompare.sbr"
+".\Release\FileCompareResultDlg.sbr"
+".\Release\FileCompareStatusDlg.sbr"
+".\Release\FileCopyDlg.sbr"
+".\Release\FileDialogEx.sbr"
+".\Release\FileMoveDlg.sbr"
+".\Release\FilePropertyDlg.sbr"
+".\Release\FileRenameDlg.sbr"
+".\Release\FileSearchDlg.sbr"
+".\Release\FileSearchStatusDlg.sbr"
+".\Release\FileTouchDlg.sbr"
+".\Release\FindDlg.sbr"
+".\Release\FolderDialog.sbr"
+".\Release\GlobalData.sbr"
+".\Release\GrepDlg.sbr"
+".\Release\GrepStatusDlg.sbr"
+".\Release\HtmlOpenDlg.sbr"
+".\Release\HtmlOpenResultDlg.sbr"
+".\Release\HtmlOpenStatusDlg.sbr"
+".\Release\http.sbr"
+".\Release\HyperLink.sbr"
+".\Release\KaigyoConvDlg.sbr"
+".\Release\KaigyoConvStatusDlg.sbr"
+".\Release\KeyBind.sbr"
+".\Release\KeyBindListDlg.sbr"
+".\Release\KeyBindManager.sbr"
+".\Release\KeyOpeDispDlg.sbr"
+".\Release\Label.sbr"
+".\Release\Line.sbr"
+".\Release\LineJumpDlg.sbr"
+".\Release\LineManager.sbr"
+".\Release\ListCtrlEx.sbr"
+".\Release\MailListDlg.sbr"
+".\Release\MailListStatusDlg.sbr"
+".\Release\MailSendDlg.sbr"
+".\Release\MailSendStatusDlg.sbr"
+".\Release\MainFrm.sbr"
+".\Release\MarkLineListDlg.sbr"
+".\Release\MyComboBoxEx.sbr"
+".\Release\MyComboBoxEx2.sbr"
+".\Release\MyDes.sbr"
+".\Release\Myfeal.sbr"
+".\Release\Mymd5.sbr"
+".\Release\MyPropertyPage1.sbr"
+".\Release\MyPropertyPage10.sbr"
+".\Release\MyPropertyPage11.sbr"
+".\Release\MyPropertyPage12.sbr"
+".\Release\MyPropertyPage2.sbr"
+".\Release\MyPropertyPage3.sbr"
+".\Release\MyPropertyPage4.sbr"
+".\Release\MyPropertyPage5.sbr"
+".\Release\MyPropertyPage6.sbr"
+".\Release\MyPropertyPage7.sbr"
+".\Release\MyPropertyPage8.sbr"
+".\Release\MyPropertyPage9.sbr"
+".\Release\MyPropertySheet.sbr"
+".\Release\MySha1.sbr"
+".\Release\Operation.sbr"
+".\Release\OperationManager.sbr"
+".\Release\pop.sbr"
+".\Release\QuotedPrintable.sbr"
+".\Release\ReplaceDlg.sbr"
+".\Release\SetLicenseDlg.sbr"
+".\Release\smtp.sbr"
+".\Release\Splash.sbr"
+".\Release\StaticData.sbr"
+".\Release\StaticFilespec.sbr"
+".\Release\TimeMaskEdit.sbr"
+".\Release\ToolBarEx.sbr"
+".\Release\UndoItem.sbr"
+".\Release\UndoItemAddCharacter.sbr"
+".\Release\UndoItemAl2Lower.sbr"
+".\Release\UndoItemAl2Upper.sbr"
+".\Release\UndoItemAlnumHan2Zen.sbr"
+".\Release\UndoItemAlnumZen2Han.sbr"
+".\Release\UndoItemBackSpaceChar.sbr"
+".\Release\UndoItemCutSelectArea.sbr"
+".\Release\UndoItemDelAsmComment.sbr"
+".\Release\UndoItemDelChar.sbr"
+".\Release\UndoItemDelCppComment.sbr"
+".\Release\UndoItemDelQuote.sbr"
+".\Release\UndoItemDelTopSpaces.sbr"
+".\Release\UndoItemDelVbComment.sbr"
+".\Release\UndoItemEditPaste.sbr"
+".\Release\UndoItemInsAsmComment.sbr"
+".\Release\UndoItemInsCppComment.sbr"
+".\Release\UndoItemInsDay.sbr"
+".\Release\UndoItemInsQuote.sbr"
+".\Release\UndoItemInsTime.sbr"
+".\Release\UndoItemInsVbComment.sbr"
+".\Release\UndoItemKatakanaHan2Zen.sbr"
+".\Release\UndoItemKatakanaZen2Han.sbr"
+".\Release\UndoItemOleDrop.sbr"
+".\Release\UndoItemReplaceSelectWord.sbr"
+".\Release\UndoItemReturn.sbr"
+".\Release\UndoItemShiftTabWhenSelected.sbr"
+".\Release\UndoItemSpace2Tab.sbr"
+".\Release\UndoItemSpaceHan2Zen.sbr"
+".\Release\UndoItemSpaceZen2Han.sbr"
+".\Release\UndoItemTab2Space.sbr"
+".\Release\UndoItemTabWhenSelected.sbr"
+".\Release\UndoManager.sbr"
+".\Release\Uudecoder.sbr"
+".\Release\Uuencoder.sbr"
+".\Release\WCntStatusDlg.sbr"
+".\Release\WordCountDlg.sbr"]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "bscmake.exe @c:\windows\TEMP\RSP70E0.TMP" の作成中
+ﾌﾞﾗｳｻﾞ ﾃﾞｰﾀﾍﾞｰｽを作成中...
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+
+
+
+<h3>結果</h3>
+Xerxes.exe - ｴﾗｰ 0、警告 0
+</pre>
+</body>
+</html>
